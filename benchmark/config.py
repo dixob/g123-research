@@ -1,7 +1,9 @@
 """
-Benchmark configuration — models, fields, and scoring weights.
+Benchmark configuration — models, fields, scoring weights, and pricing.
 Aligned with g123_schema v3.0.
 """
+from __future__ import annotations
+
 
 # ── Model registry ────────────────────────────────────────────
 MODELS = {
@@ -21,6 +23,34 @@ MODELS = {
         "temperature": 0.1,
     },
 }
+
+# ── Pricing (USD per 1M tokens) ──────────────────────────────
+# Updated 2026-03. Source: provider pricing pages.
+# Format: { model_name: (input_per_1M, output_per_1M) }
+PRICING = {
+    "gpt-4o":           (2.50, 10.00),   # OpenAI GPT-4o
+    "gemini-2.5-flash": (0.15,  0.60),   # Google Gemini 2.5 Flash (<200K ctx)
+    "qwen3-vl-32b":     (0.65,  0.65),   # Together AI Qwen3-VL-32B
+}
+
+
+def compute_cost(
+    model_name: str,
+    input_tokens: int | None,
+    output_tokens: int | None,
+) -> float | None:
+    """
+    Compute USD cost for a single API call.
+
+    Returns None if token counts are unavailable or model has no pricing entry.
+    """
+    if input_tokens is None or output_tokens is None:
+        return None
+    pricing = PRICING.get(model_name)
+    if pricing is None:
+        return None
+    input_rate, output_rate = pricing
+    return (input_tokens * input_rate + output_tokens * output_rate) / 1_000_000
 
 # ── Fields to evaluate (v3 schema paths) ─────────────────────
 #

@@ -1,16 +1,33 @@
 """
 Benchmark runner — orchestrates model calls, scoring, and result collection.
 Supports v3 per-file annotations and legacy monolithic JSON.
+
+Tracks per-call: latency, input/output tokens, USD cost.
+Aggregates: latency percentiles (p50/p90/p99), total cost, cost per screenshot.
 """
 from __future__ import annotations
 
 import json
+import math
 import time
 from pathlib import Path
 
 from .config import MODELS, FIELD_SPEC, EXTRACT_PROMPT
 from .providers import call_model
 from .scoring import score_prediction
+
+
+def _percentile(values: list[float], p: float) -> float:
+    """Compute the p-th percentile (0-100) of a sorted list."""
+    if not values:
+        return 0.0
+    sorted_vals = sorted(values)
+    k = (p / 100) * (len(sorted_vals) - 1)
+    f = math.floor(k)
+    c = math.ceil(k)
+    if f == c:
+        return sorted_vals[int(k)]
+    return sorted_vals[f] * (c - k) + sorted_vals[c] * (k - f)
 
 
 def load_annotations(annotations_source: str) -> list[dict]:
@@ -146,10 +163,15 @@ def run_benchmark(
 
         total_weighted = 0.0
         total_max = 0.0
-        total_latency = 0.0
         parse_failures = 0
         api_errors = 0
         skipped = 0
+
+        # Track per-call metrics for aggregation
+        latencies: list[float] = []
+        costs: list[float] = []
+        total_input_tokens = 0
+        total_output_tokens = 0
 
         for i, annotation in enumerate(annotations):
             sid = annotation["screenshot_id"]
@@ -164,6 +186,11 @@ def run_benchmark(
 
             response = call_model(model_name, image_path, extract_prompt, MODELS)
 
+            # Extract token usage
+            in_tok = response.get("input_tokens")
+            out_tok = response.get("output_tokens")
+            cost = response.get("cost_usd")
+
             if response["error"]:
                 print(f"ERROR: {response['error'][:80]}")
                 api_errors += 1
@@ -171,6 +198,9 @@ def run_benchmark(
                     "screenshot_id": sid,
                     "error": response["error"],
                     "latency_s": response["latency_s"],
+                    "input_tokens": in_tok,
+                    "output_tokens": out_tok,
+                    "cost_usd": cost,
                 })
                 continue
 
@@ -182,17 +212,37 @@ def run_benchmark(
                     "error": "json_parse_failure",
                     "raw": response["raw"][:500] if response["raw"] else None,
                     "latency_s": response["latency_s"],
+                    "input_tokens": in_tok,
+                    "output_tokens": out_tok,
+                    "cost_usd": cost,
                 })
+                # Still track tokens/cost even on parse failures
+                if in_tok is not None:
+                    total_input_tokens += in_tok
+                if out_tok is not None:
+                    total_output_tokens += out_tok
+                if cost is not None:
+                    costs.append(cost)
+                latencies.append(response["latency_s"])
                 continue
 
             scores = score_prediction(response["parsed"], annotation, FIELD_SPEC)
             pct = (scores["weighted_score"] / scores["max_possible"] * 100) if scores["max_possible"] > 0 else 0
 
-            print(f"{pct:.0f}% ({response['latency_s']:.1f}s)")
+            cost_str = f"${cost:.4f}" if cost is not None else "n/a"
+            tok_str = f"{in_tok or '?'}+{out_tok or '?'} tok"
+            print(f"{pct:.0f}% ({response['latency_s']:.1f}s, {cost_str}, {tok_str})")
 
             total_weighted += scores["weighted_score"]
             total_max += scores["max_possible"]
-            total_latency += response["latency_s"]
+            latencies.append(response["latency_s"])
+
+            if in_tok is not None:
+                total_input_tokens += in_tok
+            if out_tok is not None:
+                total_output_tokens += out_tok
+            if cost is not None:
+                costs.append(cost)
 
             model_results["samples"].append({
                 "screenshot_id": sid,
@@ -200,18 +250,36 @@ def run_benchmark(
                 "language": annotation.get("language"),
                 "scores": scores,
                 "latency_s": response["latency_s"],
+                "input_tokens": in_tok,
+                "output_tokens": out_tok,
+                "cost_usd": cost,
             })
 
         # Compute summary
         scored_count = total - parse_failures - api_errors - skipped
+        total_cost = sum(costs) if costs else None
+        total_calls = len(latencies)
+
         model_results["summary"] = {
             "overall_score": (total_weighted / total_max * 100) if total_max > 0 else 0,
             "samples_scored": scored_count,
             "samples_skipped": skipped,
             "parse_failures": parse_failures,
             "api_errors": api_errors,
-            "avg_latency_s": (total_latency / scored_count) if scored_count > 0 else 0,
-            "total_latency_s": total_latency,
+            # Latency stats
+            "avg_latency_s": (sum(latencies) / total_calls) if total_calls > 0 else 0,
+            "total_latency_s": sum(latencies),
+            "latency_p50_s": _percentile(latencies, 50),
+            "latency_p90_s": _percentile(latencies, 90),
+            "latency_p99_s": _percentile(latencies, 99),
+            # Token usage
+            "total_input_tokens": total_input_tokens,
+            "total_output_tokens": total_output_tokens,
+            "avg_input_tokens": (total_input_tokens / total_calls) if total_calls > 0 else 0,
+            "avg_output_tokens": (total_output_tokens / total_calls) if total_calls > 0 else 0,
+            # Cost
+            "total_cost_usd": total_cost,
+            "avg_cost_per_screenshot_usd": (total_cost / total_calls) if total_cost and total_calls else None,
         }
 
         # Per-field averages

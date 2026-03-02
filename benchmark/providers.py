@@ -1,11 +1,23 @@
 """
 VLM provider adapters — unified interface for calling each model.
+
+Each provider function returns a ProviderResult dict containing:
+  - text: The raw text output from the model
+  - input_tokens: Number of input/prompt tokens consumed
+  - output_tokens: Number of output/completion tokens consumed
 """
 import base64, os, re, json
 from pathlib import Path
+from typing import TypedDict
 from dotenv import load_dotenv
 
 load_dotenv()
+
+
+class ProviderResult(TypedDict):
+    text: str
+    input_tokens: int | None
+    output_tokens: int | None
 
 
 def _encode_image(path: str) -> str:
@@ -21,7 +33,7 @@ def _clean_json(raw: str) -> str:
     return cleaned
 
 
-def call_openai(image_path: str, prompt: str, cfg: dict) -> str:
+def call_openai(image_path: str, prompt: str, cfg: dict) -> ProviderResult:
     import openai
 
     client = openai.OpenAI(api_key=os.getenv("OPENAI_API_KEY"))
@@ -45,10 +57,16 @@ def call_openai(image_path: str, prompt: str, cfg: dict) -> str:
             }
         ],
     )
-    return response.choices[0].message.content
+
+    usage = response.usage
+    return {
+        "text": response.choices[0].message.content,
+        "input_tokens": usage.prompt_tokens if usage else None,
+        "output_tokens": usage.completion_tokens if usage else None,
+    }
 
 
-def call_google(image_path: str, prompt: str, cfg: dict) -> str:
+def call_google(image_path: str, prompt: str, cfg: dict) -> ProviderResult:
     from google import genai
     from PIL import Image
 
@@ -59,10 +77,17 @@ def call_google(image_path: str, prompt: str, cfg: dict) -> str:
         model=cfg["model_id"],
         contents=[img, prompt],
     )
-    return response.text
+
+    # google-genai SDK exposes usage_metadata on the response
+    meta = getattr(response, "usage_metadata", None)
+    return {
+        "text": response.text,
+        "input_tokens": getattr(meta, "prompt_token_count", None),
+        "output_tokens": getattr(meta, "candidates_token_count", None),
+    }
 
 
-def call_together(image_path: str, prompt: str, cfg: dict) -> str:
+def call_together(image_path: str, prompt: str, cfg: dict) -> ProviderResult:
     from openai import OpenAI
 
     client = OpenAI(
@@ -90,7 +115,13 @@ def call_together(image_path: str, prompt: str, cfg: dict) -> str:
             }
         ],
     )
-    return response.choices[0].message.content
+
+    usage = response.usage
+    return {
+        "text": response.choices[0].message.content,
+        "input_tokens": usage.prompt_tokens if usage else None,
+        "output_tokens": usage.completion_tokens if usage else None,
+    }
 
 
 # Provider dispatch
@@ -101,37 +132,54 @@ PROVIDERS = {
 }
 
 
-def call_model(model_name: str, image_path: str, prompt: str, models_cfg: dict) -> dict | None:
+def call_model(model_name: str, image_path: str, prompt: str, models_cfg: dict) -> dict:
     """
-    Call a VLM and return parsed JSON, or None on failure.
-    Also returns raw response and timing metadata.
+    Call a VLM and return parsed JSON with token usage and cost metadata.
+
+    Returns dict with keys:
+      raw, parsed, error, latency_s,
+      input_tokens, output_tokens, cost_usd
     """
     import time
+    from .config import compute_cost
 
     cfg = models_cfg[model_name]
     provider_fn = PROVIDERS[cfg["provider"]]
 
     start = time.time()
     try:
-        raw = provider_fn(image_path, prompt, cfg)
+        result = provider_fn(image_path, prompt, cfg)
     except Exception as e:
         return {
             "raw": None,
             "parsed": None,
             "error": str(e),
             "latency_s": time.time() - start,
+            "input_tokens": None,
+            "output_tokens": None,
+            "cost_usd": None,
         }
     latency = time.time() - start
 
-    cleaned = _clean_json(raw)
+    raw_text = result["text"]
+    input_tokens = result["input_tokens"]
+    output_tokens = result["output_tokens"]
+
+    # Compute cost
+    cost = compute_cost(model_name, input_tokens, output_tokens)
+
+    cleaned = _clean_json(raw_text)
     try:
         parsed = json.loads(cleaned)
     except json.JSONDecodeError:
         parsed = None
 
     return {
-        "raw": raw,
+        "raw": raw_text,
         "parsed": parsed,
         "error": None,
         "latency_s": latency,
+        "input_tokens": input_tokens,
+        "output_tokens": output_tokens,
+        "cost_usd": cost,
     }
