@@ -110,9 +110,26 @@ def score_set(predicted, ground_truth) -> float:
     return len(intersection) / len(union)
 
 
+def score_boolean(predicted, ground_truth) -> float:
+    """Boolean equality, null-aware. Returns 0.0 or 1.0."""
+    if predicted is None and ground_truth is None:
+        return 1.0
+    if predicted is None or ground_truth is None:
+        return 0.0
+    # Normalize: VLMs may return "true"/"false" strings
+    def to_bool(v):
+        if isinstance(v, bool):
+            return v
+        if isinstance(v, str):
+            return v.lower().strip() in ("true", "1", "yes", "on")
+        return bool(v)
+    return 1.0 if to_bool(predicted) == to_bool(ground_truth) else 0.0
+
+
 SCORERS = {
     "exact": score_exact,
     "numeric": score_numeric,
+    "boolean": score_boolean,
     "fuzzy": score_fuzzy,
     "set": score_set,
 }

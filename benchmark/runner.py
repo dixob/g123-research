@@ -1,5 +1,6 @@
 """
 Benchmark runner — orchestrates model calls, scoring, and result collection.
+Supports v3 per-file annotations and legacy monolithic JSON.
 """
 from __future__ import annotations
 
@@ -12,37 +13,74 @@ from .providers import call_model
 from .scoring import score_prediction
 
 
-def load_annotations(annotations_path: str) -> list[dict]:
-    """Load the ground-truth annotations JSON."""
-    with open(annotations_path) as f:
+def load_annotations(annotations_source: str) -> list[dict]:
+    """
+    Load ground-truth annotations.
+
+    Accepts either:
+      - A directory of per-file JSONs (v3 hydrated annotations)
+      - A single JSON file (legacy monolithic format)
+    """
+    source = Path(annotations_source)
+
+    if source.is_dir():
+        # v3: one JSON per annotation in a directory
+        annotations = []
+        for f in sorted(source.glob("*.json")):
+            data = json.loads(f.read_text(encoding="utf-8"))
+            # Skip template/instruction files
+            if "_TEMPLATE_VERSION" in data or "_BLANK_TEMPLATE" in data:
+                continue
+            annotations.append(data)
+        return annotations
+
+    # Legacy: monolithic JSON with "annotations" key
+    with open(source, encoding="utf-8") as f:
         data = json.load(f)
-    return data["annotations"]
+    if "annotations" in data:
+        return data["annotations"]
+    # Single annotation file
+    return [data]
 
 
 def find_image(screenshot_id: str, images_dir: str) -> str | None:
     """
-    Resolve a screenshot_id like 'highschooldxd_battle_001_EN' to a file path.
-    Tries common extensions and case variations.
+    Resolve a screenshot_id to a file path.
+
+    v3 IDs are lowercase (e.g. 'highschooldxd_battle_001_en').
+    v1 IDs may be mixed case (e.g. 'highschooldxd_battle_001_EN').
+    Tries multiple case variations to find the image.
     """
     images = Path(images_dir)
+    sid = screenshot_id
+
     for ext in (".png", ".jpg", ".jpeg"):
-        # Try exact case
-        candidate = images / f"{screenshot_id}{ext}"
+        # Exact case
+        candidate = images / f"{sid}{ext}"
         if candidate.exists():
             return str(candidate)
-        # Try lowercase
-        candidate = images / f"{screenshot_id.lower()}{ext}"
+
+        # Uppercase language suffix (v3 lowercase id → v1 uppercase file)
+        upper = sid.replace("_en", "_EN").replace("_jp", "_JP").replace("_mixed", "_MIXED")
+        candidate = images / f"{upper}{ext}"
         if candidate.exists():
             return str(candidate)
-        # Try the format with lowercase language suffix
-        candidate = images / f"{screenshot_id.lower().replace('_en', '_EN').replace('_jp', '_JP')}{ext}"
+
+        # Lowercase everything
+        candidate = images / f"{sid.lower()}{ext}"
         if candidate.exists():
             return str(candidate)
+
+        # Uppercase everything
+        candidate = images / f"{sid.upper()}{ext}"
+        if candidate.exists():
+            return str(candidate)
+
     return None
 
 
 def run_benchmark(
-    annotations_path: str,
+    annotations_source: str,
     images_dir: str,
     models: list[str] | None = None,
     max_samples: int | None = None,
@@ -54,11 +92,11 @@ def run_benchmark(
     Run the full benchmark.
 
     Args:
-        annotations_path: Path to the annotations JSON file.
+        annotations_source: Path to annotations directory (v3) or JSON file (legacy).
         images_dir: Directory containing screenshot images.
         models: List of model names to benchmark (defaults to all in config).
         max_samples: Limit the number of samples (for quick testing).
-        screen_types: Filter to specific screen types (e.g. ["battle", "menu"]).
+        screen_types: Filter to specific screen types (e.g. ["battle", "gacha"]).
         languages: Filter to specific languages (e.g. ["EN"]).
         prompt: Override the default extraction prompt.
 
@@ -67,14 +105,14 @@ def run_benchmark(
     """
     model_names = models or list(MODELS.keys())
     extract_prompt = prompt or EXTRACT_PROMPT
-    annotations = load_annotations(annotations_path)
+    annotations = load_annotations(annotations_source)
 
     # Apply filters
     if screen_types:
         st_lower = [s.lower() for s in screen_types]
         annotations = [a for a in annotations if a.get("screen_type", "").lower() in st_lower]
     if languages:
-        lang_upper = [l.upper() for l in languages]
+        lang_upper = [lang.upper() for lang in languages]
         annotations = [a for a in annotations if a.get("language", "").upper() in lang_upper]
     if max_samples:
         annotations = annotations[:max_samples]
@@ -111,6 +149,7 @@ def run_benchmark(
         total_latency = 0.0
         parse_failures = 0
         api_errors = 0
+        skipped = 0
 
         for i, annotation in enumerate(annotations):
             sid = annotation["screenshot_id"]
@@ -118,6 +157,7 @@ def run_benchmark(
 
             if not image_path:
                 print(f"  [{i+1}/{total}] SKIP {sid} — image not found")
+                skipped += 1
                 continue
 
             print(f"  [{i+1}/{total}] {sid}...", end=" ", flush=True)
@@ -163,10 +203,11 @@ def run_benchmark(
             })
 
         # Compute summary
-        scored_count = total - parse_failures - api_errors
+        scored_count = total - parse_failures - api_errors - skipped
         model_results["summary"] = {
             "overall_score": (total_weighted / total_max * 100) if total_max > 0 else 0,
             "samples_scored": scored_count,
+            "samples_skipped": skipped,
             "parse_failures": parse_failures,
             "api_errors": api_errors,
             "avg_latency_s": (total_latency / scored_count) if scored_count > 0 else 0,

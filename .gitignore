@@ -39,6 +39,9 @@ Thumbs.db
 # Benchmark outputs
 benchmark_results/
 
+# JSON Schema exports (generated from Pydantic models)
+g123_schema_v3.json
+
 # Model checkpoints
 *.pt
 *.pth

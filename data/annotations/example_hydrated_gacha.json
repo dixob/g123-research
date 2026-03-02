@@ -1,0 +1,155 @@
+{
+  "screenshot_id": "highschooldxd_gacha_012_jp",
+  "game_name": "High School DxD: Operation Paradise Infinity",
+  "game_slug": "highschooldxd",
+  "language": "JP",
+  "screen_type": "gacha",
+  "sub_type": null,
+  "game_state": {
+    "player_hp_current": null,
+    "player_hp_max": null,
+    "enemy_hp": null,
+    "turn_current": null,
+    "turn_max": null,
+    "stage_id": null,
+    "team_power_player": null,
+    "team_power_enemy": null,
+    "currency_premium": 1250,
+    "currency_tickets": 3,
+    "auto_battle_active": null,
+    "auto_battle_timer": null,
+    "speed_multiplier": null
+  },
+  "gacha": {
+    "phase": "reveal_multi",
+    "banner_type": "standard",
+    "banner_name": "レギュラー召喚",
+    "pull_cost_type": "魔石",
+    "pity_current": 45,
+    "pity_max": 100,
+    "free_pull_available": false,
+    "free_pull_timer": null,
+    "revealed_cards": [
+      {
+        "card_name": "不死鳥の王子 / ライザー",
+        "rarity": "SSR+",
+        "stars": 5,
+        "is_new": true
+      },
+      {
+        "card_name": "魔王の長子",
+        "rarity": "SR",
+        "stars": 3,
+        "is_new": true
+      },
+      {
+        "card_name": "堕天紳士",
+        "rarity": "SR",
+        "stars": 3,
+        "is_new": true
+      },
+      {
+        "card_name": "夢幻舞姫",
+        "rarity": "R",
+        "stars": 2,
+        "is_new": false
+      },
+      {
+        "card_name": "猫娘少女・青",
+        "rarity": "R",
+        "stars": 2,
+        "is_new": false
+      },
+      {
+        "card_name": "神出鬼没",
+        "rarity": "R",
+        "stars": 2,
+        "is_new": false
+      },
+      {
+        "card_name": "愛の戦士",
+        "rarity": "R",
+        "stars": 2,
+        "is_new": false
+      },
+      {
+        "card_name": "アソシスト",
+        "rarity": "N",
+        "stars": 1,
+        "is_new": false
+      },
+      {
+        "card_name": "アソシスト",
+        "rarity": "N",
+        "stars": 1,
+        "is_new": false
+      },
+      {
+        "card_name": "アソシスト",
+        "rarity": "N",
+        "stars": 1,
+        "is_new": false
+      }
+    ]
+  },
+  "post_battle_rewards": null,
+  "mvp": null,
+  "ui_elements": [
+    {
+      "name": "召喚1回",
+      "type": "button",
+      "location": "bottom_left",
+      "is_enabled": true,
+      "label_text": null
+    },
+    {
+      "name": "召喚10回",
+      "type": "button",
+      "location": "bottom_center",
+      "is_enabled": true,
+      "label_text": null
+    },
+    {
+      "name": "戻る",
+      "type": "button",
+      "location": "bottom_right",
+      "is_enabled": true,
+      "label_text": null
+    },
+    {
+      "name": "Pity Counter",
+      "type": "indicator",
+      "location": "top_left",
+      "is_enabled": null,
+      "label_text": null
+    }
+  ],
+  "text_content": {
+    "EN": null,
+    "JP": [
+      "召喚",
+      "レギュラー召喚",
+      "不死鳥の王子",
+      "NEW",
+      "召喚1回",
+      "召喚10回"
+    ],
+    "small": [
+      "45/100",
+      "魔石 x300"
+    ]
+  },
+  "available_actions": [
+    "召喚1回",
+    "召喚10回",
+    "戻る"
+  ],
+  "game_extension": null,
+  "screen_notes": "10-pull result grid. SSR+ card has gold flame border and full-art. 3 NEW badges visible. Confetti animation partially obscures bottom-row cards.",
+  "annotation_metadata": {
+    "annotator": "robert",
+    "annotation_date": "2026-03-02",
+    "confidence": "high",
+    "expected_difficulty": "medium"
+  }
+}
