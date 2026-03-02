@@ -1,0 +1,29 @@
+# Core ML / Deep Learning
+torch
+transformers
+peft
+datasets
+accelerate
+evaluate
+
+# Vision
+Pillow
+openai-clip
+
+# VLM APIs
+openai
+anthropic
+google-genai
+google-generativeai
+
+# Agentic workflows
+langgraph
+langchain-core
+langchain-anthropic
+
+# Evaluation metrics
+sacrebleu
+
+# Utilities
+python-dotenv
+requests

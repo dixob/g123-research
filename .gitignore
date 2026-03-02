@@ -1,0 +1,46 @@
+# Environment and secrets
+.env
+.env.*
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.egg-info/
+dist/
+build/
+*.egg
+
+# Virtual environment
+venv/
+.venv/
+
+# Images and large binary assets (track annotations, not screenshots)
+images/*.png
+images/*.jpg
+images/*.jpeg
+images/*.gif
+images/*.xlsx
+test_screenshot.png
+images.zip
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Benchmark outputs
+benchmark_results/
+
+# Model checkpoints
+*.pt
+*.pth
+*.bin
+*.safetensors
