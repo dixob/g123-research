@@ -27,6 +27,9 @@ sacrebleu
 # Schema & validation
 pydantic
 
+# Testing
+pytest
+
 # Utilities
 python-dotenv
 requests
