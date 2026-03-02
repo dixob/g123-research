@@ -1,0 +1,155 @@
+{
+  "screenshot_id": "highschooldxd_idle_overworld_071_en",
+  "game_name": "High School DxD: Operation Paradise Infinity",
+  "game_slug": "highschooldxd",
+  "language": "EN",
+  "screen_type": "idle",
+  "sub_type": null,
+  "game_state": {
+    "player_hp_current": null,
+    "player_hp_max": null,
+    "enemy_hp": null,
+    "turn_current": null,
+    "turn_max": null,
+    "stage_id": "School Gate 1-8",
+    "team_power_player": null,
+    "team_power_enemy": null,
+    "currency_premium": null,
+    "currency_tickets": null,
+    "auto_battle_active": null,
+    "auto_battle_timer": null,
+    "speed_multiplier": null
+  },
+  "gacha": null,
+  "post_battle_rewards": null,
+  "mvp": null,
+  "ui_elements": [
+    {
+      "name": "Obtained popup",
+      "type": "overlay",
+      "location": "center",
+      "is_enabled": true,
+      "label_text": "Obtained"
+    },
+    {
+      "name": "Close button",
+      "type": "button",
+      "location": "bottom_center",
+      "is_enabled": true,
+      "label_text": "Close"
+    },
+    {
+      "name": "Map button",
+      "type": "button",
+      "location": "top_left",
+      "is_enabled": true,
+      "label_text": "Map"
+    },
+    {
+      "name": "Stage indicator",
+      "type": "indicator",
+      "location": "top_center",
+      "is_enabled": false,
+      "label_text": "School Gate 1-8 (8/40)"
+    },
+    {
+      "name": "Player avatar",
+      "type": "indicator",
+      "location": "top_left",
+      "is_enabled": true,
+      "label_text": null
+    },
+    {
+      "name": "Auto Btl button",
+      "type": "toggle",
+      "location": "middle_left",
+      "is_enabled": true,
+      "label_text": "Auto Btl"
+    },
+    {
+      "name": "Fight button",
+      "type": "button",
+      "location": "bottom_right",
+      "is_enabled": true,
+      "label_text": "Fight"
+    }
+  ],
+  "text_content": {
+    "EN": [
+      "Obtained",
+      "Close",
+      "School Gate 1-8 (8/40)",
+      "Map",
+      "Auto Btl",
+      "Fight",
+      "Top up Reward",
+      "New Server Festival",
+      "Home",
+      "Sky City",
+      "Story",
+      "Pieces",
+      "Shop"
+    ],
+    "JP": null,
+    "small": null
+  },
+  "available_actions": [
+    "Tap Close to dismiss Obtained popup"
+  ],
+  "game_extension": {
+    "sidebar_notifications": [
+      {
+        "label": "Top up Reward",
+        "timer": null
+      },
+      {
+        "label": "New Server Festival",
+        "timer": null
+      }
+    ],
+    "bottom_nav": [
+      {
+        "label": "Home",
+        "is_active": false
+      },
+      {
+        "label": "Sky City",
+        "is_active": false
+      },
+      {
+        "label": "Story",
+        "is_active": false
+      },
+      {
+        "label": "Pieces",
+        "is_active": false
+      },
+      {
+        "label": "Shop",
+        "is_active": false
+      }
+    ],
+    "overlay": {
+      "overlay_type": "reward_popup",
+      "title_text": "Obtained",
+      "body_text": null,
+      "items": [
+        {
+          "item_name": "Jewel (ruby gem)",
+          "quantity": 20,
+          "item_icon": "red gem icon"
+        }
+      ]
+    }
+  },
+  "screen_notes": "Reward 'Obtained' popup overlays the idle_overworld screen. Primary screen_type remains idle_overworld per overlay rule. Reward item appears to be a red gem x20 (Jewel currency). Auto-battle timer not clearly visible due to popup coverage. Bottom nav partially obscured by browser taskbar.",
+  "annotation_metadata": {
+    "annotator": "migration_v1_to_v3",
+    "annotation_date": "2026-03-01",
+    "confidence": "medium",
+    "expected_difficulty": "medium",
+    "source": "v1_migration",
+    "v1_original_id": "highschooldxd_idle_overworld_001_EN",
+    "v1_screen_type": "idle_overworld"
+  }
+}

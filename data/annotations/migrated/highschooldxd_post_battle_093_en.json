@@ -1,0 +1,143 @@
+{
+  "screenshot_id": "highschooldxd_post_battle_093_en",
+  "game_name": "High School DxD: Operation Paradise Infinity",
+  "game_slug": "highschooldxd",
+  "language": "EN",
+  "screen_type": "post_battle",
+  "sub_type": null,
+  "game_state": {
+    "player_hp_current": null,
+    "player_hp_max": null,
+    "enemy_hp": null,
+    "turn_current": null,
+    "turn_max": null,
+    "stage_id": "School Gate 1-6",
+    "team_power_player": null,
+    "team_power_enemy": null,
+    "currency_premium": 838,
+    "currency_tickets": null,
+    "auto_battle_active": null,
+    "auto_battle_timer": null,
+    "speed_multiplier": null
+  },
+  "gacha": null,
+  "post_battle_rewards": [
+    "Fire essence|400",
+    "Red potion|900",
+    "Gold coin|4400",
+    "Scroll/tome|50",
+    "Purple crystal|2"
+  ],
+  "mvp": {
+    "name": null,
+    "damage": null,
+    "pct": null
+  },
+  "ui_elements": [
+    {
+      "name": "Victory banner",
+      "type": "text",
+      "location": "center",
+      "is_enabled": false,
+      "label_text": "Victory"
+    },
+    {
+      "name": "Stage label",
+      "type": "indicator",
+      "location": "center",
+      "is_enabled": false,
+      "label_text": "School Gate 1-6"
+    },
+    {
+      "name": "Player level bar",
+      "type": "indicator",
+      "location": "center",
+      "is_enabled": false,
+      "label_text": "Lv.5 1630/1800"
+    },
+    {
+      "name": "Get Reward header",
+      "type": "text",
+      "location": "center",
+      "is_enabled": false,
+      "label_text": "Get Reward"
+    },
+    {
+      "name": "OK button",
+      "type": "button",
+      "location": "bottom_center",
+      "is_enabled": true,
+      "label_text": "OK"
+    },
+    {
+      "name": "MVP badge",
+      "type": "indicator",
+      "location": "middle_left",
+      "is_enabled": false,
+      "label_text": "MVP"
+    },
+    {
+      "name": "MVP dialogue bubble",
+      "type": "text",
+      "location": "top_right",
+      "is_enabled": false,
+      "label_text": "This win is for the president, Sona! I'll win next time for sure too!"
+    },
+    {
+      "name": "Special Summon notification",
+      "type": "indicator",
+      "location": "bottom_center",
+      "is_enabled": true,
+      "label_text": "Special Summon(10/10)"
+    }
+  ],
+  "text_content": {
+    "EN": [
+      "Victory",
+      "School Gate 1-6",
+      "Lv.5",
+      "1630/1800",
+      "Get Reward",
+      "OK",
+      "MVP",
+      "Barrier Guardian",
+      "Hanakai Momo",
+      "Total DMG 1739 (90.525%)",
+      "This win is for the president, Sona! I'll win next time for sure too!",
+      "PWR Enhance",
+      "Statistics",
+      "Special Summon(10/10)"
+    ],
+    "JP": null,
+    "small": [
+      "1630/1800"
+    ]
+  },
+  "available_actions": [
+    "Tap OK to proceed from post-battle screen",
+    "Tap PWR Enhance",
+    "Tap Statistics"
+  ],
+  "game_extension": {
+    "bottom_nav": [
+      {
+        "label": "PWR Enhance",
+        "is_active": false
+      },
+      {
+        "label": "Statistics",
+        "is_active": false
+      }
+    ]
+  },
+  "screen_notes": "Victory screen for School Gate 1-6. MVP Hanakai Momo with unusually high 90.525% damage share. Player at Lv.5 with 1630/1800 XP (near level-up). Near-duplicate pair with #2 — same MVP character, same dialogue text, different stage (1-6 vs 1-7) and different rewards.",
+  "annotation_metadata": {
+    "annotator": "migration_v1_to_v3",
+    "annotation_date": "2026-03-01",
+    "confidence": "medium",
+    "expected_difficulty": "medium",
+    "source": "v1_migration",
+    "v1_original_id": "highschooldxd_post_battle_009_EN",
+    "v1_screen_type": "post_battle"
+  }
+}

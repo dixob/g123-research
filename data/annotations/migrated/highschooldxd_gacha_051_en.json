@@ -1,0 +1,147 @@
+{
+  "screenshot_id": "highschooldxd_gacha_051_en",
+  "game_name": "High School DxD: Operation Paradise Infinity",
+  "game_slug": "highschooldxd",
+  "language": "EN",
+  "screen_type": "gacha",
+  "sub_type": null,
+  "game_state": {
+    "player_hp_current": null,
+    "player_hp_max": null,
+    "enemy_hp": null,
+    "turn_current": null,
+    "turn_max": null,
+    "stage_id": null,
+    "team_power_player": null,
+    "team_power_enemy": null,
+    "currency_premium": null,
+    "currency_tickets": null,
+    "auto_battle_active": null,
+    "auto_battle_timer": null,
+    "speed_multiplier": null
+  },
+  "gacha": {
+    "phase": "reveal_multi",
+    "banner_type": "standard",
+    "banner_name": null,
+    "pull_cost_type": null,
+    "pity_current": null,
+    "pity_max": null,
+    "free_pull_available": null,
+    "free_pull_timer": null,
+    "revealed_cards": [
+      {
+        "card_name": "Sword Knight",
+        "rarity": "SSR",
+        "stars": 4,
+        "is_new": true
+      }
+    ]
+  },
+  "post_battle_rewards": null,
+  "mvp": null,
+  "ui_elements": [
+    {
+      "name": "Summon header",
+      "type": "text",
+      "location": "top_left",
+      "is_enabled": null,
+      "label_text": "Summon"
+    },
+    {
+      "name": "Summon ticket count",
+      "type": "indicator",
+      "location": "top_center",
+      "is_enabled": null,
+      "label_text": "20"
+    },
+    {
+      "name": "Gem count",
+      "type": "indicator",
+      "location": "top_center",
+      "is_enabled": null,
+      "label_text": "1058"
+    },
+    {
+      "name": "10-pull card grid",
+      "type": "card",
+      "location": "center",
+      "is_enabled": null,
+      "label_text": "10 cards shown"
+    },
+    {
+      "name": "SSR card - Sword Knight",
+      "type": "card",
+      "location": "bottom_left",
+      "is_enabled": null,
+      "label_text": "Sword Knight / NEW / SSR"
+    },
+    {
+      "name": "Close button",
+      "type": "button",
+      "location": "bottom_left",
+      "is_enabled": true,
+      "label_text": "Close"
+    },
+    {
+      "name": "Summon x10 button",
+      "type": "button",
+      "location": "bottom_right",
+      "is_enabled": true,
+      "label_text": "Summon x10"
+    },
+    {
+      "name": "Remaining tickets",
+      "type": "indicator",
+      "location": "bottom_center",
+      "is_enabled": null,
+      "label_text": "10"
+    }
+  ],
+  "text_content": {
+    "EN": [
+      "Summon",
+      "0",
+      "20",
+      "1058",
+      "Speed Strike",
+      "Mirror Master",
+      "Chainsaw Sisters",
+      "Mirror Master",
+      "irror Master",
+      "on Attendant",
+      "irror Master",
+      "t Girl (Red)",
+      "Speed Strike",
+      "Master Scouter",
+      "Sword Knight",
+      "NEW",
+      "NEW",
+      "Close",
+      "Summon x10",
+      "10"
+    ],
+    "JP": null,
+    "small": [
+      "0",
+      "20",
+      "1058",
+      "10"
+    ]
+  },
+  "available_actions": [
+    "Tap Close",
+    "Tap Summon x10"
+  ],
+  "game_extension": null,
+  "screen_notes": "10-pull multi-reveal grid. 10 cards displayed in 3-column layout. Visible cards: Speed Strike (x2), Mirror Master (x3 partial names), Chainsaw Sisters, on Attendant (partial), t Girl Red (partial), Master Scouter (NEW, SR, top-left), Sword Knight (NEW, SSR, 4-star, bottom-left, gold sparkle). Two NEW badges visible. SSR Sword Knight is the highlight pull. Some card names cropped at left edge. 10 tickets remaining for another pull.",
+  "annotation_metadata": {
+    "annotator": "migration_v1_to_v3",
+    "annotation_date": "2026-03-01",
+    "confidence": "medium",
+    "expected_difficulty": "medium",
+    "source": "v1_migration",
+    "v1_original_id": "highschooldxd_gacha_033_EN",
+    "v1_screen_type": "gacha"
+  }
+}

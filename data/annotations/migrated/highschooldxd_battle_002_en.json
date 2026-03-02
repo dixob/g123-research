@@ -1,0 +1,117 @@
+{
+  "screenshot_id": "highschooldxd_battle_002_en",
+  "game_name": "High School DxD: Operation Paradise Infinity",
+  "game_slug": "highschooldxd",
+  "language": "EN",
+  "screen_type": "battle",
+  "sub_type": null,
+  "game_state": {
+    "player_hp_current": null,
+    "player_hp_max": null,
+    "enemy_hp": null,
+    "turn_current": 1,
+    "turn_max": 15,
+    "stage_id": null,
+    "team_power_player": null,
+    "team_power_enemy": null,
+    "currency_premium": null,
+    "currency_tickets": null,
+    "auto_battle_active": null,
+    "auto_battle_timer": null,
+    "speed_multiplier": "x3"
+  },
+  "gacha": null,
+  "post_battle_rewards": null,
+  "mvp": null,
+  "ui_elements": [
+    {
+      "name": "Turn counter",
+      "type": "indicator",
+      "location": "top_center",
+      "is_enabled": null,
+      "label_text": "1 / 15 Turns"
+    },
+    {
+      "name": "Pause button",
+      "type": "button",
+      "location": "middle_right",
+      "is_enabled": true,
+      "label_text": null
+    },
+    {
+      "name": "Speed x3 button",
+      "type": "toggle",
+      "location": "middle_right",
+      "is_enabled": true,
+      "label_text": "x3"
+    },
+    {
+      "name": "Retreat button",
+      "type": "button",
+      "location": "middle_left",
+      "is_enabled": true,
+      "label_text": null
+    }
+  ],
+  "text_content": {
+    "EN": [
+      "1 / 15 Turns"
+    ],
+    "JP": null,
+    "small": null
+  },
+  "available_actions": [
+    "Tap Pause",
+    "Tap Speed x3 (toggle)",
+    "Tap Retreat"
+  ],
+  "game_extension": {
+    "unit_roster": [
+      {
+        "unit_name": "黒龍の侍者",
+        "stars": 4,
+        "rarity": null,
+        "is_active": true,
+        "position": 1
+      },
+      {
+        "unit_name": "異形の銃使い",
+        "stars": 4,
+        "rarity": null,
+        "is_active": true,
+        "position": 2
+      },
+      {
+        "unit_name": "赤龍帝",
+        "stars": 4,
+        "rarity": null,
+        "is_active": true,
+        "position": 3
+      },
+      {
+        "unit_name": "結界守護者",
+        "stars": 4,
+        "rarity": null,
+        "is_active": true,
+        "position": 4
+      },
+      {
+        "unit_name": "堕天使の刺客",
+        "stars": 4,
+        "rarity": null,
+        "is_active": true,
+        "position": 5
+      }
+    ]
+  },
+  "screen_notes": "EN battle idle frame, Turn 1/15, no floating damage visible, same formation as #002. Reconstructed from session log screenshot 93.",
+  "annotation_metadata": {
+    "annotator": "migration_v1_to_v3",
+    "annotation_date": "2026-03-01",
+    "confidence": "medium",
+    "expected_difficulty": "medium",
+    "source": "v1_migration",
+    "v1_original_id": "highschooldxd_battle_003_EN",
+    "v1_screen_type": "battle"
+  }
+}

@@ -1,0 +1,166 @@
+{
+  "screenshot_id": "highschooldxd_pre_battle_101_jp",
+  "game_name": "High School DxD: Operation Paradise Infinity",
+  "game_slug": "highschooldxd",
+  "language": "JP",
+  "screen_type": "pre_battle",
+  "sub_type": null,
+  "game_state": {
+    "player_hp_current": null,
+    "player_hp_max": null,
+    "enemy_hp": null,
+    "turn_current": null,
+    "turn_max": null,
+    "stage_id": null,
+    "team_power_player": 7240,
+    "team_power_enemy": 3240,
+    "currency_premium": null,
+    "currency_tickets": null,
+    "auto_battle_active": null,
+    "auto_battle_timer": null,
+    "speed_multiplier": null
+  },
+  "gacha": null,
+  "post_battle_rewards": null,
+  "mvp": null,
+  "ui_elements": [
+    {
+      "name": "Battle button",
+      "type": "button",
+      "location": "bottom_center",
+      "is_enabled": true,
+      "label_text": "戦闘"
+    },
+    {
+      "name": "Formation change button",
+      "type": "button",
+      "location": "bottom_right",
+      "is_enabled": true,
+      "label_text": "陣形変更"
+    },
+    {
+      "name": "Clear formation button",
+      "type": "button",
+      "location": "bottom_right",
+      "is_enabled": true,
+      "label_text": "編成解除"
+    },
+    {
+      "name": "Back button",
+      "type": "button",
+      "location": "bottom_left",
+      "is_enabled": true,
+      "label_text": null
+    },
+    {
+      "name": "Attribute filter tabs",
+      "type": "nav",
+      "location": "center",
+      "is_enabled": true,
+      "label_text": "ALL"
+    },
+    {
+      "name": "Player team power",
+      "type": "indicator",
+      "location": "top_left",
+      "is_enabled": null,
+      "label_text": "7240"
+    },
+    {
+      "name": "Enemy team power",
+      "type": "indicator",
+      "location": "top_right",
+      "is_enabled": null,
+      "label_text": "3240"
+    },
+    {
+      "name": "Stage label",
+      "type": "indicator",
+      "location": "top_center",
+      "is_enabled": null,
+      "label_text": "冒険1-8"
+    }
+  ],
+  "text_content": {
+    "EN": null,
+    "JP": [
+      "7240",
+      "VS",
+      "3240",
+      "冒険1-8",
+      "戦闘",
+      "陣形変更",
+      "編成解除",
+      "ALL",
+      "Lv.6",
+      "Lv.1",
+      "Lv.4",
+      "Lv.1",
+      "Lv.6",
+      "Lv.1",
+      "Lv.4",
+      "Lv.1"
+    ],
+    "small": [
+      "7240",
+      "3240"
+    ]
+  },
+  "available_actions": [
+    "Tap 戦闘 to start battle",
+    "Tap 陣形変更 to change formation",
+    "Tap 編成解除 to clear formation",
+    "Select unit card from roster tray",
+    "Filter roster by attribute tab",
+    "Tap Back to return"
+  ],
+  "game_extension": {
+    "unit_roster": [
+      {
+        "unit_name": null,
+        "stars": null,
+        "rarity": null,
+        "is_active": true,
+        "position": 1
+      },
+      {
+        "unit_name": null,
+        "stars": null,
+        "rarity": null,
+        "is_active": true,
+        "position": 2
+      },
+      {
+        "unit_name": null,
+        "stars": null,
+        "rarity": null,
+        "is_active": true,
+        "position": 3
+      },
+      {
+        "unit_name": null,
+        "stars": null,
+        "rarity": null,
+        "is_active": true,
+        "position": 4
+      },
+      {
+        "unit_name": null,
+        "stars": null,
+        "rarity": null,
+        "is_active": true,
+        "position": 5
+      }
+    ]
+  },
+  "screen_notes": "Pre-battle formation screen for stage 冒険1-8. Player team power 7240 vs enemy 3240. Two rows of unit cards visible in lower card tray — top row shows 5 cards with checkmarks (Lv.6/Lv.1/Lv.1/Lv.1/Lv.1), bottom row shows 5 more cards (Lv.1/Lv.1/Lv.1/Lv.1/Lv.1). Unit names not readable at this resolution. Attribute filter bar visible with ALL + 5 attribute icons.",
+  "annotation_metadata": {
+    "annotator": "migration_v1_to_v3",
+    "annotation_date": "2026-03-01",
+    "confidence": "medium",
+    "expected_difficulty": "medium",
+    "source": "v1_migration",
+    "v1_original_id": "highschooldxd_pre_battle_020_JP",
+    "v1_screen_type": "pre_battle"
+  }
+}

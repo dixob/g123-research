@@ -1,0 +1,171 @@
+{
+  "screenshot_id": "highschooldxd_battle_004_en",
+  "game_name": "High School DxD: Operation Paradise Infinity",
+  "game_slug": "highschooldxd",
+  "language": "EN",
+  "screen_type": "battle",
+  "sub_type": null,
+  "game_state": {
+    "player_hp_current": null,
+    "player_hp_max": null,
+    "enemy_hp": null,
+    "turn_current": null,
+    "turn_max": null,
+    "stage_id": null,
+    "team_power_player": null,
+    "team_power_enemy": null,
+    "currency_premium": null,
+    "currency_tickets": null,
+    "auto_battle_active": null,
+    "auto_battle_timer": null,
+    "speed_multiplier": "x3"
+  },
+  "gacha": null,
+  "post_battle_rewards": null,
+  "mvp": null,
+  "ui_elements": [
+    {
+      "name": "Turn indicator",
+      "type": "indicator",
+      "location": "top_center",
+      "is_enabled": false,
+      "label_text": "Turn 1 / 15"
+    },
+    {
+      "name": "Player team emblem",
+      "type": "indicator",
+      "location": "top_left",
+      "is_enabled": false,
+      "label_text": null
+    },
+    {
+      "name": "Enemy team emblem",
+      "type": "indicator",
+      "location": "top_right",
+      "is_enabled": false,
+      "label_text": null
+    },
+    {
+      "name": "Retreat button",
+      "type": "button",
+      "location": "middle_left",
+      "is_enabled": true,
+      "label_text": null
+    },
+    {
+      "name": "Pause button",
+      "type": "button",
+      "location": "middle_right",
+      "is_enabled": true,
+      "label_text": null
+    },
+    {
+      "name": "Speed x3 button",
+      "type": "toggle",
+      "location": "middle_right",
+      "is_enabled": true,
+      "label_text": "x3"
+    },
+    {
+      "name": "Unit card tray",
+      "type": "card",
+      "location": "bottom_center",
+      "is_enabled": true,
+      "label_text": null
+    },
+    {
+      "name": "Skill name label",
+      "type": "text",
+      "location": "center",
+      "is_enabled": false,
+      "label_text": "Shadow Sword"
+    },
+    {
+      "name": "Damage number",
+      "type": "text",
+      "location": "center",
+      "is_enabled": false,
+      "label_text": "-80"
+    }
+  ],
+  "text_content": {
+    "EN": [
+      "Turn 1 / 15",
+      "Shadow Sword",
+      "-80",
+      "x3",
+      "Black Drag...",
+      "Strange Mi...",
+      "Red Drago...",
+      "Barrier Gu...",
+      "Fallen Ang..."
+    ],
+    "JP": null,
+    "small": [
+      "x3"
+    ]
+  },
+  "available_actions": [
+    "Tap Retreat button to exit battle",
+    "Tap Pause button",
+    "Tap Speed x3 to toggle speed",
+    "Tap unit cards to interact"
+  ],
+  "game_extension": {
+    "combat_indicators": {
+      "advantage_label": null,
+      "debuff_labels": null,
+      "crit_label": null,
+      "floating_damages": [
+        "-80"
+      ]
+    },
+    "unit_roster": [
+      {
+        "unit_name": "Black Drag...",
+        "stars": 2,
+        "rarity": null,
+        "is_active": true,
+        "position": 1
+      },
+      {
+        "unit_name": "Strange Mi...",
+        "stars": 2,
+        "rarity": null,
+        "is_active": true,
+        "position": 2
+      },
+      {
+        "unit_name": "Red Drago...",
+        "stars": 3,
+        "rarity": null,
+        "is_active": true,
+        "position": 3
+      },
+      {
+        "unit_name": "Barrier Gu...",
+        "stars": 4,
+        "rarity": null,
+        "is_active": true,
+        "position": 4
+      },
+      {
+        "unit_name": "Fallen Ang...",
+        "stars": 4,
+        "rarity": null,
+        "is_active": true,
+        "position": 5
+      }
+    ]
+  },
+  "screen_notes": "Active battle Turn 1 of 15. Skill 'Shadow Sword' visible mid-animation with -80 damage floating. Enemy appears as purple-gem enemy at Lv.5. Unit card labels are truncated. Player team icons visible top-left (Lv.6 and Lv.1 indicators on characters).",
+  "annotation_metadata": {
+    "annotator": "migration_v1_to_v3",
+    "annotation_date": "2026-03-01",
+    "confidence": "medium",
+    "expected_difficulty": "medium",
+    "source": "v1_migration",
+    "v1_original_id": "highschooldxd_battle_005_EN",
+    "v1_screen_type": "battle"
+  }
+}

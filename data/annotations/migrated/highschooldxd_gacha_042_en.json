@@ -1,0 +1,241 @@
+{
+  "screenshot_id": "highschooldxd_gacha_042_en",
+  "game_name": "High School DxD: Operation Paradise Infinity",
+  "game_slug": "highschooldxd",
+  "language": "EN",
+  "screen_type": "gacha",
+  "sub_type": null,
+  "game_state": {
+    "player_hp_current": null,
+    "player_hp_max": null,
+    "enemy_hp": null,
+    "turn_current": null,
+    "turn_max": null,
+    "stage_id": null,
+    "team_power_player": null,
+    "team_power_enemy": null,
+    "currency_premium": null,
+    "currency_tickets": null,
+    "auto_battle_active": null,
+    "auto_battle_timer": null,
+    "speed_multiplier": null
+  },
+  "gacha": {
+    "phase": "lobby",
+    "banner_type": "special",
+    "banner_name": null,
+    "pull_cost_type": null,
+    "pity_current": 200,
+    "pity_max": 1000,
+    "free_pull_available": true,
+    "free_pull_timer": null,
+    "revealed_cards": null
+  },
+  "post_battle_rewards": null,
+  "mvp": null,
+  "ui_elements": [
+    {
+      "name": "Summon header",
+      "type": "text",
+      "location": "top_left",
+      "is_enabled": null,
+      "label_text": "Summon"
+    },
+    {
+      "name": "Summon ticket count",
+      "type": "indicator",
+      "location": "top_center",
+      "is_enabled": null,
+      "label_text": "31"
+    },
+    {
+      "name": "Gem count",
+      "type": "indicator",
+      "location": "top_center",
+      "is_enabled": null,
+      "label_text": "1058"
+    },
+    {
+      "name": "Rates button",
+      "type": "button",
+      "location": "middle_left",
+      "is_enabled": true,
+      "label_text": "Rates"
+    },
+    {
+      "name": "Best button",
+      "type": "button",
+      "location": "middle_left",
+      "is_enabled": true,
+      "label_text": "Best"
+    },
+    {
+      "name": "Auto Salvage button",
+      "type": "button",
+      "location": "middle_left",
+      "is_enabled": true,
+      "label_text": "Auto Salvage"
+    },
+    {
+      "name": "Wish Book button",
+      "type": "button",
+      "location": "middle_left",
+      "is_enabled": true,
+      "label_text": "Wish Book"
+    },
+    {
+      "name": "1k Pull Perks button",
+      "type": "button",
+      "location": "middle_left",
+      "is_enabled": true,
+      "label_text": "1k Pull Perks"
+    },
+    {
+      "name": "Special Summon banner",
+      "type": "card",
+      "location": "center",
+      "is_enabled": true,
+      "label_text": "Special Summon"
+    },
+    {
+      "name": "Free Summon button",
+      "type": "button",
+      "location": "bottom_left",
+      "is_enabled": true,
+      "label_text": "Free Summon"
+    },
+    {
+      "name": "Summon x10 button",
+      "type": "button",
+      "location": "bottom_right",
+      "is_enabled": true,
+      "label_text": "Summon x10"
+    },
+    {
+      "name": "Reg. Summon tab",
+      "type": "nav",
+      "location": "bottom_left",
+      "is_enabled": true,
+      "label_text": "Reg. Summon"
+    },
+    {
+      "name": "Special Summon tab",
+      "type": "nav",
+      "location": "bottom_right",
+      "is_enabled": true,
+      "label_text": "Special Summon"
+    },
+    {
+      "name": "Pt Summon counter",
+      "type": "indicator",
+      "location": "top_right",
+      "is_enabled": null,
+      "label_text": "200/1000 Pt Summon"
+    },
+    {
+      "name": "Harem King pity",
+      "type": "indicator",
+      "location": "top_right",
+      "is_enabled": null,
+      "label_text": "10/20 Harem King"
+    },
+    {
+      "name": "Wish Book unlock hint",
+      "type": "text",
+      "location": "top_right",
+      "is_enabled": null,
+      "label_text": "In 80x Unlock Wish Book"
+    },
+    {
+      "name": "Skip toggle",
+      "type": "toggle",
+      "location": "center",
+      "is_enabled": true,
+      "label_text": "Skip"
+    },
+    {
+      "name": "Summon nav tab",
+      "type": "nav",
+      "location": "bottom_center",
+      "is_enabled": true,
+      "label_text": "Summon"
+    },
+    {
+      "name": "Attribute nav tab",
+      "type": "nav",
+      "location": "bottom_right",
+      "is_enabled": true,
+      "label_text": "Attribute"
+    },
+    {
+      "name": "Back button",
+      "type": "button",
+      "location": "bottom_left",
+      "is_enabled": true,
+      "label_text": null
+    }
+  ],
+  "text_content": {
+    "EN": [
+      "Summon",
+      "1058",
+      "31",
+      "Rates",
+      "Best",
+      "Auto Salvage",
+      "Wish Book",
+      "1k Pull Perks",
+      "Special Summon",
+      "Randomly get 1-10 pcs of 3-5★",
+      "Skip",
+      "1",
+      "10",
+      "Free Summon",
+      "Summon x10",
+      "Reg. Summon",
+      "Special Summon",
+      "Free summon available",
+      "Free summon available",
+      "Summon",
+      "Attribute",
+      "200/1000",
+      "Pt Summon",
+      "In 80x Unlock Wish Book",
+      "10/20",
+      "Harem King"
+    ],
+    "JP": null,
+    "small": [
+      "1058",
+      "31",
+      "1",
+      "10",
+      "200/1000",
+      "10/20"
+    ]
+  },
+  "available_actions": [
+    "Tap Free Summon (Special)",
+    "Tap Summon x10 (Special)",
+    "Tap Rates",
+    "Tap Best",
+    "Tap Auto Salvage",
+    "Tap Wish Book",
+    "Tap 1k Pull Perks",
+    "Toggle Skip animation",
+    "Switch to Reg. Summon tab",
+    "Tap Attribute tab",
+    "Tap Back"
+  ],
+  "game_extension": null,
+  "screen_notes": "Special Summon lobby. Pity counter: 200/1000 Pt Summon. Harem King milestone tracker: 10/20. Wish Book unlock hint: 'In 80x Unlock Wish Book'. Special Summon banner active (red theme). Free Summon button shows 1 ticket available. Summon x10 shows 10 tickets. Both banner tabs show 'Free summon available'. Character artwork shows red-haired female character in upper banner area.",
+  "annotation_metadata": {
+    "annotator": "migration_v1_to_v3",
+    "annotation_date": "2026-03-01",
+    "confidence": "medium",
+    "expected_difficulty": "medium",
+    "source": "v1_migration",
+    "v1_original_id": "highschooldxd_gacha_024_EN",
+    "v1_screen_type": "gacha"
+  }
+}

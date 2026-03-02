@@ -1,0 +1,196 @@
+{
+  "screenshot_id": "highschooldxd_shop_108_jp",
+  "game_name": "High School DxD: Operation Paradise Infinity",
+  "game_slug": "highschooldxd",
+  "language": "JP",
+  "screen_type": "idle",
+  "sub_type": null,
+  "game_state": {
+    "player_hp_current": null,
+    "player_hp_max": null,
+    "enemy_hp": null,
+    "turn_current": null,
+    "turn_max": null,
+    "stage_id": null,
+    "team_power_player": null,
+    "team_power_enemy": null,
+    "currency_premium": null,
+    "currency_tickets": null,
+    "auto_battle_active": null,
+    "auto_battle_timer": null,
+    "speed_multiplier": null
+  },
+  "gacha": null,
+  "post_battle_rewards": null,
+  "mvp": null,
+  "ui_elements": [
+    {
+      "name": "Shop header",
+      "type": "text",
+      "location": "top_left",
+      "is_enabled": null,
+      "label_text": "商店"
+    },
+    {
+      "name": "Banner - 連続購入",
+      "type": "indicator",
+      "location": "top_center",
+      "is_enabled": null,
+      "label_text": "連続購入 豪華報酬をゲット！"
+    },
+    {
+      "name": "Refresh timer",
+      "type": "indicator",
+      "location": "top_center",
+      "is_enabled": null,
+      "label_text": "次回更新：19:16:15"
+    },
+    {
+      "name": "Consecutive days tracker",
+      "type": "indicator",
+      "location": "center",
+      "is_enabled": null,
+      "label_text": "連続購入 0日"
+    },
+    {
+      "name": "Daily milestone row",
+      "type": "card",
+      "location": "center",
+      "is_enabled": null,
+      "label_text": "1日目〜7日目..."
+    },
+    {
+      "name": "Charge reward row 1 - 移動 button",
+      "type": "button",
+      "location": "center",
+      "is_enabled": true,
+      "label_text": "移動"
+    },
+    {
+      "name": "Charge reward row 2 - 移動 button",
+      "type": "button",
+      "location": "center",
+      "is_enabled": true,
+      "label_text": "移動"
+    },
+    {
+      "name": "Charge reward row 3 - 移動 button",
+      "type": "button",
+      "location": "center",
+      "is_enabled": true,
+      "label_text": "移動"
+    },
+    {
+      "name": "Charge reward row 4 - 移動 button",
+      "type": "button",
+      "location": "center",
+      "is_enabled": true,
+      "label_text": "移動"
+    },
+    {
+      "name": "毎日厳選 tab",
+      "type": "nav",
+      "location": "bottom_center",
+      "is_enabled": true,
+      "label_text": "毎日厳選"
+    },
+    {
+      "name": "月パス tab",
+      "type": "nav",
+      "location": "bottom_center",
+      "is_enabled": true,
+      "label_text": "月パス"
+    },
+    {
+      "name": "連続購入 tab (active)",
+      "type": "nav",
+      "location": "bottom_center",
+      "is_enabled": true,
+      "label_text": "連続購入"
+    },
+    {
+      "name": "Back button",
+      "type": "button",
+      "location": "bottom_left",
+      "is_enabled": true,
+      "label_text": null
+    }
+  ],
+  "text_content": {
+    "EN": null,
+    "JP": [
+      "商店",
+      "名声 0",
+      "1278",
+      "連続購入 豪華報酬をゲット！",
+      "次回更新：19:16:15",
+      "連続購入 0日",
+      "毎日の任務をクリアすると進捗が増加",
+      "1日目",
+      "2日目",
+      "3日目",
+      "4日目",
+      "5日目",
+      "6日目",
+      "7日...",
+      "期間中にチャージして獲得",
+      "0/100",
+      "毎日",
+      "移動",
+      "0/500",
+      "毎日",
+      "移動",
+      "0/980",
+      "毎日",
+      "移動",
+      "0/980",
+      "今期",
+      "移動",
+      "毎日厳選",
+      "月パス",
+      "連続購入"
+    ],
+    "small": [
+      "1278",
+      "0/100",
+      "0/500",
+      "0/980",
+      "0/980"
+    ]
+  },
+  "available_actions": [
+    "Tap 移動 on charge reward row 1",
+    "Tap 移動 on charge reward row 2",
+    "Tap 移動 on charge reward row 3",
+    "Tap 移動 on charge reward row 4",
+    "Navigate to 毎日厳選 tab",
+    "Navigate to 月パス tab",
+    "Tap Back button"
+  ],
+  "game_extension": {
+    "bottom_nav": [
+      {
+        "label": "毎日厳選",
+        "is_active": false
+      },
+      {
+        "label": "月パス",
+        "is_active": false
+      },
+      {
+        "label": "連続購入",
+        "is_active": true
+      }
+    ]
+  },
+  "screen_notes": "Shop - 連続購入 (Consecutive Purchase) tab. Player at 0 consecutive days. Milestone reward track shows days 1-7+. Four charge milestone rows with 移動 (redirect) buttons; none completed (0/100, 0/500, 0/980, 0/980).",
+  "annotation_metadata": {
+    "annotator": "migration_v1_to_v3",
+    "annotation_date": "2026-03-01",
+    "confidence": "medium",
+    "expected_difficulty": "medium",
+    "source": "v1_migration",
+    "v1_original_id": "highschooldxd_shop_074_JP",
+    "v1_screen_type": "shop"
+  }
+}

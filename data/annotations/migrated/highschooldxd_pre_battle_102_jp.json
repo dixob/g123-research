@@ -1,0 +1,145 @@
+{
+  "screenshot_id": "highschooldxd_pre_battle_102_jp",
+  "game_name": "High School DxD: Operation Paradise Infinity",
+  "game_slug": "highschooldxd",
+  "language": "JP",
+  "screen_type": "pre_battle",
+  "sub_type": null,
+  "game_state": {
+    "player_hp_current": null,
+    "player_hp_max": null,
+    "enemy_hp": null,
+    "turn_current": null,
+    "turn_max": null,
+    "stage_id": null,
+    "team_power_player": 7240,
+    "team_power_enemy": 3240,
+    "currency_premium": null,
+    "currency_tickets": null,
+    "auto_battle_active": null,
+    "auto_battle_timer": null,
+    "speed_multiplier": null
+  },
+  "gacha": null,
+  "post_battle_rewards": null,
+  "mvp": null,
+  "ui_elements": [
+    {
+      "name": "Battle button",
+      "type": "button",
+      "location": "bottom_center",
+      "is_enabled": true,
+      "label_text": "戦闘"
+    },
+    {
+      "name": "Formation change button",
+      "type": "button",
+      "location": "bottom_right",
+      "is_enabled": true,
+      "label_text": "陣形変更"
+    },
+    {
+      "name": "Clear formation button",
+      "type": "button",
+      "location": "bottom_left",
+      "is_enabled": true,
+      "label_text": "編成解除"
+    },
+    {
+      "name": "Team power player",
+      "type": "indicator",
+      "location": "top_left",
+      "is_enabled": null,
+      "label_text": "7240"
+    },
+    {
+      "name": "Team power enemy",
+      "type": "indicator",
+      "location": "top_right",
+      "is_enabled": null,
+      "label_text": "3240"
+    },
+    {
+      "name": "Card inventory overlay",
+      "type": "overlay",
+      "location": "full_screen",
+      "is_enabled": null,
+      "label_text": null
+    }
+  ],
+  "text_content": {
+    "EN": null,
+    "JP": [
+      "冒険 1-8",
+      "7240",
+      "VS",
+      "3240",
+      "戦闘",
+      "陣形変更",
+      "編成解除",
+      "黒龍の侍者",
+      "異形の銃使い",
+      "赤龍帝",
+      "結界守護者",
+      "堕天使の刺客"
+    ],
+    "small": [
+      "7240",
+      "3240"
+    ]
+  },
+  "available_actions": [
+    "Tap 戦闘 (start battle)",
+    "Tap 陣形変更 (change formation)",
+    "Tap 編成解除 (clear formation)"
+  ],
+  "game_extension": {
+    "unit_roster": [
+      {
+        "unit_name": "黒龍の侍者",
+        "stars": null,
+        "rarity": null,
+        "is_active": true,
+        "position": 1
+      },
+      {
+        "unit_name": "異形の銃使い",
+        "stars": null,
+        "rarity": null,
+        "is_active": true,
+        "position": 2
+      },
+      {
+        "unit_name": "赤龍帝",
+        "stars": null,
+        "rarity": null,
+        "is_active": true,
+        "position": 3
+      },
+      {
+        "unit_name": "結界守護者",
+        "stars": null,
+        "rarity": null,
+        "is_active": true,
+        "position": 4
+      },
+      {
+        "unit_name": "堕天使の刺客",
+        "stars": null,
+        "rarity": null,
+        "is_active": true,
+        "position": 5
+      }
+    ]
+  },
+  "screen_notes": "JP pre-battle formation screen. Stage 冒険 1-8. Team power 7240 vs 3240. JP/EN bilingual pair with screenshot 91. Reconstructed from session log screenshot 131.",
+  "annotation_metadata": {
+    "annotator": "migration_v1_to_v3",
+    "annotation_date": "2026-03-01",
+    "confidence": "medium",
+    "expected_difficulty": "medium",
+    "source": "v1_migration",
+    "v1_original_id": "highschooldxd_pre_battle_022_JP",
+    "v1_screen_type": "pre_battle"
+  }
+}

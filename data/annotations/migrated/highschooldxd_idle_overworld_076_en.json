@@ -1,0 +1,181 @@
+{
+  "screenshot_id": "highschooldxd_idle_overworld_076_en",
+  "game_name": "High School DxD: Operation Paradise Infinity",
+  "game_slug": "highschooldxd",
+  "language": "EN",
+  "screen_type": "idle",
+  "sub_type": null,
+  "game_state": {
+    "player_hp_current": null,
+    "player_hp_max": null,
+    "enemy_hp": null,
+    "turn_current": null,
+    "turn_max": null,
+    "stage_id": "School Gate 1-6",
+    "team_power_player": null,
+    "team_power_enemy": null,
+    "currency_premium": 838,
+    "currency_tickets": null,
+    "auto_battle_active": true,
+    "auto_battle_timer": "00:00:53",
+    "speed_multiplier": null
+  },
+  "gacha": null,
+  "post_battle_rewards": null,
+  "mvp": null,
+  "ui_elements": [
+    {
+      "name": "Stage indicator",
+      "type": "indicator",
+      "location": "top_center",
+      "is_enabled": false,
+      "label_text": "School Gate 1-6 (6/40)"
+    },
+    {
+      "name": "Map button",
+      "type": "button",
+      "location": "top_left",
+      "is_enabled": true,
+      "label_text": "Map"
+    },
+    {
+      "name": "Auto Btl toggle",
+      "type": "toggle",
+      "location": "middle_left",
+      "is_enabled": true,
+      "label_text": "Auto Btl"
+    },
+    {
+      "name": "Auto battle timer",
+      "type": "indicator",
+      "location": "middle_left",
+      "is_enabled": false,
+      "label_text": "00:00:53"
+    },
+    {
+      "name": "Chest timer",
+      "type": "indicator",
+      "location": "middle_left",
+      "is_enabled": true,
+      "label_text": "00:02:06"
+    },
+    {
+      "name": "Special Summon notification",
+      "type": "indicator",
+      "location": "bottom_center",
+      "is_enabled": true,
+      "label_text": "1 Special Summon(10/10)"
+    },
+    {
+      "name": "Fight button",
+      "type": "button",
+      "location": "bottom_right",
+      "is_enabled": true,
+      "label_text": "Fight"
+    }
+  ],
+  "text_content": {
+    "EN": [
+      "School Gate 1-6 (6/40)",
+      "Map",
+      "Auto Btl",
+      "00:00:53",
+      "00:02:06",
+      "Fight",
+      "Top up Reward",
+      "New Server Festival",
+      "8 Days Login",
+      "5d21h",
+      "1st Buy Pack",
+      "1 Special Summon(10/10)",
+      "Home",
+      "Sky City",
+      "Story",
+      "Pieces",
+      "Shop",
+      "CRT",
+      "-157",
+      "-36"
+    ],
+    "JP": null,
+    "small": [
+      "00:00:53",
+      "00:02:06"
+    ]
+  },
+  "available_actions": [
+    "Tap Fight to enter manual battle",
+    "Tap Auto Btl to toggle",
+    "Tap Map",
+    "Tap Special Summon notification",
+    "Tap chest (00:02:06)",
+    "Tap Home",
+    "Tap Sky City",
+    "Tap Story",
+    "Tap Pieces",
+    "Tap Shop"
+  ],
+  "game_extension": {
+    "currency_gold": 55800,
+    "combat_indicators": {
+      "advantage_label": null,
+      "debuff_labels": null,
+      "crit_label": "CRT",
+      "floating_damages": [
+        "CRT=-157",
+        "-36",
+        "CRT=-157"
+      ]
+    },
+    "sidebar_notifications": [
+      {
+        "label": "Top up Reward",
+        "timer": null
+      },
+      {
+        "label": "New Server Festival",
+        "timer": null
+      },
+      {
+        "label": "8 Days Login",
+        "timer": "5d21h"
+      },
+      {
+        "label": "1st Buy Pack",
+        "timer": null
+      }
+    ],
+    "bottom_nav": [
+      {
+        "label": "Home",
+        "is_active": true
+      },
+      {
+        "label": "Sky City",
+        "is_active": false
+      },
+      {
+        "label": "Story",
+        "is_active": false
+      },
+      {
+        "label": "Pieces",
+        "is_active": false
+      },
+      {
+        "label": "Shop",
+        "is_active": false
+      }
+    ]
+  },
+  "screen_notes": "Auto-battle active, timer 00:00:53. Critical hit labels 'CRT' visible with -157 damage shown twice and -36 damage. Chest on cooldown 00:02:06. 'Special Summon(10/10)' notification bar at bottom — summon is ready (10/10 progress). Near-duplicate group with #15, #16, #17, #18.",
+  "annotation_metadata": {
+    "annotator": "migration_v1_to_v3",
+    "annotation_date": "2026-03-01",
+    "confidence": "medium",
+    "expected_difficulty": "medium",
+    "source": "v1_migration",
+    "v1_original_id": "highschooldxd_idle_overworld_014_EN",
+    "v1_screen_type": "idle_overworld"
+  }
+}

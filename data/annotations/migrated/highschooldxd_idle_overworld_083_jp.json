@@ -1,0 +1,174 @@
+{
+  "screenshot_id": "highschooldxd_idle_overworld_083_jp",
+  "game_name": "High School DxD: Operation Paradise Infinity",
+  "game_slug": "highschooldxd",
+  "language": "JP",
+  "screen_type": "idle",
+  "sub_type": null,
+  "game_state": {
+    "player_hp_current": null,
+    "player_hp_max": null,
+    "enemy_hp": null,
+    "turn_current": null,
+    "turn_max": null,
+    "stage_id": null,
+    "team_power_player": null,
+    "team_power_enemy": null,
+    "currency_premium": null,
+    "currency_tickets": null,
+    "auto_battle_active": true,
+    "auto_battle_timer": "00:11:17",
+    "speed_multiplier": null
+  },
+  "gacha": null,
+  "post_battle_rewards": null,
+  "mvp": null,
+  "ui_elements": [
+    {
+      "name": "Stage label",
+      "type": "indicator",
+      "location": "top_center",
+      "is_enabled": null,
+      "label_text": "校門 1-8"
+    },
+    {
+      "name": "Map button",
+      "type": "button",
+      "location": "middle_left",
+      "is_enabled": true,
+      "label_text": "マップ"
+    },
+    {
+      "name": "Mailbox button",
+      "type": "button",
+      "location": "middle_left",
+      "is_enabled": true,
+      "label_text": "受取"
+    },
+    {
+      "name": "Auto-battle toggle",
+      "type": "toggle",
+      "location": "middle_left",
+      "is_enabled": true,
+      "label_text": "自動戦闘"
+    },
+    {
+      "name": "Auto-battle timer",
+      "type": "indicator",
+      "location": "middle_left",
+      "is_enabled": null,
+      "label_text": "00:11:17"
+    },
+    {
+      "name": "Challenge button",
+      "type": "button",
+      "location": "middle_left",
+      "is_enabled": true,
+      "label_text": "挑戦"
+    },
+    {
+      "name": "Bottom nav",
+      "type": "nav",
+      "location": "bottom_center",
+      "is_enabled": true,
+      "label_text": "ホーム/空中都市/冒険/駒/商店"
+    }
+  ],
+  "text_content": {
+    "EN": null,
+    "JP": [
+      "校門 1-8",
+      "マップ",
+      "受取",
+      "チャージで解凍",
+      "8日ログイン",
+      "初購入ギフト",
+      "メッセージ",
+      "自動戦闘",
+      "00:11:17",
+      "挑戦",
+      "ホーム",
+      "空中都市",
+      "冒険",
+      "駒",
+      "商店"
+    ],
+    "small": [
+      "00:11:17"
+    ]
+  },
+  "available_actions": [
+    "Tap マップ",
+    "Tap 受取",
+    "Tap 自動戦闘 (toggle)",
+    "Tap 挑戦",
+    "Tap 空中都市 (bottom nav)",
+    "Tap 冒険 (bottom nav)",
+    "Tap 駒 (bottom nav)",
+    "Tap 商店 (bottom nav)"
+  ],
+  "game_extension": {
+    "sidebar_notifications": [
+      {
+        "label": "マップ",
+        "timer": null
+      },
+      {
+        "label": "受取",
+        "timer": null
+      },
+      {
+        "label": "チャージで解凍",
+        "timer": "5d21h"
+      },
+      {
+        "label": "8日ログイン",
+        "timer": "6d21h"
+      },
+      {
+        "label": "初購入ギフト",
+        "timer": null
+      },
+      {
+        "label": "メッセージ",
+        "timer": null
+      },
+      {
+        "label": "自動戦闘",
+        "timer": null
+      }
+    ],
+    "bottom_nav": [
+      {
+        "label": "ホーム",
+        "is_active": true
+      },
+      {
+        "label": "空中都市",
+        "is_active": false
+      },
+      {
+        "label": "冒険",
+        "is_active": false
+      },
+      {
+        "label": "駒",
+        "is_active": false
+      },
+      {
+        "label": "商店",
+        "is_active": false
+      }
+    ]
+  },
+  "screen_notes": "JP idle overworld clean frame. Full sidebar and bottom nav visible. Auto-battle timer 00:11:17. Same state as EN screenshot 90. Reconstructed from session log screenshot 130.",
+  "annotation_metadata": {
+    "annotator": "migration_v1_to_v3",
+    "annotation_date": "2026-03-01",
+    "confidence": "medium",
+    "expected_difficulty": "medium",
+    "source": "v1_migration",
+    "v1_original_id": "highschooldxd_idle_overworld_021_JP",
+    "v1_screen_type": "idle_overworld"
+  }
+}

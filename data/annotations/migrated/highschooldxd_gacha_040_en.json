@@ -1,0 +1,91 @@
+{
+  "screenshot_id": "highschooldxd_gacha_040_en",
+  "game_name": "High School DxD: Operation Paradise Infinity",
+  "game_slug": "highschooldxd",
+  "language": "EN",
+  "screen_type": "gacha",
+  "sub_type": null,
+  "game_state": {
+    "player_hp_current": null,
+    "player_hp_max": null,
+    "enemy_hp": null,
+    "turn_current": null,
+    "turn_max": null,
+    "stage_id": null,
+    "team_power_player": null,
+    "team_power_enemy": null,
+    "currency_premium": null,
+    "currency_tickets": null,
+    "auto_battle_active": null,
+    "auto_battle_timer": null,
+    "speed_multiplier": null
+  },
+  "gacha": {
+    "phase": "reveal_single",
+    "banner_type": null,
+    "banner_name": null,
+    "pull_cost_type": null,
+    "pity_current": null,
+    "pity_max": null,
+    "free_pull_available": null,
+    "free_pull_timer": null,
+    "revealed_cards": [
+      {
+        "card_name": "マスタースカウター",
+        "rarity": "SR",
+        "stars": 4,
+        "is_new": null
+      }
+    ]
+  },
+  "post_battle_rewards": null,
+  "mvp": null,
+  "ui_elements": [
+    {
+      "name": "Rarity badge",
+      "type": "indicator",
+      "location": "top_left",
+      "is_enabled": null,
+      "label_text": "SR"
+    },
+    {
+      "name": "Star rating",
+      "type": "indicator",
+      "location": "top_left",
+      "is_enabled": null,
+      "label_text": "4★"
+    },
+    {
+      "name": "Back button",
+      "type": "button",
+      "location": "bottom_left",
+      "is_enabled": true,
+      "label_text": null
+    }
+  ],
+  "text_content": {
+    "EN": [
+      "SR"
+    ],
+    "JP": [
+      "SR",
+      "マスタースカウター",
+      "桐生愛花"
+    ],
+    "small": null
+  },
+  "available_actions": [
+    "Tap Back"
+  ],
+  "game_extension": null,
+  "screen_notes": "EN gacha full-art reveal. SR マスタースカウター (Master Scouter) / 桐生愛花 (Kiryu Aika), 4-star. Reconstructed from session log screenshot 124.",
+  "annotation_metadata": {
+    "annotator": "migration_v1_to_v3",
+    "annotation_date": "2026-03-01",
+    "confidence": "medium",
+    "expected_difficulty": "medium",
+    "source": "v1_migration",
+    "v1_original_id": "highschooldxd_gacha_017_EN",
+    "v1_screen_type": "gacha"
+  }
+}

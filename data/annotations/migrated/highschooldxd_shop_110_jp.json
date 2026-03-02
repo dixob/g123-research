@@ -1,0 +1,204 @@
+{
+  "screenshot_id": "highschooldxd_shop_110_jp",
+  "game_name": "High School DxD: Operation Paradise Infinity",
+  "game_slug": "highschooldxd",
+  "language": "JP",
+  "screen_type": "idle",
+  "sub_type": null,
+  "game_state": {
+    "player_hp_current": null,
+    "player_hp_max": null,
+    "enemy_hp": null,
+    "turn_current": null,
+    "turn_max": null,
+    "stage_id": null,
+    "team_power_player": null,
+    "team_power_enemy": null,
+    "currency_premium": null,
+    "currency_tickets": null,
+    "auto_battle_active": null,
+    "auto_battle_timer": null,
+    "speed_multiplier": null
+  },
+  "gacha": null,
+  "post_battle_rewards": null,
+  "mvp": null,
+  "ui_elements": [
+    {
+      "name": "Shop header",
+      "type": "text",
+      "location": "top_left",
+      "is_enabled": null,
+      "label_text": "商店"
+    },
+    {
+      "name": "First purchase bonus banner",
+      "type": "indicator",
+      "location": "top_center",
+      "is_enabled": null,
+      "label_text": "初回購入時 ダイヤ2倍！"
+    },
+    {
+      "name": "名声 level progress bar",
+      "type": "indicator",
+      "location": "center",
+      "is_enabled": null,
+      "label_text": "名声 Lv.0 0/100"
+    },
+    {
+      "name": "獲得 (claim) button",
+      "type": "button",
+      "location": "center",
+      "is_enabled": true,
+      "label_text": "獲得"
+    },
+    {
+      "name": "ダイヤ 100 purchase",
+      "type": "button",
+      "location": "center",
+      "is_enabled": true,
+      "label_text": "$0.79"
+    },
+    {
+      "name": "ダイヤ 500 purchase",
+      "type": "button",
+      "location": "center",
+      "is_enabled": true,
+      "label_text": "$3.69"
+    },
+    {
+      "name": "ダイヤ 2500 purchase",
+      "type": "button",
+      "location": "center",
+      "is_enabled": true,
+      "label_text": "$14.49"
+    },
+    {
+      "name": "ダイヤ 7000 purchase",
+      "type": "button",
+      "location": "center",
+      "is_enabled": true,
+      "label_text": "$36.99"
+    },
+    {
+      "name": "ダイヤ 15000 purchase",
+      "type": "button",
+      "location": "center",
+      "is_enabled": true,
+      "label_text": "$71.99"
+    },
+    {
+      "name": "ダイヤ 80000 purchase",
+      "type": "button",
+      "location": "center",
+      "is_enabled": true,
+      "label_text": "$290.99"
+    },
+    {
+      "name": "ダイヤ tab (active)",
+      "type": "nav",
+      "location": "bottom_center",
+      "is_enabled": true,
+      "label_text": "ダイヤ"
+    },
+    {
+      "name": "ジェム tab",
+      "type": "nav",
+      "location": "bottom_center",
+      "is_enabled": true,
+      "label_text": "ジェム"
+    },
+    {
+      "name": "Back button",
+      "type": "button",
+      "location": "bottom_left",
+      "is_enabled": true,
+      "label_text": null
+    }
+  ],
+  "text_content": {
+    "EN": null,
+    "JP": [
+      "商店",
+      "名声 0",
+      "1278",
+      "初回購入時 ダイヤ2倍！",
+      "名声 Lv.0",
+      "0/100",
+      "あと100個で特権レベルアップ",
+      "獲得",
+      "初回報酬 100",
+      "$0.79",
+      "初回報酬 500",
+      "$3.69",
+      "初回報酬 2500",
+      "$14.49",
+      "初回報酬 7000",
+      "$36.99",
+      "初回報酬 15000",
+      "$71.99",
+      "初回報酬 80000",
+      "$290.99",
+      "ダイヤ",
+      "ジェム",
+      "毎日歳遷",
+      "特恵ギフト",
+      "特権購入",
+      "投資",
+      "ダイヤ"
+    ],
+    "small": [
+      "1278",
+      "0/100"
+    ]
+  },
+  "available_actions": [
+    "Tap 獲得 (claim prestige reward)",
+    "Purchase ダイヤ 100 ($0.79)",
+    "Purchase ダイヤ 500 ($3.69)",
+    "Purchase ダイヤ 2500 ($14.49)",
+    "Purchase ダイヤ 7000 ($36.99)",
+    "Purchase ダイヤ 15000 ($71.99)",
+    "Purchase ダイヤ 80000 ($290.99)",
+    "Navigate to ジェム tab",
+    "Navigate to 毎日歳遷 tab",
+    "Navigate to 特恵ギフト tab",
+    "Navigate to 特権購入 tab",
+    "Navigate to 投資 tab",
+    "Tap Back button"
+  ],
+  "game_extension": {
+    "bottom_nav": [
+      {
+        "label": "毎日歳遷",
+        "is_active": false
+      },
+      {
+        "label": "特恵ギフト",
+        "is_active": false
+      },
+      {
+        "label": "特権購入",
+        "is_active": false
+      },
+      {
+        "label": "投資",
+        "is_active": false
+      },
+      {
+        "label": "ダイヤ",
+        "is_active": true
+      }
+    ]
+  },
+  "screen_notes": "Shop - ダイヤ (Diamond) purchase tab. First-purchase 2x bonus banner active. 名声 prestige system at Lv.0, 0/100 progress. 6 tiers from $0.79 to $290.99 all show 初回報酬 (first-time bonus) badges.",
+  "annotation_metadata": {
+    "annotator": "migration_v1_to_v3",
+    "annotation_date": "2026-03-01",
+    "confidence": "medium",
+    "expected_difficulty": "medium",
+    "source": "v1_migration",
+    "v1_original_id": "highschooldxd_shop_076_JP",
+    "v1_screen_type": "shop"
+  }
+}

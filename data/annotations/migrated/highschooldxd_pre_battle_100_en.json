@@ -1,0 +1,187 @@
+{
+  "screenshot_id": "highschooldxd_pre_battle_100_en",
+  "game_name": "High School DxD: Operation Paradise Infinity",
+  "game_slug": "highschooldxd",
+  "language": "EN",
+  "screen_type": "pre_battle",
+  "sub_type": null,
+  "game_state": {
+    "player_hp_current": null,
+    "player_hp_max": null,
+    "enemy_hp": null,
+    "turn_current": null,
+    "turn_max": null,
+    "stage_id": "Story 1-6",
+    "team_power_player": 7240,
+    "team_power_enemy": 1933,
+    "currency_premium": null,
+    "currency_tickets": null,
+    "auto_battle_active": null,
+    "auto_battle_timer": null,
+    "speed_multiplier": null
+  },
+  "gacha": null,
+  "post_battle_rewards": null,
+  "mvp": null,
+  "ui_elements": [
+    {
+      "name": "Player power vs enemy power",
+      "type": "indicator",
+      "location": "top_center",
+      "is_enabled": false,
+      "label_text": "7240 VS 1933"
+    },
+    {
+      "name": "Stage label",
+      "type": "indicator",
+      "location": "top_center",
+      "is_enabled": false,
+      "label_text": "Story 1-6"
+    },
+    {
+      "name": "Formation panel",
+      "type": "overlay",
+      "location": "bottom_center",
+      "is_enabled": true,
+      "label_text": null
+    },
+    {
+      "name": "Add unit button",
+      "type": "button",
+      "location": "bottom_left",
+      "is_enabled": true,
+      "label_text": "+"
+    },
+    {
+      "name": "ALL filter",
+      "type": "toggle",
+      "location": "bottom_center",
+      "is_enabled": true,
+      "label_text": "ALL"
+    },
+    {
+      "name": "Type filter buttons",
+      "type": "button",
+      "location": "bottom_center",
+      "is_enabled": true,
+      "label_text": null
+    },
+    {
+      "name": "Unit cards in roster",
+      "type": "card",
+      "location": "bottom_center",
+      "is_enabled": true,
+      "label_text": null
+    },
+    {
+      "name": "Battle button",
+      "type": "button",
+      "location": "bottom_center",
+      "is_enabled": true,
+      "label_text": "Battle"
+    },
+    {
+      "name": "Formation button",
+      "type": "button",
+      "location": "bottom_right",
+      "is_enabled": true,
+      "label_text": "Formation"
+    },
+    {
+      "name": "Disband button",
+      "type": "button",
+      "location": "bottom_right",
+      "is_enabled": true,
+      "label_text": "Disband"
+    },
+    {
+      "name": "Back button",
+      "type": "button",
+      "location": "bottom_left",
+      "is_enabled": true,
+      "label_text": null
+    }
+  ],
+  "text_content": {
+    "EN": [
+      "Story 1-6",
+      "7240",
+      "VS",
+      "1933",
+      "Battle",
+      "Formation",
+      "Disband",
+      "ALL"
+    ],
+    "JP": null,
+    "small": [
+      "7240",
+      "1933"
+    ]
+  },
+  "available_actions": [
+    "Tap Battle to start Story 1-6",
+    "Tap Formation to edit formation",
+    "Tap Disband to disband party",
+    "Tap + to add unit",
+    "Tap unit cards to select/deselect",
+    "Tap type filter buttons to filter by type",
+    "Tap Back button"
+  ],
+  "game_extension": {
+    "unit_roster": [
+      {
+        "unit_name": null,
+        "stars": null,
+        "rarity": null,
+        "is_active": true,
+        "position": 1
+      },
+      {
+        "unit_name": null,
+        "stars": null,
+        "rarity": null,
+        "is_active": true,
+        "position": 2
+      },
+      {
+        "unit_name": null,
+        "stars": null,
+        "rarity": null,
+        "is_active": true,
+        "position": 3
+      },
+      {
+        "unit_name": null,
+        "stars": null,
+        "rarity": null,
+        "is_active": true,
+        "position": 4
+      },
+      {
+        "unit_name": null,
+        "stars": null,
+        "rarity": null,
+        "is_active": true,
+        "position": 5
+      },
+      {
+        "unit_name": null,
+        "stars": null,
+        "rarity": null,
+        "is_active": true,
+        "position": 6
+      }
+    ]
+  },
+  "screen_notes": "Pre-battle formation screen for Story 1-6. Player power 7240 vs enemy 1933 (significant advantage). 6 unit slots shown in the selection panel — 6 units already selected (checkmarks visible). Type filter icons visible in row. This is a 'Story' mode stage rather than 'School Gate'.",
+  "annotation_metadata": {
+    "annotator": "migration_v1_to_v3",
+    "annotation_date": "2026-03-01",
+    "confidence": "medium",
+    "expected_difficulty": "medium",
+    "source": "v1_migration",
+    "v1_original_id": "highschooldxd_pre_battle_013_EN",
+    "v1_screen_type": "pre_battle"
+  }
+}

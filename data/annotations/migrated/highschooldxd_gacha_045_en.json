@@ -1,0 +1,209 @@
+{
+  "screenshot_id": "highschooldxd_gacha_045_en",
+  "game_name": "High School DxD: Operation Paradise Infinity",
+  "game_slug": "highschooldxd",
+  "language": "EN",
+  "screen_type": "gacha",
+  "sub_type": null,
+  "game_state": {
+    "player_hp_current": null,
+    "player_hp_max": null,
+    "enemy_hp": null,
+    "turn_current": null,
+    "turn_max": null,
+    "stage_id": null,
+    "team_power_player": null,
+    "team_power_enemy": null,
+    "currency_premium": null,
+    "currency_tickets": null,
+    "auto_battle_active": null,
+    "auto_battle_timer": null,
+    "speed_multiplier": null
+  },
+  "gacha": {
+    "phase": "lobby",
+    "banner_type": "standard",
+    "banner_name": null,
+    "pull_cost_type": null,
+    "pity_current": 220,
+    "pity_max": 1000,
+    "free_pull_available": true,
+    "free_pull_timer": null,
+    "revealed_cards": null
+  },
+  "post_battle_rewards": null,
+  "mvp": null,
+  "ui_elements": [
+    {
+      "name": "Summon header",
+      "type": "text",
+      "location": "top_left",
+      "is_enabled": null,
+      "label_text": "Summon"
+    },
+    {
+      "name": "Gem count",
+      "type": "indicator",
+      "location": "top_center",
+      "is_enabled": null,
+      "label_text": "0 gems / 1058"
+    },
+    {
+      "name": "Summon ticket count",
+      "type": "indicator",
+      "location": "top_center",
+      "is_enabled": null,
+      "label_text": "31"
+    },
+    {
+      "name": "Rates button",
+      "type": "button",
+      "location": "middle_left",
+      "is_enabled": true,
+      "label_text": "Rates"
+    },
+    {
+      "name": "Best button",
+      "type": "button",
+      "location": "middle_left",
+      "is_enabled": true,
+      "label_text": "Best"
+    },
+    {
+      "name": "Auto Salvage button",
+      "type": "button",
+      "location": "middle_left",
+      "is_enabled": true,
+      "label_text": "Auto Salvage"
+    },
+    {
+      "name": "1k Pull Perks button",
+      "type": "button",
+      "location": "middle_left",
+      "is_enabled": true,
+      "label_text": "1k Pull Perks"
+    },
+    {
+      "name": "Reg. Summon banner",
+      "type": "card",
+      "location": "center",
+      "is_enabled": true,
+      "label_text": "Reg. Summon"
+    },
+    {
+      "name": "Free Summon button",
+      "type": "button",
+      "location": "bottom_left",
+      "is_enabled": true,
+      "label_text": "Free Summon"
+    },
+    {
+      "name": "Summon x10 button",
+      "type": "button",
+      "location": "bottom_right",
+      "is_enabled": true,
+      "label_text": "Summon x10"
+    },
+    {
+      "name": "Reg. Summon tab",
+      "type": "nav",
+      "location": "bottom_left",
+      "is_enabled": true,
+      "label_text": "Reg. Summon"
+    },
+    {
+      "name": "Special Summon tab",
+      "type": "nav",
+      "location": "bottom_right",
+      "is_enabled": true,
+      "label_text": "Special Summon"
+    },
+    {
+      "name": "Pt Summon counter",
+      "type": "indicator",
+      "location": "top_right",
+      "is_enabled": null,
+      "label_text": "220/1000 Pt Summon"
+    },
+    {
+      "name": "Skip toggle",
+      "type": "toggle",
+      "location": "center",
+      "is_enabled": true,
+      "label_text": "Skip"
+    },
+    {
+      "name": "Summon nav tab",
+      "type": "nav",
+      "location": "bottom_center",
+      "is_enabled": true,
+      "label_text": "Summon"
+    },
+    {
+      "name": "Back button",
+      "type": "button",
+      "location": "bottom_left",
+      "is_enabled": true,
+      "label_text": null
+    }
+  ],
+  "text_content": {
+    "EN": [
+      "Summon",
+      "0",
+      "31",
+      "1058",
+      "Rates",
+      "Best",
+      "Auto Salvage",
+      "1k Pull Perks",
+      "Reg. Summon",
+      "Randomly get 1-10 pcs of 1-5★",
+      "Skip",
+      "1",
+      "10",
+      "Free Summon",
+      "Summon x10",
+      "Reg. Summon",
+      "Special Summon",
+      "Free summon available",
+      "Free Summon: 21:47:32",
+      "Summon",
+      "Attribute",
+      "220/1000",
+      "Pt Summon"
+    ],
+    "JP": null,
+    "small": [
+      "0",
+      "31",
+      "1058",
+      "1",
+      "10",
+      "220/1000"
+    ]
+  },
+  "available_actions": [
+    "Tap Free Summon (Reg.)",
+    "Tap Summon x10 (Reg.)",
+    "Tap Rates",
+    "Tap Best",
+    "Tap Auto Salvage",
+    "Tap 1k Pull Perks",
+    "Toggle Skip animation",
+    "Switch to Special Summon tab",
+    "Tap Attribute tab",
+    "Tap Back"
+  ],
+  "game_extension": null,
+  "screen_notes": "Reg. Summon lobby. Pity counter: 220/1000. Reg. Summon tab active (blue/standard theme). Free Summon available for Reg. banner. Special Summon tab shows 'Free Summon: 21:47:32' countdown. Free Summon button shows 1 ticket. Summon x10 shows 10 tickets. Character artwork in banner: male protagonist with blue-haired female and others. Wish Book button not visible (may require unlock).",
+  "annotation_metadata": {
+    "annotator": "migration_v1_to_v3",
+    "annotation_date": "2026-03-01",
+    "confidence": "medium",
+    "expected_difficulty": "medium",
+    "source": "v1_migration",
+    "v1_original_id": "highschooldxd_gacha_027_EN",
+    "v1_screen_type": "gacha"
+  }
+}

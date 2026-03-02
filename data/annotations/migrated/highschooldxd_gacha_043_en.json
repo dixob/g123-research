@@ -1,0 +1,72 @@
+{
+  "screenshot_id": "highschooldxd_gacha_043_en",
+  "game_name": "High School DxD: Operation Paradise Infinity",
+  "game_slug": "highschooldxd",
+  "language": "EN",
+  "screen_type": "gacha",
+  "sub_type": null,
+  "game_state": {
+    "player_hp_current": null,
+    "player_hp_max": null,
+    "enemy_hp": null,
+    "turn_current": null,
+    "turn_max": null,
+    "stage_id": null,
+    "team_power_player": null,
+    "team_power_enemy": null,
+    "currency_premium": null,
+    "currency_tickets": null,
+    "auto_battle_active": null,
+    "auto_battle_timer": null,
+    "speed_multiplier": null
+  },
+  "gacha": {
+    "phase": "animation",
+    "banner_type": "standard",
+    "banner_name": null,
+    "pull_cost_type": null,
+    "pity_current": null,
+    "pity_max": null,
+    "free_pull_available": null,
+    "free_pull_timer": null,
+    "revealed_cards": null
+  },
+  "post_battle_rewards": null,
+  "mvp": null,
+  "ui_elements": [
+    {
+      "name": "Auto-salvage result text",
+      "type": "text",
+      "location": "center",
+      "is_enabled": null,
+      "label_text": "Auto Salvaged and got Ally EXP x500 / Auto Salvaged and got Upgrade Stone x10"
+    },
+    {
+      "name": "Chess piece highlight",
+      "type": "indicator",
+      "location": "center",
+      "is_enabled": null,
+      "label_text": null
+    }
+  ],
+  "text_content": {
+    "EN": [
+      "Auto Salvaged and got Ally EXP x500",
+      "Auto Salvaged and got Upgrade Stone x10"
+    ],
+    "JP": null,
+    "small": null
+  },
+  "available_actions": [],
+  "game_extension": null,
+  "screen_notes": "Gacha animation frame showing chess board backdrop. Red pawn piece highlighted with circular glow in center. Auto-salvage results: Ally EXP x500 and Upgrade Stone x10. Two lines of auto-salvage text. No interactive buttons visible — transitional animation frame.",
+  "annotation_metadata": {
+    "annotator": "migration_v1_to_v3",
+    "annotation_date": "2026-03-01",
+    "confidence": "medium",
+    "expected_difficulty": "medium",
+    "source": "v1_migration",
+    "v1_original_id": "highschooldxd_gacha_025_EN",
+    "v1_screen_type": "gacha"
+  }
+}

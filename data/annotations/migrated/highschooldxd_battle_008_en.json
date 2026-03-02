@@ -1,0 +1,156 @@
+{
+  "screenshot_id": "highschooldxd_battle_008_en",
+  "game_name": "High School DxD: Operation Paradise Infinity",
+  "game_slug": "highschooldxd",
+  "language": "EN",
+  "screen_type": "battle",
+  "sub_type": null,
+  "game_state": {
+    "player_hp_current": null,
+    "player_hp_max": null,
+    "enemy_hp": null,
+    "turn_current": null,
+    "turn_max": null,
+    "stage_id": null,
+    "team_power_player": null,
+    "team_power_enemy": null,
+    "currency_premium": null,
+    "currency_tickets": null,
+    "auto_battle_active": null,
+    "auto_battle_timer": null,
+    "speed_multiplier": "x3"
+  },
+  "gacha": null,
+  "post_battle_rewards": null,
+  "mvp": null,
+  "ui_elements": [
+    {
+      "name": "Turn indicator",
+      "type": "indicator",
+      "location": "top_center",
+      "is_enabled": false,
+      "label_text": "Turn 1 / 15"
+    },
+    {
+      "name": "Tot. DMG banner",
+      "type": "indicator",
+      "location": "top_center",
+      "is_enabled": false,
+      "label_text": "Tot. DMG 182"
+    },
+    {
+      "name": "Damage number",
+      "type": "text",
+      "location": "center",
+      "is_enabled": false,
+      "label_text": "-182"
+    },
+    {
+      "name": "Retreat button",
+      "type": "button",
+      "location": "middle_left",
+      "is_enabled": true,
+      "label_text": null
+    },
+    {
+      "name": "Pause button",
+      "type": "button",
+      "location": "middle_right",
+      "is_enabled": true,
+      "label_text": null
+    },
+    {
+      "name": "Speed x3 button",
+      "type": "toggle",
+      "location": "middle_right",
+      "is_enabled": true,
+      "label_text": "x3"
+    },
+    {
+      "name": "Unit card tray",
+      "type": "card",
+      "location": "bottom_center",
+      "is_enabled": true,
+      "label_text": null
+    }
+  ],
+  "text_content": {
+    "EN": [
+      "Turn 1 / 15",
+      "Tot. DMG 182",
+      "-182",
+      "x3",
+      "Black Drag...",
+      "Strange Mi...",
+      "Red Drago...",
+      "Barrier Gu...",
+      "Fallen Ang..."
+    ],
+    "JP": null,
+    "small": [
+      "x3"
+    ]
+  },
+  "available_actions": [
+    "Tap Retreat button to exit battle",
+    "Tap Pause button",
+    "Tap Speed x3 to toggle speed"
+  ],
+  "game_extension": {
+    "combat_indicators": {
+      "advantage_label": null,
+      "debuff_labels": null,
+      "crit_label": null,
+      "floating_damages": [
+        "-182"
+      ]
+    },
+    "unit_roster": [
+      {
+        "unit_name": "Black Drag...",
+        "stars": 2,
+        "rarity": null,
+        "is_active": true,
+        "position": 1
+      },
+      {
+        "unit_name": "Strange Mi...",
+        "stars": 2,
+        "rarity": null,
+        "is_active": true,
+        "position": 2
+      },
+      {
+        "unit_name": "Red Drago...",
+        "stars": 3,
+        "rarity": null,
+        "is_active": true,
+        "position": 3
+      },
+      {
+        "unit_name": "Barrier Gu...",
+        "stars": 4,
+        "rarity": null,
+        "is_active": true,
+        "position": 4
+      },
+      {
+        "unit_name": "Fallen Ang...",
+        "stars": 4,
+        "rarity": null,
+        "is_active": true,
+        "position": 5
+      }
+    ]
+  },
+  "screen_notes": "Active battle Turn 1 of 15. Tot. DMG 182. Single -182 floating damage. 3v3 visible arrangement (2 enemies on right side: Lv.3 blonde enemy and a blue-gem enemy). Near-duplicate group with #5, #6, #7, #11.",
+  "annotation_metadata": {
+    "annotator": "migration_v1_to_v3",
+    "annotation_date": "2026-03-01",
+    "confidence": "medium",
+    "expected_difficulty": "medium",
+    "source": "v1_migration",
+    "v1_original_id": "highschooldxd_battle_012_EN",
+    "v1_screen_type": "battle"
+  }
+}

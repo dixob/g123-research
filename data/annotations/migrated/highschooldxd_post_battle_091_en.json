@@ -1,0 +1,117 @@
+{
+  "screenshot_id": "highschooldxd_post_battle_091_en",
+  "game_name": "High School DxD: Operation Paradise Infinity",
+  "game_slug": "highschooldxd",
+  "language": "EN",
+  "screen_type": "post_battle",
+  "sub_type": null,
+  "game_state": {
+    "player_hp_current": null,
+    "player_hp_max": null,
+    "enemy_hp": null,
+    "turn_current": null,
+    "turn_max": null,
+    "stage_id": null,
+    "team_power_player": null,
+    "team_power_enemy": null,
+    "currency_premium": null,
+    "currency_tickets": null,
+    "auto_battle_active": null,
+    "auto_battle_timer": null,
+    "speed_multiplier": null
+  },
+  "gacha": null,
+  "post_battle_rewards": [
+    "Fire Gem|600",
+    "Potion|900",
+    "Gold|4400",
+    "Scroll|50"
+  ],
+  "mvp": {
+    "name": null,
+    "damage": null,
+    "pct": null
+  },
+  "ui_elements": [
+    {
+      "name": "Back button",
+      "type": "button",
+      "location": "bottom_left",
+      "is_enabled": true,
+      "label_text": "Back"
+    },
+    {
+      "name": "Confirm button",
+      "type": "button",
+      "location": "bottom_center",
+      "is_enabled": true,
+      "label_text": "Confirm"
+    },
+    {
+      "name": "Victory banner",
+      "type": "text",
+      "location": "center",
+      "is_enabled": null,
+      "label_text": "Victory"
+    },
+    {
+      "name": "Stage label",
+      "type": "indicator",
+      "location": "top_center",
+      "is_enabled": null,
+      "label_text": "Gate 1-8"
+    },
+    {
+      "name": "MVP portrait",
+      "type": "card",
+      "location": "top_left",
+      "is_enabled": null,
+      "label_text": null
+    },
+    {
+      "name": "Rewards panel",
+      "type": "indicator",
+      "location": "center",
+      "is_enabled": null,
+      "label_text": "Rewards"
+    }
+  ],
+  "text_content": {
+    "EN": [
+      "Victory",
+      "Gate 1-8",
+      "MVP",
+      "Total Damage",
+      "1859",
+      "91.2%",
+      "Rewards",
+      "Back",
+      "Confirm"
+    ],
+    "JP": [
+      "結界守護者",
+      "花戒桃",
+      "獲得報酬"
+    ],
+    "small": [
+      "1859"
+    ]
+  },
+  "available_actions": [
+    "Tap Back",
+    "Tap Confirm"
+  ],
+  "game_extension": {
+    "total_damage": 1859
+  },
+  "screen_notes": "EN post-battle Victory screen. Stage Gate 1-8. MVP shown with EN victory banner but JP character name/title. Reconstructed from session log screenshot 95.",
+  "annotation_metadata": {
+    "annotator": "migration_v1_to_v3",
+    "annotation_date": "2026-03-01",
+    "confidence": "medium",
+    "expected_difficulty": "medium",
+    "source": "v1_migration",
+    "v1_original_id": "highschooldxd_post_battle_001_EN",
+    "v1_screen_type": "post_battle"
+  }
+}

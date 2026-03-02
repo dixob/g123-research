@@ -1,0 +1,133 @@
+{
+  "screenshot_id": "highschooldxd_gacha_048_en",
+  "game_name": "High School DxD: Operation Paradise Infinity",
+  "game_slug": "highschooldxd",
+  "language": "EN",
+  "screen_type": "gacha",
+  "sub_type": null,
+  "game_state": {
+    "player_hp_current": null,
+    "player_hp_max": null,
+    "enemy_hp": null,
+    "turn_current": null,
+    "turn_max": null,
+    "stage_id": null,
+    "team_power_player": null,
+    "team_power_enemy": null,
+    "currency_premium": null,
+    "currency_tickets": null,
+    "auto_battle_active": null,
+    "auto_battle_timer": null,
+    "speed_multiplier": null
+  },
+  "gacha": {
+    "phase": "reveal_single",
+    "banner_type": "standard",
+    "banner_name": null,
+    "pull_cost_type": null,
+    "pity_current": null,
+    "pity_max": null,
+    "free_pull_available": null,
+    "free_pull_timer": null,
+    "revealed_cards": [
+      {
+        "card_name": "Chainsaw Sisters",
+        "rarity": "SR",
+        "stars": 3,
+        "is_new": true
+      }
+    ]
+  },
+  "post_battle_rewards": null,
+  "mvp": null,
+  "ui_elements": [
+    {
+      "name": "Summon header",
+      "type": "text",
+      "location": "top_left",
+      "is_enabled": null,
+      "label_text": "Summon"
+    },
+    {
+      "name": "Summon ticket count",
+      "type": "indicator",
+      "location": "top_center",
+      "is_enabled": null,
+      "label_text": "30"
+    },
+    {
+      "name": "Card reveal",
+      "type": "card",
+      "location": "center",
+      "is_enabled": null,
+      "label_text": "Chainsaw Sisters"
+    },
+    {
+      "name": "Rarity badge",
+      "type": "indicator",
+      "location": "center",
+      "is_enabled": null,
+      "label_text": "SR"
+    },
+    {
+      "name": "NEW badge",
+      "type": "indicator",
+      "location": "center",
+      "is_enabled": null,
+      "label_text": "NEW"
+    },
+    {
+      "name": "Close button",
+      "type": "button",
+      "location": "bottom_left",
+      "is_enabled": true,
+      "label_text": "Close"
+    },
+    {
+      "name": "Summon x1 button",
+      "type": "button",
+      "location": "bottom_right",
+      "is_enabled": true,
+      "label_text": "Summon x1"
+    },
+    {
+      "name": "Remaining tickets",
+      "type": "indicator",
+      "location": "bottom_center",
+      "is_enabled": null,
+      "label_text": "1"
+    }
+  ],
+  "text_content": {
+    "EN": [
+      "Summon",
+      "30",
+      "SR",
+      "Chainsaw Sisters",
+      "NEW",
+      "Close",
+      "Summon x1",
+      "1"
+    ],
+    "JP": null,
+    "small": [
+      "30",
+      "1"
+    ]
+  },
+  "available_actions": [
+    "Tap Close",
+    "Tap Summon x1"
+  ],
+  "game_extension": null,
+  "screen_notes": "Single card reveal with confetti animation. SR Chainsaw Sisters card shown with NEW badge (first time obtained). Two green-haired characters visible on card art. 3 gold stars. 1 ticket remaining shown near Summon x1. Gem count not visible in header (currency icon shows 0 area). Near-duplicate pair context: see #29 for the detail view of same card.",
+  "annotation_metadata": {
+    "annotator": "migration_v1_to_v3",
+    "annotation_date": "2026-03-01",
+    "confidence": "medium",
+    "expected_difficulty": "medium",
+    "source": "v1_migration",
+    "v1_original_id": "highschooldxd_gacha_030_EN",
+    "v1_screen_type": "gacha"
+  }
+}

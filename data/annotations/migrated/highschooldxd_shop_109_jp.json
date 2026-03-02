@@ -1,0 +1,188 @@
+{
+  "screenshot_id": "highschooldxd_shop_109_jp",
+  "game_name": "High School DxD: Operation Paradise Infinity",
+  "game_slug": "highschooldxd",
+  "language": "JP",
+  "screen_type": "idle",
+  "sub_type": null,
+  "game_state": {
+    "player_hp_current": null,
+    "player_hp_max": null,
+    "enemy_hp": null,
+    "turn_current": null,
+    "turn_max": null,
+    "stage_id": null,
+    "team_power_player": null,
+    "team_power_enemy": null,
+    "currency_premium": null,
+    "currency_tickets": null,
+    "auto_battle_active": null,
+    "auto_battle_timer": null,
+    "speed_multiplier": null
+  },
+  "gacha": null,
+  "post_battle_rewards": null,
+  "mvp": null,
+  "ui_elements": [
+    {
+      "name": "Shop header",
+      "type": "text",
+      "location": "top_left",
+      "is_enabled": null,
+      "label_text": "商店"
+    },
+    {
+      "name": "Banner",
+      "type": "indicator",
+      "location": "top_center",
+      "is_enabled": null,
+      "label_text": "仲間を集めて強くなろう！"
+    },
+    {
+      "name": "Refresh timer",
+      "type": "indicator",
+      "location": "top_center",
+      "is_enabled": null,
+      "label_text": "次回更新：2d13h"
+    },
+    {
+      "name": "毎日無料 free row",
+      "type": "button",
+      "location": "top_center",
+      "is_enabled": true,
+      "label_text": "無料"
+    },
+    {
+      "name": "仲間ギフト1 purchase button",
+      "type": "button",
+      "location": "center",
+      "is_enabled": true,
+      "label_text": "$0.79"
+    },
+    {
+      "name": "仲間ギフト2 purchase button",
+      "type": "button",
+      "location": "center",
+      "is_enabled": true,
+      "label_text": "$3.69"
+    },
+    {
+      "name": "仲間ギフト3 purchase button",
+      "type": "button",
+      "location": "center",
+      "is_enabled": true,
+      "label_text": "$7.09"
+    },
+    {
+      "name": "仲間ギフト4 purchase button",
+      "type": "button",
+      "location": "center",
+      "is_enabled": true,
+      "label_text": "$21.99"
+    },
+    {
+      "name": "仲間召喚 tab",
+      "type": "nav",
+      "location": "bottom_center",
+      "is_enabled": true,
+      "label_text": "仲間召喚"
+    },
+    {
+      "name": "仲間育成 tab",
+      "type": "nav",
+      "location": "bottom_center",
+      "is_enabled": true,
+      "label_text": "仲間育成"
+    },
+    {
+      "name": "ルーン tab",
+      "type": "nav",
+      "location": "bottom_center",
+      "is_enabled": true,
+      "label_text": "ルーン"
+    },
+    {
+      "name": "Back button",
+      "type": "button",
+      "location": "bottom_left",
+      "is_enabled": true,
+      "label_text": null
+    }
+  ],
+  "text_content": {
+    "EN": null,
+    "JP": [
+      "商店",
+      "名声 0",
+      "1278",
+      "仲間を集めて強くなろう！",
+      "次回更新：2d13h",
+      "毎日無料",
+      "本日在庫：1/1",
+      "無料",
+      "仲間ギフト1",
+      "在庫：3/3",
+      "4000%お得",
+      "獲得 x100",
+      "$0.79",
+      "仲間ギフト2",
+      "在庫：3/3",
+      "2000%お得",
+      "獲得 x500",
+      "$3.69",
+      "仲間ギフト3",
+      "在庫：3/3",
+      "2000%お得",
+      "獲得 x980",
+      "$7.09",
+      "仲間ギフト4",
+      "在庫：3/3",
+      "1000%お得",
+      "獲得 x2980",
+      "$21.99",
+      "仲間召喚",
+      "仲間育成",
+      "ルーン"
+    ],
+    "small": [
+      "1278"
+    ]
+  },
+  "available_actions": [
+    "Tap 毎日無料 (free item)",
+    "Purchase 仲間ギフト1 ($0.79)",
+    "Purchase 仲間ギフト2 ($3.69)",
+    "Purchase 仲間ギフト3 ($7.09)",
+    "Purchase 仲間ギフト4 ($21.99)",
+    "Navigate to 仲間召喚 tab",
+    "Navigate to 仲間育成 tab",
+    "Navigate to ルーン tab",
+    "Tap Back button"
+  ],
+  "game_extension": {
+    "bottom_nav": [
+      {
+        "label": "仲間召喚",
+        "is_active": false
+      },
+      {
+        "label": "仲間育成",
+        "is_active": false
+      },
+      {
+        "label": "ルーン",
+        "is_active": false
+      }
+    ]
+  },
+  "screen_notes": "Shop - 仲間ギフト (Companion Gift) tab. This tab is a sub-section of 特購入 (Special Purchase). Banner shows female character. All 4 gift tiers in stock (3/3). Free daily item available. Bottom nav shows 仲間召喚/仲間育成/ルーン sub-tabs.",
+  "annotation_metadata": {
+    "annotator": "migration_v1_to_v3",
+    "annotation_date": "2026-03-01",
+    "confidence": "medium",
+    "expected_difficulty": "medium",
+    "source": "v1_migration",
+    "v1_original_id": "highschooldxd_shop_075_JP",
+    "v1_screen_type": "shop"
+  }
+}

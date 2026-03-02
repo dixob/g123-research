@@ -1,0 +1,166 @@
+{
+  "screenshot_id": "highschooldxd_shop_103_en",
+  "game_name": "High School DxD: Operation Paradise Infinity",
+  "game_slug": "highschooldxd",
+  "language": "EN",
+  "screen_type": "idle",
+  "sub_type": null,
+  "game_state": {
+    "player_hp_current": null,
+    "player_hp_max": null,
+    "enemy_hp": null,
+    "turn_current": null,
+    "turn_max": null,
+    "stage_id": null,
+    "team_power_player": null,
+    "team_power_enemy": null,
+    "currency_premium": null,
+    "currency_tickets": null,
+    "auto_battle_active": null,
+    "auto_battle_timer": null,
+    "speed_multiplier": null
+  },
+  "gacha": null,
+  "post_battle_rewards": null,
+  "mvp": null,
+  "ui_elements": [
+    {
+      "name": "Pack title",
+      "type": "text",
+      "location": "top_center",
+      "is_enabled": false,
+      "label_text": "Crimson Little Devil"
+    },
+    {
+      "name": "Character name",
+      "type": "text",
+      "location": "top_left",
+      "is_enabled": false,
+      "label_text": "Rias"
+    },
+    {
+      "name": "Pack tagline",
+      "type": "text",
+      "location": "center",
+      "is_enabled": false,
+      "label_text": "Best for Novices! Get powerful allies!"
+    },
+    {
+      "name": "Day 1 reward box",
+      "type": "card",
+      "location": "bottom_left",
+      "is_enabled": true,
+      "label_text": "Day 1"
+    },
+    {
+      "name": "Day 2 reward box",
+      "type": "card",
+      "location": "bottom_center",
+      "is_enabled": true,
+      "label_text": "Day 2"
+    },
+    {
+      "name": "Day 3 reward box",
+      "type": "card",
+      "location": "bottom_right",
+      "is_enabled": true,
+      "label_text": "Day 3"
+    },
+    {
+      "name": "Purchase button",
+      "type": "button",
+      "location": "bottom_center",
+      "is_enabled": true,
+      "label_text": "$0.09"
+    },
+    {
+      "name": "Value badge",
+      "type": "indicator",
+      "location": "bottom_right",
+      "is_enabled": false,
+      "label_text": "33000% Value"
+    },
+    {
+      "name": "Skin Pack badge",
+      "type": "indicator",
+      "location": "top_right",
+      "is_enabled": true,
+      "label_text": "Skin Pack"
+    },
+    {
+      "name": "Close button",
+      "type": "button",
+      "location": "bottom_center",
+      "is_enabled": true,
+      "label_text": "Close"
+    }
+  ],
+  "text_content": {
+    "EN": [
+      "Crimson Little Devil",
+      "Rias",
+      "Best for Novices!",
+      "Get powerful allies!",
+      "Day 1",
+      "Day 2",
+      "Day 3",
+      "$0.09",
+      "33000% Value",
+      "Skin Pack",
+      "Get: x10",
+      "Close",
+      "Home",
+      "Sky City",
+      "Story",
+      "Pieces",
+      "Shop"
+    ],
+    "JP": null,
+    "small": null
+  },
+  "available_actions": [
+    "Tap $0.09 to purchase Crimson Little Devil pack",
+    "Tap Skin Pack to view skin",
+    "Tap Day 1/2/3 to view day rewards",
+    "Tap Close to dismiss shop popup",
+    "Tap Home",
+    "Tap Sky City",
+    "Tap Story",
+    "Tap Pieces",
+    "Tap Shop"
+  ],
+  "game_extension": {
+    "bottom_nav": [
+      {
+        "label": "Home",
+        "is_active": false
+      },
+      {
+        "label": "Sky City",
+        "is_active": false
+      },
+      {
+        "label": "Story",
+        "is_active": false
+      },
+      {
+        "label": "Pieces",
+        "is_active": false
+      },
+      {
+        "label": "Shop",
+        "is_active": true
+      }
+    ]
+  },
+  "screen_notes": "Starter pack shop offer featuring character Rias ('Crimson Little Devil'). 3-day login reward structure. Price $0.09 USD. Pack includes Jewels x10 on purchase. Background shows partially visible post-battle Victory screen indicating this popup appeared after battle. Skin Pack option visible top-right.",
+  "annotation_metadata": {
+    "annotator": "migration_v1_to_v3",
+    "annotation_date": "2026-03-01",
+    "confidence": "medium",
+    "expected_difficulty": "medium",
+    "source": "v1_migration",
+    "v1_original_id": "highschooldxd_shop_003_EN",
+    "v1_screen_type": "shop"
+  }
+}

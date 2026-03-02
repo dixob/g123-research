@@ -1,0 +1,228 @@
+{
+  "screenshot_id": "highschooldxd_idle_overworld_085_jp",
+  "game_name": "High School DxD: Operation Paradise Infinity",
+  "game_slug": "highschooldxd",
+  "language": "JP",
+  "screen_type": "idle",
+  "sub_type": null,
+  "game_state": {
+    "player_hp_current": null,
+    "player_hp_max": null,
+    "enemy_hp": null,
+    "turn_current": null,
+    "turn_max": null,
+    "stage_id": null,
+    "team_power_player": null,
+    "team_power_enemy": null,
+    "currency_premium": null,
+    "currency_tickets": null,
+    "auto_battle_active": true,
+    "auto_battle_timer": "00:11:13",
+    "speed_multiplier": null
+  },
+  "gacha": null,
+  "post_battle_rewards": null,
+  "mvp": null,
+  "ui_elements": [
+    {
+      "name": "User avatar",
+      "type": "indicator",
+      "location": "top_left",
+      "is_enabled": true,
+      "label_text": "Userfr2yu"
+    },
+    {
+      "name": "Player power",
+      "type": "indicator",
+      "location": "top_left",
+      "is_enabled": null,
+      "label_text": "7240"
+    },
+    {
+      "name": "Stage label",
+      "type": "indicator",
+      "location": "top_center",
+      "is_enabled": null,
+      "label_text": "校門1-8 (8/40)"
+    },
+    {
+      "name": "Battle timer",
+      "type": "indicator",
+      "location": "bottom_left",
+      "is_enabled": null,
+      "label_text": "00:11:13"
+    },
+    {
+      "name": "Quest banner",
+      "type": "indicator",
+      "location": "bottom_center",
+      "is_enabled": true,
+      "label_text": "仲間1人がLv.20に到達(0/1)"
+    },
+    {
+      "name": "Challenge button",
+      "type": "button",
+      "location": "bottom_right",
+      "is_enabled": true,
+      "label_text": "挑戦"
+    },
+    {
+      "name": "Auto battle button",
+      "type": "button",
+      "location": "middle_left",
+      "is_enabled": true,
+      "label_text": "自動戦闘"
+    },
+    {
+      "name": "Bottom nav - Home",
+      "type": "nav",
+      "location": "bottom_left",
+      "is_enabled": true,
+      "label_text": "ホーム"
+    },
+    {
+      "name": "Bottom nav - Sky City",
+      "type": "nav",
+      "location": "bottom_center",
+      "is_enabled": true,
+      "label_text": "空中都市"
+    },
+    {
+      "name": "Bottom nav - Adventure",
+      "type": "nav",
+      "location": "bottom_center",
+      "is_enabled": false,
+      "label_text": "冒険"
+    },
+    {
+      "name": "Bottom nav - Pieces",
+      "type": "nav",
+      "location": "bottom_center",
+      "is_enabled": true,
+      "label_text": "駒"
+    },
+    {
+      "name": "Bottom nav - Shop",
+      "type": "nav",
+      "location": "bottom_right",
+      "is_enabled": true,
+      "label_text": "商店"
+    }
+  ],
+  "text_content": {
+    "EN": null,
+    "JP": [
+      "Userfr2yu",
+      "7240",
+      "名声",
+      "0",
+      "1058",
+      "64.6K",
+      "マップ",
+      "受取",
+      "チャージで報酬",
+      "5d21h",
+      "8日ログイン",
+      "6d21h",
+      "初購入ギフト",
+      "メッセージ",
+      "自動戦闘",
+      "校門1-8 (8/40)",
+      "00:11:13",
+      "仲間1人がLv.20に到達(0/1)",
+      "挑戦",
+      "ホーム",
+      "空中都市",
+      "冒険",
+      "駒",
+      "商店",
+      "会心=157",
+      "-157"
+    ],
+    "small": [
+      "7240",
+      "0",
+      "1058",
+      "00:11:13"
+    ]
+  },
+  "available_actions": [
+    "Tap マップ",
+    "Tap 受取",
+    "Tap チャージで報酬",
+    "Tap 8日ログイン",
+    "Tap 初購入ギフト",
+    "Tap メッセージ",
+    "Tap 自動戦闘",
+    "Tap 挑戦",
+    "Navigate to 空中都市",
+    "Navigate to 冒険",
+    "Navigate to 駒",
+    "Navigate to 商店"
+  ],
+  "game_extension": {
+    "combat_indicators": {
+      "advantage_label": null,
+      "debuff_labels": null,
+      "crit_label": "会心",
+      "floating_damages": [
+        "会心=157",
+        "-157"
+      ]
+    },
+    "sidebar_notifications": [
+      {
+        "label": "チャージで報酬",
+        "timer": "5d21h"
+      },
+      {
+        "label": "8日ログイン",
+        "timer": "6d21h"
+      },
+      {
+        "label": "初購入ギフト",
+        "timer": null
+      },
+      {
+        "label": "メッセージ",
+        "timer": null
+      },
+      {
+        "label": "自動戦闘",
+        "timer": null
+      }
+    ],
+    "bottom_nav": [
+      {
+        "label": "ホーム",
+        "is_active": true
+      },
+      {
+        "label": "空中都市",
+        "is_active": false
+      },
+      {
+        "label": "冒険",
+        "is_active": false
+      },
+      {
+        "label": "駒",
+        "is_active": false
+      },
+      {
+        "label": "商店",
+        "is_active": false
+      }
+    ]
+  },
+  "screen_notes": "JP idle overworld at 校門1-8, stage progress 8/40. Auto-battle active with timer 00:11:13. Critical hit visible: 会心=157 label shown mid-screen with red/orange highlight. Floating damage: -157. Black-haired character performing attack animation. Near-duplicate series with #35, #37, #38. This frame is notable for 会心 (critical) label — valuable ground truth for crit detection task.",
+  "annotation_metadata": {
+    "annotator": "migration_v1_to_v3",
+    "annotation_date": "2026-03-01",
+    "confidence": "medium",
+    "expected_difficulty": "medium",
+    "source": "v1_migration",
+    "v1_original_id": "highschooldxd_idle_overworld_036_JP",
+    "v1_screen_type": "idle_overworld"
+  }
+}

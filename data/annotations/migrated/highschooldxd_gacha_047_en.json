@@ -1,0 +1,119 @@
+{
+  "screenshot_id": "highschooldxd_gacha_047_en",
+  "game_name": "High School DxD: Operation Paradise Infinity",
+  "game_slug": "highschooldxd",
+  "language": "EN",
+  "screen_type": "gacha",
+  "sub_type": null,
+  "game_state": {
+    "player_hp_current": null,
+    "player_hp_max": null,
+    "enemy_hp": null,
+    "turn_current": null,
+    "turn_max": null,
+    "stage_id": null,
+    "team_power_player": null,
+    "team_power_enemy": null,
+    "currency_premium": null,
+    "currency_tickets": null,
+    "auto_battle_active": null,
+    "auto_battle_timer": null,
+    "speed_multiplier": null
+  },
+  "gacha": {
+    "phase": "reveal_single",
+    "banner_type": "standard",
+    "banner_name": null,
+    "pull_cost_type": null,
+    "pity_current": null,
+    "pity_max": null,
+    "free_pull_available": null,
+    "free_pull_timer": null,
+    "revealed_cards": [
+      {
+        "card_name": "Chainsaw Sisters",
+        "rarity": "SR",
+        "stars": 3,
+        "is_new": false
+      }
+    ]
+  },
+  "post_battle_rewards": null,
+  "mvp": null,
+  "ui_elements": [
+    {
+      "name": "Rarity badge",
+      "type": "indicator",
+      "location": "top_left",
+      "is_enabled": null,
+      "label_text": "SR"
+    },
+    {
+      "name": "Star rating",
+      "type": "indicator",
+      "location": "top_center",
+      "is_enabled": null,
+      "label_text": "3 stars"
+    },
+    {
+      "name": "Card name",
+      "type": "text",
+      "location": "bottom_center",
+      "is_enabled": null,
+      "label_text": "Chainsaw Sisters"
+    },
+    {
+      "name": "Character name",
+      "type": "text",
+      "location": "bottom_center",
+      "is_enabled": null,
+      "label_text": "Ile & Nel"
+    },
+    {
+      "name": "Skill type",
+      "type": "text",
+      "location": "bottom_center",
+      "is_enabled": null,
+      "label_text": "Freeze · Absorb"
+    },
+    {
+      "name": "Skill icons",
+      "type": "indicator",
+      "location": "bottom_center",
+      "is_enabled": null,
+      "label_text": null
+    },
+    {
+      "name": "Back button",
+      "type": "button",
+      "location": "bottom_left",
+      "is_enabled": true,
+      "label_text": null
+    }
+  ],
+  "text_content": {
+    "EN": [
+      "SR",
+      "Chainsaw Sisters",
+      "Ile & Nel",
+      "Freeze",
+      "Absorb"
+    ],
+    "JP": null,
+    "small": null
+  },
+  "available_actions": [
+    "Tap Back"
+  ],
+  "game_extension": null,
+  "screen_notes": "Gacha card detail reveal screen (full-art view). Two green-haired twin characters (Ile & Nel) shown in full art holding chainsaws. SR rarity badge top-left, 3 stars shown. Card title: Chainsaw Sisters. Character name: Ile & Nel. Skill: Freeze · Absorb. 3 skill icons shown at bottom. Attribute icon (green/nature) visible. No NEW badge visible. This is the detail/info view, not the card reveal animation screen.",
+  "annotation_metadata": {
+    "annotator": "migration_v1_to_v3",
+    "annotation_date": "2026-03-01",
+    "confidence": "medium",
+    "expected_difficulty": "medium",
+    "source": "v1_migration",
+    "v1_original_id": "highschooldxd_gacha_029_EN",
+    "v1_screen_type": "gacha"
+  }
+}

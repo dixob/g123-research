@@ -1,0 +1,142 @@
+{
+  "screenshot_id": "highschooldxd_post_battle_096_jp",
+  "game_name": "High School DxD: Operation Paradise Infinity",
+  "game_slug": "highschooldxd",
+  "language": "JP",
+  "screen_type": "post_battle",
+  "sub_type": null,
+  "game_state": {
+    "player_hp_current": null,
+    "player_hp_max": null,
+    "enemy_hp": null,
+    "turn_current": null,
+    "turn_max": null,
+    "stage_id": null,
+    "team_power_player": null,
+    "team_power_enemy": null,
+    "currency_premium": null,
+    "currency_tickets": null,
+    "auto_battle_active": null,
+    "auto_battle_timer": null,
+    "speed_multiplier": null
+  },
+  "gacha": null,
+  "post_battle_rewards": [
+    "不明アイテム1|600",
+    "不明アイテム2|900",
+    "不明アイテム3|4400",
+    "不明アイテム4|50"
+  ],
+  "mvp": {
+    "name": null,
+    "damage": null,
+    "pct": null
+  },
+  "ui_elements": [
+    {
+      "name": "Back button",
+      "type": "button",
+      "location": "bottom_left",
+      "is_enabled": true,
+      "label_text": "戻る"
+    },
+    {
+      "name": "Confirm button",
+      "type": "button",
+      "location": "bottom_center",
+      "is_enabled": true,
+      "label_text": "決定"
+    },
+    {
+      "name": "Power Up button",
+      "type": "button",
+      "location": "bottom_right",
+      "is_enabled": true,
+      "label_text": "戦力増強"
+    },
+    {
+      "name": "Battle Stats button",
+      "type": "button",
+      "location": "bottom_right",
+      "is_enabled": true,
+      "label_text": "戦闘統計"
+    },
+    {
+      "name": "Victory banner",
+      "type": "text",
+      "location": "center",
+      "is_enabled": null,
+      "label_text": "Victory"
+    },
+    {
+      "name": "Stage label",
+      "type": "indicator",
+      "location": "top_center",
+      "is_enabled": null,
+      "label_text": "校門 1-8"
+    },
+    {
+      "name": "MVP portrait",
+      "type": "card",
+      "location": "top_left",
+      "is_enabled": null,
+      "label_text": null
+    },
+    {
+      "name": "Rewards panel",
+      "type": "indicator",
+      "location": "center",
+      "is_enabled": null,
+      "label_text": "獲得報酬"
+    },
+    {
+      "name": "Leader XP bar",
+      "type": "indicator",
+      "location": "middle_left",
+      "is_enabled": null,
+      "label_text": "Lv.6 1030/3020"
+    }
+  ],
+  "text_content": {
+    "EN": [
+      "Victory"
+    ],
+    "JP": [
+      "校門 1-8",
+      "MVP",
+      "結界守護者",
+      "花咲桃",
+      "ダメージ合計 1859 (91.216%)",
+      "獲得報酬",
+      "戻る",
+      "決定",
+      "戦力増強",
+      "戦闘統計",
+      "Lv.6",
+      "1030/3020",
+      "この勝利、ソーナ会長に捧げるわ！次も絶対に勝つから！"
+    ],
+    "small": [
+      "1030/3020"
+    ]
+  },
+  "available_actions": [
+    "Tap 戻る (return)",
+    "Tap 決定 (confirm)",
+    "Tap 戦力増強 (power up)",
+    "Tap 戦闘統計 (stats)"
+  ],
+  "game_extension": {
+    "total_damage": 1859
+  },
+  "screen_notes": "JP post-battle Victory screen. Stage 校門 1-8. MVP 結界守護者/花咲桃. Damage 1859 (91.216%). Leader Lv.6, 1030/3020 XP. Dialogue: この勝利、ソーナ会長に捧げるわ！次も絶対に勝つから！ Direct observation from Screenshot_150.",
+  "annotation_metadata": {
+    "annotator": "migration_v1_to_v3",
+    "annotation_date": "2026-03-01",
+    "confidence": "medium",
+    "expected_difficulty": "medium",
+    "source": "v1_migration",
+    "v1_original_id": "highschooldxd_post_battle_058_JP",
+    "v1_screen_type": "post_battle"
+  }
+}

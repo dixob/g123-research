@@ -1,0 +1,190 @@
+{
+  "screenshot_id": "highschooldxd_gacha_052_en",
+  "game_name": "High School DxD: Operation Paradise Infinity",
+  "game_slug": "highschooldxd",
+  "language": "EN",
+  "screen_type": "gacha",
+  "sub_type": null,
+  "game_state": {
+    "player_hp_current": null,
+    "player_hp_max": null,
+    "enemy_hp": null,
+    "turn_current": null,
+    "turn_max": null,
+    "stage_id": null,
+    "team_power_player": null,
+    "team_power_enemy": null,
+    "currency_premium": null,
+    "currency_tickets": null,
+    "auto_battle_active": null,
+    "auto_battle_timer": null,
+    "speed_multiplier": null
+  },
+  "gacha": {
+    "phase": "lobby",
+    "banner_type": "special",
+    "banner_name": null,
+    "pull_cost_type": null,
+    "pity_current": null,
+    "pity_max": null,
+    "free_pull_available": null,
+    "free_pull_timer": null,
+    "revealed_cards": null
+  },
+  "post_battle_rewards": null,
+  "mvp": null,
+  "ui_elements": [
+    {
+      "name": "Banner title",
+      "type": "text",
+      "location": "top_center",
+      "is_enabled": null,
+      "label_text": "Harem King Way"
+    },
+    {
+      "name": "Banner subtitle",
+      "type": "text",
+      "location": "top_center",
+      "is_enabled": null,
+      "label_text": "Be a step ahead with Fast Enhance!"
+    },
+    {
+      "name": "Bonus List button",
+      "type": "button",
+      "location": "top_right",
+      "is_enabled": true,
+      "label_text": "Bonus List"
+    },
+    {
+      "name": "Unlock requirement",
+      "type": "indicator",
+      "location": "center",
+      "is_enabled": null,
+      "label_text": "Unlock Req.: Special Summon 20/20"
+    },
+    {
+      "name": "Progress bar",
+      "type": "indicator",
+      "location": "center",
+      "is_enabled": null,
+      "label_text": null
+    },
+    {
+      "name": "Milestone x20 - Claim button",
+      "type": "button",
+      "location": "center",
+      "is_enabled": true,
+      "label_text": "Claim"
+    },
+    {
+      "name": "Milestone x20 counter",
+      "type": "indicator",
+      "location": "center",
+      "is_enabled": null,
+      "label_text": "20/20"
+    },
+    {
+      "name": "Milestone x60 - Go button",
+      "type": "button",
+      "location": "center",
+      "is_enabled": true,
+      "label_text": "Go"
+    },
+    {
+      "name": "Milestone x60 counter",
+      "type": "indicator",
+      "location": "center",
+      "is_enabled": null,
+      "label_text": "22/60"
+    },
+    {
+      "name": "Milestone x100 - Go button",
+      "type": "button",
+      "location": "center",
+      "is_enabled": true,
+      "label_text": "Go"
+    },
+    {
+      "name": "Milestone x100 unlock label",
+      "type": "text",
+      "location": "center",
+      "is_enabled": null,
+      "label_text": "Unlock Elite Wish Book"
+    },
+    {
+      "name": "Milestone x100 counter",
+      "type": "indicator",
+      "location": "center",
+      "is_enabled": null,
+      "label_text": "22/100"
+    },
+    {
+      "name": "Milestone x140 - Go button",
+      "type": "button",
+      "location": "center",
+      "is_enabled": true,
+      "label_text": "Go"
+    },
+    {
+      "name": "Milestone x140 counter",
+      "type": "indicator",
+      "location": "center",
+      "is_enabled": null,
+      "label_text": "22/140"
+    },
+    {
+      "name": "Back button",
+      "type": "button",
+      "location": "bottom_left",
+      "is_enabled": true,
+      "label_text": null
+    }
+  ],
+  "text_content": {
+    "EN": [
+      "Harem King Way",
+      "Be a step ahead with Fast Enhance!",
+      "Bonus List",
+      "Unlock Req.: Special Summon 20/20",
+      "Ally Special Summon x20",
+      "20/20",
+      "Claim",
+      "Ally Special Summon x60",
+      "22/60",
+      "Go",
+      "Ally Special Summon x100",
+      "22/100",
+      "Unlock Elite Wish Book",
+      "Go",
+      "Ally Special Summon x140",
+      "22/140",
+      "Go"
+    ],
+    "JP": null,
+    "small": [
+      "20/20",
+      "22/60",
+      "22/100",
+      "22/140"
+    ]
+  },
+  "available_actions": [
+    "Tap Claim (Milestone x20 - completed)",
+    "Tap Go (Milestone x60)",
+    "Tap Go (Milestone x100)",
+    "Tap Go (Milestone x140)",
+    "Tap Bonus List",
+    "Tap Back"
+  ],
+  "game_extension": null,
+  "screen_notes": "Special Summon milestone/bonus tracking screen ('Harem King Way'). Top banner shows black-haired female character art with title text. Unlock Req: Special Summon 20/20 — fully completed (blue progress bar full). Milestone x20: 20/20 — Claim button active (reward ready). Milestone x60: 22/60 — Go button. Milestone x100: 22/100 — unlocks Elite Wish Book. Milestone x140: 22/140 — Go button. List continues below (scrollable, not all visible). URL shows lang=en.",
+  "annotation_metadata": {
+    "annotator": "migration_v1_to_v3",
+    "annotation_date": "2026-03-01",
+    "confidence": "medium",
+    "expected_difficulty": "medium",
+    "source": "v1_migration",
+    "v1_original_id": "highschooldxd_gacha_034_EN",
+    "v1_screen_type": "gacha"
+  }
+}

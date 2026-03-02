@@ -1,0 +1,94 @@
+{
+  "screenshot_id": "highschooldxd_idle_overworld_072_en",
+  "game_name": "High School DxD: Operation Paradise Infinity",
+  "game_slug": "highschooldxd",
+  "language": "EN",
+  "screen_type": "idle",
+  "sub_type": null,
+  "game_state": {
+    "player_hp_current": null,
+    "player_hp_max": null,
+    "enemy_hp": null,
+    "turn_current": null,
+    "turn_max": null,
+    "stage_id": null,
+    "team_power_player": null,
+    "team_power_enemy": null,
+    "currency_premium": null,
+    "currency_tickets": null,
+    "auto_battle_active": null,
+    "auto_battle_timer": null,
+    "speed_multiplier": null
+  },
+  "gacha": null,
+  "post_battle_rewards": null,
+  "mvp": null,
+  "ui_elements": [
+    {
+      "name": "Lv. Up popup",
+      "type": "overlay",
+      "location": "center",
+      "is_enabled": true,
+      "label_text": "Lv. Up"
+    },
+    {
+      "name": "Level transition indicator",
+      "type": "indicator",
+      "location": "center",
+      "is_enabled": false,
+      "label_text": "Lv.5 → Lv.6"
+    },
+    {
+      "name": "Reward header",
+      "type": "text",
+      "location": "center",
+      "is_enabled": false,
+      "label_text": "Reward"
+    },
+    {
+      "name": "Close button",
+      "type": "button",
+      "location": "bottom_center",
+      "is_enabled": true,
+      "label_text": "Close"
+    }
+  ],
+  "text_content": {
+    "EN": [
+      "Lv. Up",
+      "Lv.5",
+      "Lv.6",
+      "Reward",
+      "Close"
+    ],
+    "JP": null,
+    "small": null
+  },
+  "available_actions": [
+    "Tap Close to dismiss Lv. Up popup"
+  ],
+  "game_extension": {
+    "overlay": {
+      "overlay_type": "level_up",
+      "title_text": "Lv. Up",
+      "body_text": "Lv.5 → Lv.6",
+      "items": [
+        {
+          "item_name": "Jewel (ruby gem)",
+          "quantity": 200,
+          "item_icon": "red gem icon"
+        }
+      ]
+    }
+  },
+  "screen_notes": "Level-up popup overlaying idle_overworld. Background shows Crimson Little Devil shop offer (partially visible), suggesting this Lv.Up triggered after completing a battle. Player leveled from Lv.5 to Lv.6. Reward is Jewel x200. Background is heavily dimmed.",
+  "annotation_metadata": {
+    "annotator": "migration_v1_to_v3",
+    "annotation_date": "2026-03-01",
+    "confidence": "medium",
+    "expected_difficulty": "medium",
+    "source": "v1_migration",
+    "v1_original_id": "highschooldxd_idle_overworld_004_EN",
+    "v1_screen_type": "idle_overworld"
+  }
+}

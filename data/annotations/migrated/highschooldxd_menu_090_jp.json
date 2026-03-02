@@ -1,0 +1,311 @@
+{
+  "screenshot_id": "highschooldxd_menu_090_jp",
+  "game_name": "High School DxD: Operation Paradise Infinity",
+  "game_slug": "highschooldxd",
+  "language": "JP",
+  "screen_type": "idle",
+  "sub_type": null,
+  "game_state": {
+    "player_hp_current": null,
+    "player_hp_max": null,
+    "enemy_hp": null,
+    "turn_current": null,
+    "turn_max": null,
+    "stage_id": null,
+    "team_power_player": 89700,
+    "team_power_enemy": null,
+    "currency_premium": null,
+    "currency_tickets": null,
+    "auto_battle_active": null,
+    "auto_battle_timer": null,
+    "speed_multiplier": null
+  },
+  "gacha": null,
+  "post_battle_rewards": null,
+  "mvp": null,
+  "ui_elements": [
+    {
+      "name": "Player avatar/name",
+      "type": "indicator",
+      "location": "top_left",
+      "is_enabled": true,
+      "label_text": "Userfr2yu"
+    },
+    {
+      "name": "名声 currency",
+      "type": "indicator",
+      "location": "top_center",
+      "is_enabled": null,
+      "label_text": "0"
+    },
+    {
+      "name": "ダイヤ currency",
+      "type": "indicator",
+      "location": "top_right",
+      "is_enabled": null,
+      "label_text": "1278"
+    },
+    {
+      "name": "戦力 indicator",
+      "type": "indicator",
+      "location": "top_right",
+      "is_enabled": null,
+      "label_text": "89.7K"
+    },
+    {
+      "name": "英雄の祭壇 (locked)",
+      "type": "button",
+      "location": "top_center",
+      "is_enabled": false,
+      "label_text": "英雄の祭壇"
+    },
+    {
+      "name": "イベント button",
+      "type": "button",
+      "location": "top_right",
+      "is_enabled": true,
+      "label_text": "イベント"
+    },
+    {
+      "name": "特典 button",
+      "type": "button",
+      "location": "top_right",
+      "is_enabled": true,
+      "label_text": "特典"
+    },
+    {
+      "name": "星昇神殿 button",
+      "type": "button",
+      "location": "middle_left",
+      "is_enabled": true,
+      "label_text": "星昇神殿"
+    },
+    {
+      "name": "研究部 (locked)",
+      "type": "button",
+      "location": "center",
+      "is_enabled": false,
+      "label_text": "研究部"
+    },
+    {
+      "name": "UR button",
+      "type": "button",
+      "location": "top_right",
+      "is_enabled": true,
+      "label_text": "UR"
+    },
+    {
+      "name": "運命の地 button",
+      "type": "button",
+      "location": "middle_right",
+      "is_enabled": true,
+      "label_text": "運命の地"
+    },
+    {
+      "name": "バス (NEW) button",
+      "type": "button",
+      "location": "top_right",
+      "is_enabled": true,
+      "label_text": "バス"
+    },
+    {
+      "name": "交換所 button",
+      "type": "button",
+      "location": "center",
+      "is_enabled": true,
+      "label_text": "交換所"
+    },
+    {
+      "name": "誓属祭壇 button",
+      "type": "button",
+      "location": "center",
+      "is_enabled": true,
+      "label_text": "誓属祭壇"
+    },
+    {
+      "name": "ギャラリー button",
+      "type": "button",
+      "location": "center",
+      "is_enabled": true,
+      "label_text": "ギャラリー"
+    },
+    {
+      "name": "魔術研究 (locked)",
+      "type": "button",
+      "location": "bottom_left",
+      "is_enabled": false,
+      "label_text": "魔術研究"
+    },
+    {
+      "name": "工房 (locked)",
+      "type": "button",
+      "location": "bottom_right",
+      "is_enabled": false,
+      "label_text": "工房"
+    },
+    {
+      "name": "召喚 button",
+      "type": "button",
+      "location": "bottom_center",
+      "is_enabled": true,
+      "label_text": "召喚"
+    },
+    {
+      "name": "Quest notification",
+      "type": "text",
+      "location": "bottom_left",
+      "is_enabled": null,
+      "label_text": "仲間1人がLv.20に到達(0/1)"
+    },
+    {
+      "name": "World chat feed",
+      "type": "text",
+      "location": "bottom_left",
+      "is_enabled": null,
+      "label_text": null
+    },
+    {
+      "name": "Bottom nav - ホーム",
+      "type": "nav",
+      "location": "bottom_center",
+      "is_enabled": true,
+      "label_text": "ホーム"
+    },
+    {
+      "name": "Bottom nav - 空中都市",
+      "type": "nav",
+      "location": "bottom_center",
+      "is_enabled": true,
+      "label_text": "空中都市"
+    },
+    {
+      "name": "Bottom nav - 冒険",
+      "type": "nav",
+      "location": "bottom_center",
+      "is_enabled": true,
+      "label_text": "冒険"
+    },
+    {
+      "name": "Bottom nav - 駒",
+      "type": "nav",
+      "location": "bottom_center",
+      "is_enabled": true,
+      "label_text": "駒"
+    },
+    {
+      "name": "Bottom nav - 商店",
+      "type": "nav",
+      "location": "bottom_center",
+      "is_enabled": true,
+      "label_text": "商店"
+    }
+  ],
+  "text_content": {
+    "EN": null,
+    "JP": [
+      "Userfr2yu",
+      "名声",
+      "0",
+      "1278",
+      "89.7K",
+      "英雄の祭壇",
+      "イベント",
+      "特典",
+      "星昇神殿",
+      "研究部",
+      "UR",
+      "運命の地",
+      "NEW",
+      "バス",
+      "交換所",
+      "誓属祭壇",
+      "新サーバ祭 5d19h",
+      "ギャラリー",
+      "タッチタイム 6d19h",
+      "魔術研究",
+      "工房",
+      "召喚",
+      "限定仲間 29d19h",
+      "1円ギフト",
+      "初購入ギフト",
+      "戦力強化",
+      "ホーム",
+      "空中都市",
+      "冒険",
+      "駒",
+      "商店",
+      "仲間1人がLv.20に到達(0/1)",
+      "世界 [Meow]Lv.1研究部【MVP...",
+      "世界 [Meow]Lv.1研究部【MVP..."
+    ],
+    "small": [
+      "0",
+      "1278"
+    ]
+  },
+  "available_actions": [
+    "Tap イベント",
+    "Tap 特典",
+    "Tap 星昇神殿",
+    "Tap UR",
+    "Tap 運命の地",
+    "Tap バス",
+    "Tap 交換所",
+    "Tap 誓属祭壇",
+    "Tap ギャラリー",
+    "Tap 召喚",
+    "Tap player avatar",
+    "Navigate to 空中都市",
+    "Navigate to 冒険",
+    "Navigate to 駒",
+    "Navigate to 商店"
+  ],
+  "game_extension": {
+    "sidebar_notifications": [
+      {
+        "label": "限定仲間",
+        "timer": "29d19h"
+      },
+      {
+        "label": "新サーバ祭",
+        "timer": "5d19h"
+      },
+      {
+        "label": "タッチタイム",
+        "timer": "6d19h"
+      }
+    ],
+    "bottom_nav": [
+      {
+        "label": "ホーム",
+        "is_active": true
+      },
+      {
+        "label": "空中都市",
+        "is_active": false
+      },
+      {
+        "label": "冒険",
+        "is_active": false
+      },
+      {
+        "label": "駒",
+        "is_active": false
+      },
+      {
+        "label": "商店",
+        "is_active": false
+      }
+    ]
+  },
+  "screen_notes": "Main hub menu (ホーム tab active). Multiple features locked: 英雄の祭壇, 研究部, 魔術研究, 工房. World chat visible at bottom. Quest tracker shows 仲間1人がLv.20に到達 (0/1). Currency: ダイヤ 1278, 名声 0, 戦力 89.7K.",
+  "annotation_metadata": {
+    "annotator": "migration_v1_to_v3",
+    "annotation_date": "2026-03-01",
+    "confidence": "medium",
+    "expected_difficulty": "medium",
+    "source": "v1_migration",
+    "v1_original_id": "highschooldxd_menu_071_JP",
+    "v1_screen_type": "menu"
+  }
+}

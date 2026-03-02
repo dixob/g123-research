@@ -1,0 +1,164 @@
+{
+  "screenshot_id": "highschooldxd_shop_104_en",
+  "game_name": "High School DxD: Operation Paradise Infinity",
+  "game_slug": "highschooldxd",
+  "language": "EN",
+  "screen_type": "idle",
+  "sub_type": null,
+  "game_state": {
+    "player_hp_current": null,
+    "player_hp_max": null,
+    "enemy_hp": null,
+    "turn_current": null,
+    "turn_max": null,
+    "stage_id": null,
+    "team_power_player": null,
+    "team_power_enemy": null,
+    "currency_premium": null,
+    "currency_tickets": null,
+    "auto_battle_active": null,
+    "auto_battle_timer": null,
+    "speed_multiplier": null
+  },
+  "gacha": null,
+  "post_battle_rewards": null,
+  "mvp": null,
+  "ui_elements": [
+    {
+      "name": "Top-up promo header",
+      "type": "text",
+      "location": "center",
+      "is_enabled": false,
+      "label_text": "1pt for 10,000 Jewel"
+    },
+    {
+      "name": "Cross-device promo text",
+      "type": "text",
+      "location": "center",
+      "is_enabled": false,
+      "label_text": "Data saved permanently, play across devices!"
+    },
+    {
+      "name": "Purchase button $0.01",
+      "type": "button",
+      "location": "bottom_center",
+      "is_enabled": true,
+      "label_text": "$0.01"
+    },
+    {
+      "name": "Arrow/next button",
+      "type": "button",
+      "location": "middle_right",
+      "is_enabled": true,
+      "label_text": null
+    },
+    {
+      "name": "Jewel item x10K",
+      "type": "card",
+      "location": "center",
+      "is_enabled": false,
+      "label_text": "x10K"
+    },
+    {
+      "name": "Gold coin x1M",
+      "type": "card",
+      "location": "center",
+      "is_enabled": false,
+      "label_text": "x1M"
+    },
+    {
+      "name": "Potion x500K",
+      "type": "card",
+      "location": "center",
+      "is_enabled": false,
+      "label_text": "x500K"
+    },
+    {
+      "name": "Purple crystal x500",
+      "type": "card",
+      "location": "center",
+      "is_enabled": false,
+      "label_text": "x500"
+    },
+    {
+      "name": "Close button",
+      "type": "button",
+      "location": "bottom_center",
+      "is_enabled": true,
+      "label_text": "Close"
+    },
+    {
+      "name": "Get indicator",
+      "type": "indicator",
+      "location": "center",
+      "is_enabled": false,
+      "label_text": "Get: x1"
+    }
+  ],
+  "text_content": {
+    "EN": [
+      "1pt for 10,000 Jewel",
+      "Data saved permanently, play across devices!",
+      "$0.01",
+      "x10K",
+      "x1M",
+      "x500K",
+      "x500",
+      "Get: x1",
+      "Close",
+      "Home",
+      "Sky City",
+      "Story",
+      "Pieces",
+      "Shop"
+    ],
+    "JP": null,
+    "small": [
+      "x500"
+    ]
+  },
+  "available_actions": [
+    "Tap $0.01 to purchase top-up offer",
+    "Tap arrow to see next offer",
+    "Tap Close to dismiss",
+    "Tap Home",
+    "Tap Sky City",
+    "Tap Story",
+    "Tap Pieces",
+    "Tap Shop"
+  ],
+  "game_extension": {
+    "bottom_nav": [
+      {
+        "label": "Home",
+        "is_active": false
+      },
+      {
+        "label": "Sky City",
+        "is_active": false
+      },
+      {
+        "label": "Story",
+        "is_active": false
+      },
+      {
+        "label": "Pieces",
+        "is_active": false
+      },
+      {
+        "label": "Shop",
+        "is_active": true
+      }
+    ]
+  },
+  "screen_notes": "Top-up/purchase popup offering massive currency bundle for $0.01. 'Data saved permanently, play across devices!' cross-promotion text. Characters shown are Sona (dark hair) and a blonde character. Background partially shows idle_overworld. Arrow button suggests multiple offers available to scroll through.",
+  "annotation_metadata": {
+    "annotator": "migration_v1_to_v3",
+    "annotation_date": "2026-03-01",
+    "confidence": "medium",
+    "expected_difficulty": "medium",
+    "source": "v1_migration",
+    "v1_original_id": "highschooldxd_shop_010_EN",
+    "v1_screen_type": "shop"
+  }
+}

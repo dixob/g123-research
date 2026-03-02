@@ -1,0 +1,257 @@
+{
+  "screenshot_id": "highschooldxd_menu_089_en",
+  "game_name": "High School DxD: Operation Paradise Infinity",
+  "game_slug": "highschooldxd",
+  "language": "EN",
+  "screen_type": "idle",
+  "sub_type": null,
+  "game_state": {
+    "player_hp_current": null,
+    "player_hp_max": null,
+    "enemy_hp": null,
+    "turn_current": null,
+    "turn_max": null,
+    "stage_id": null,
+    "team_power_player": null,
+    "team_power_enemy": null,
+    "currency_premium": null,
+    "currency_tickets": null,
+    "auto_battle_active": null,
+    "auto_battle_timer": null,
+    "speed_multiplier": null
+  },
+  "gacha": null,
+  "post_battle_rewards": null,
+  "mvp": null,
+  "ui_elements": [
+    {
+      "name": "Bottom nav - Home",
+      "type": "nav",
+      "location": "bottom_left",
+      "is_enabled": true,
+      "label_text": "Home"
+    },
+    {
+      "name": "Bottom nav - Sky City",
+      "type": "nav",
+      "location": "bottom_center",
+      "is_enabled": true,
+      "label_text": "Sky City"
+    },
+    {
+      "name": "Bottom nav - Story",
+      "type": "nav",
+      "location": "bottom_center",
+      "is_enabled": true,
+      "label_text": "Story"
+    },
+    {
+      "name": "Bottom nav - Pieces",
+      "type": "nav",
+      "location": "bottom_center",
+      "is_enabled": true,
+      "label_text": "Pieces"
+    },
+    {
+      "name": "Bottom nav - Shop",
+      "type": "nav",
+      "location": "bottom_right",
+      "is_enabled": true,
+      "label_text": "Shop"
+    },
+    {
+      "name": "Hero Altar button",
+      "type": "button",
+      "location": "top_right",
+      "is_enabled": true,
+      "label_text": "Hero Altar"
+    },
+    {
+      "name": "Event button",
+      "type": "button",
+      "location": "top_right",
+      "is_enabled": true,
+      "label_text": "Event"
+    },
+    {
+      "name": "Benefits button",
+      "type": "button",
+      "location": "top_right",
+      "is_enabled": true,
+      "label_text": "Benefits"
+    },
+    {
+      "name": "Summon button",
+      "type": "button",
+      "location": "center",
+      "is_enabled": true,
+      "label_text": "Summon"
+    },
+    {
+      "name": "Shop button",
+      "type": "button",
+      "location": "middle_left",
+      "is_enabled": true,
+      "label_text": "Shop"
+    },
+    {
+      "name": "Research Club button",
+      "type": "button",
+      "location": "top_right",
+      "is_enabled": true,
+      "label_text": "Research Club"
+    },
+    {
+      "name": "Pass button",
+      "type": "button",
+      "location": "top_right",
+      "is_enabled": true,
+      "label_text": "Pass"
+    },
+    {
+      "name": "New Server Festival button",
+      "type": "button",
+      "location": "top_right",
+      "is_enabled": true,
+      "label_text": "New Server Festival"
+    },
+    {
+      "name": "Tryst button",
+      "type": "button",
+      "location": "top_right",
+      "is_enabled": true,
+      "label_text": "Tryst"
+    },
+    {
+      "name": "Quest banner",
+      "type": "indicator",
+      "location": "bottom_center",
+      "is_enabled": true,
+      "label_text": "Ally x1 reaches Lv.20(0/1)"
+    },
+    {
+      "name": "User avatar",
+      "type": "indicator",
+      "location": "top_left",
+      "is_enabled": true,
+      "label_text": "Userfr2yu"
+    },
+    {
+      "name": "Ltd. Ally sidebar",
+      "type": "indicator",
+      "location": "middle_left",
+      "is_enabled": true,
+      "label_text": "Ltd. Ally 29d21h"
+    },
+    {
+      "name": "1 Yen Pack sidebar",
+      "type": "indicator",
+      "location": "middle_left",
+      "is_enabled": true,
+      "label_text": "1 Yen Pack"
+    }
+  ],
+  "text_content": {
+    "EN": [
+      "Home",
+      "Sky City",
+      "Story",
+      "Pieces",
+      "Shop",
+      "Hero Altar",
+      "Event",
+      "Benefits",
+      "Star Up",
+      "Research Club",
+      "Fated Land",
+      "Pass",
+      "Peerage Altar",
+      "New Server Festival",
+      "Tryst",
+      "Shop",
+      "Magic Research",
+      "Gallery",
+      "Summon",
+      "Studio",
+      "Ally x1 reaches Lv.20(0/1)",
+      "Fame",
+      "Ltd. Ally",
+      "29d21h",
+      "1 Yen Pack",
+      "PWR Boost",
+      "NEW",
+      "NEW"
+    ],
+    "JP": null,
+    "small": null
+  },
+  "available_actions": [
+    "Tap Hero Altar",
+    "Tap Event",
+    "Tap Benefits",
+    "Tap Research Club (NEW)",
+    "Tap Fated Land",
+    "Tap Pass (NEW)",
+    "Tap Peerage Altar",
+    "Tap New Server Festival",
+    "Tap Tryst",
+    "Tap Shop",
+    "Tap Magic Research",
+    "Tap Gallery",
+    "Tap Summon",
+    "Tap Studio",
+    "Tap Star Up",
+    "Navigate to Sky City",
+    "Navigate to Story",
+    "Navigate to Pieces",
+    "Navigate to Shop"
+  ],
+  "game_extension": {
+    "sidebar_notifications": [
+      {
+        "label": "Ltd. Ally",
+        "timer": "29d21h"
+      },
+      {
+        "label": "1 Yen Pack",
+        "timer": null
+      },
+      {
+        "label": "PWR Boost",
+        "timer": null
+      }
+    ],
+    "bottom_nav": [
+      {
+        "label": "Home",
+        "is_active": true
+      },
+      {
+        "label": "Sky City",
+        "is_active": false
+      },
+      {
+        "label": "Story",
+        "is_active": false
+      },
+      {
+        "label": "Pieces",
+        "is_active": false
+      },
+      {
+        "label": "Shop",
+        "is_active": false
+      }
+    ]
+  },
+  "screen_notes": "EN language main menu hub (Home tab active). Feature grid shows multiple entry points. Several buttons tagged NEW (Research Club, Pass). Right sidebar shows event timers. World chat visible at bottom showing [Meow] Lv.1 Research Clu... messages. Fame currency shown in header.",
+  "annotation_metadata": {
+    "annotator": "migration_v1_to_v3",
+    "annotation_date": "2026-03-01",
+    "confidence": "medium",
+    "expected_difficulty": "medium",
+    "source": "v1_migration",
+    "v1_original_id": "highschooldxd_menu_021_EN",
+    "v1_screen_type": "menu"
+  }
+}

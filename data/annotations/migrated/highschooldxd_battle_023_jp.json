@@ -1,0 +1,146 @@
+{
+  "screenshot_id": "highschooldxd_battle_023_jp",
+  "game_name": "High School DxD: Operation Paradise Infinity",
+  "game_slug": "highschooldxd",
+  "language": "JP",
+  "screen_type": "battle",
+  "sub_type": null,
+  "game_state": {
+    "player_hp_current": null,
+    "player_hp_max": null,
+    "enemy_hp": null,
+    "turn_current": null,
+    "turn_max": null,
+    "stage_id": null,
+    "team_power_player": null,
+    "team_power_enemy": null,
+    "currency_premium": null,
+    "currency_tickets": null,
+    "auto_battle_active": true,
+    "auto_battle_timer": null,
+    "speed_multiplier": null
+  },
+  "gacha": null,
+  "post_battle_rewards": null,
+  "mvp": null,
+  "ui_elements": [
+    {
+      "name": "Turn counter",
+      "type": "indicator",
+      "location": "top_center",
+      "is_enabled": null,
+      "label_text": "2 / 15 ターン"
+    },
+    {
+      "name": "Total damage indicator",
+      "type": "indicator",
+      "location": "top_center",
+      "is_enabled": null,
+      "label_text": "総ダメージ 636"
+    },
+    {
+      "name": "Retreat button",
+      "type": "button",
+      "location": "middle_left",
+      "is_enabled": true,
+      "label_text": null
+    },
+    {
+      "name": "Pause button",
+      "type": "button",
+      "location": "bottom_center",
+      "is_enabled": true,
+      "label_text": null
+    },
+    {
+      "name": "Speed x3 button",
+      "type": "toggle",
+      "location": "bottom_right",
+      "is_enabled": true,
+      "label_text": "×3"
+    },
+    {
+      "name": "Unit card tray",
+      "type": "card",
+      "location": "bottom_center",
+      "is_enabled": null,
+      "label_text": null
+    }
+  ],
+  "text_content": {
+    "EN": null,
+    "JP": [
+      "2 / 15 ターン",
+      "総ダメージ 636",
+      "黒龍の侍者",
+      "金色の聖剣士",
+      "赤龍帝",
+      "不死鳥の王子",
+      "堕天使の刺客"
+    ],
+    "small": null
+  },
+  "available_actions": [
+    "Tap Retreat button",
+    "Tap Pause button",
+    "Toggle speed x3"
+  ],
+  "game_extension": {
+    "total_damage": 636,
+    "combat_indicators": {
+      "advantage_label": null,
+      "debuff_labels": null,
+      "crit_label": null,
+      "floating_damages": [
+        "636"
+      ]
+    },
+    "unit_roster": [
+      {
+        "unit_name": "黒龍の侍者",
+        "stars": null,
+        "rarity": null,
+        "is_active": null,
+        "position": 1
+      },
+      {
+        "unit_name": "金色の聖剣士",
+        "stars": null,
+        "rarity": null,
+        "is_active": null,
+        "position": 2
+      },
+      {
+        "unit_name": "赤龍帝",
+        "stars": null,
+        "rarity": null,
+        "is_active": null,
+        "position": 3
+      },
+      {
+        "unit_name": "不死鳥の王子",
+        "stars": null,
+        "rarity": null,
+        "is_active": null,
+        "position": 4
+      },
+      {
+        "unit_name": "堕天使の刺客",
+        "stars": null,
+        "rarity": null,
+        "is_active": null,
+        "position": 5
+      }
+    ]
+  },
+  "screen_notes": "Turn 2/15. Large damage spike 636 visible — likely AoE or combo hit.",
+  "annotation_metadata": {
+    "annotator": "migration_v1_to_v3",
+    "annotation_date": "2026-03-01",
+    "confidence": "medium",
+    "expected_difficulty": "medium",
+    "source": "v1_migration",
+    "v1_original_id": "highschooldxd_battle_062_JP",
+    "v1_screen_type": "battle"
+  }
+}

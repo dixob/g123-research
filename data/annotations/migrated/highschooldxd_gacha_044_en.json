@@ -1,0 +1,117 @@
+{
+  "screenshot_id": "highschooldxd_gacha_044_en",
+  "game_name": "High School DxD: Operation Paradise Infinity",
+  "game_slug": "highschooldxd",
+  "language": "EN",
+  "screen_type": "gacha",
+  "sub_type": null,
+  "game_state": {
+    "player_hp_current": null,
+    "player_hp_max": null,
+    "enemy_hp": null,
+    "turn_current": null,
+    "turn_max": null,
+    "stage_id": null,
+    "team_power_player": null,
+    "team_power_enemy": null,
+    "currency_premium": null,
+    "currency_tickets": null,
+    "auto_battle_active": null,
+    "auto_battle_timer": null,
+    "speed_multiplier": null
+  },
+  "gacha": {
+    "phase": "reveal_single",
+    "banner_type": "standard",
+    "banner_name": null,
+    "pull_cost_type": null,
+    "pity_current": null,
+    "pity_max": null,
+    "free_pull_available": null,
+    "free_pull_timer": null,
+    "revealed_cards": [
+      {
+        "card_name": "Speed Strike",
+        "rarity": null,
+        "stars": 2,
+        "is_new": false
+      }
+    ]
+  },
+  "post_battle_rewards": null,
+  "mvp": null,
+  "ui_elements": [
+    {
+      "name": "Summon header",
+      "type": "text",
+      "location": "top_left",
+      "is_enabled": null,
+      "label_text": "Summon"
+    },
+    {
+      "name": "Summon ticket count",
+      "type": "indicator",
+      "location": "top_center",
+      "is_enabled": null,
+      "label_text": "31"
+    },
+    {
+      "name": "Card reveal",
+      "type": "card",
+      "location": "center",
+      "is_enabled": null,
+      "label_text": "Speed Strike"
+    },
+    {
+      "name": "Close button",
+      "type": "button",
+      "location": "bottom_left",
+      "is_enabled": true,
+      "label_text": "Close"
+    },
+    {
+      "name": "Summon x1 button",
+      "type": "button",
+      "location": "bottom_right",
+      "is_enabled": true,
+      "label_text": "Summon x1"
+    },
+    {
+      "name": "Remaining tickets",
+      "type": "indicator",
+      "location": "bottom_center",
+      "is_enabled": null,
+      "label_text": "1"
+    }
+  ],
+  "text_content": {
+    "EN": [
+      "Summon",
+      "31",
+      "Speed Strike",
+      "Close",
+      "Summon x1",
+      "1"
+    ],
+    "JP": null,
+    "small": [
+      "31",
+      "1"
+    ]
+  },
+  "available_actions": [
+    "Tap Close",
+    "Tap Summon x1"
+  ],
+  "game_extension": null,
+  "screen_notes": "Single card reveal. Card shows 2-star (2 yellow stars) female character in black uniform with brown/dark hair tied back. Card title: 'Speed Strike'. No character name shown on this reveal screen (name shown on detail screen). No NEW badge visible. Confetti animation in background. 1 ticket remaining shown near Summon x1 button.",
+  "annotation_metadata": {
+    "annotator": "migration_v1_to_v3",
+    "annotation_date": "2026-03-01",
+    "confidence": "medium",
+    "expected_difficulty": "medium",
+    "source": "v1_migration",
+    "v1_original_id": "highschooldxd_gacha_026_EN",
+    "v1_screen_type": "gacha"
+  }
+}

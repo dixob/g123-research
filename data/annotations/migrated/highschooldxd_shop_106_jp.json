@@ -1,0 +1,179 @@
+{
+  "screenshot_id": "highschooldxd_shop_106_jp",
+  "game_name": "High School DxD: Operation Paradise Infinity",
+  "game_slug": "highschooldxd",
+  "language": "JP",
+  "screen_type": "idle",
+  "sub_type": null,
+  "game_state": {
+    "player_hp_current": null,
+    "player_hp_max": null,
+    "enemy_hp": null,
+    "turn_current": null,
+    "turn_max": null,
+    "stage_id": null,
+    "team_power_player": null,
+    "team_power_enemy": null,
+    "currency_premium": null,
+    "currency_tickets": null,
+    "auto_battle_active": null,
+    "auto_battle_timer": null,
+    "speed_multiplier": null
+  },
+  "gacha": null,
+  "post_battle_rewards": null,
+  "mvp": null,
+  "ui_elements": [
+    {
+      "name": "Shop header",
+      "type": "text",
+      "location": "top_left",
+      "is_enabled": null,
+      "label_text": "商店"
+    },
+    {
+      "name": "Banner - おトク商品 毎日登場",
+      "type": "indicator",
+      "location": "top_center",
+      "is_enabled": null,
+      "label_text": "おトク商品 毎日登場！"
+    },
+    {
+      "name": "Refresh timer",
+      "type": "indicator",
+      "location": "top_center",
+      "is_enabled": null,
+      "label_text": "次回更新：19:18:28"
+    },
+    {
+      "name": "全員特典 free item row",
+      "type": "button",
+      "location": "top_center",
+      "is_enabled": true,
+      "label_text": "無料"
+    },
+    {
+      "name": "毎日特価 row",
+      "type": "button",
+      "location": "center",
+      "is_enabled": true,
+      "label_text": "$0.79"
+    },
+    {
+      "name": "毎日支援 row",
+      "type": "button",
+      "location": "center",
+      "is_enabled": true,
+      "label_text": "$3.69"
+    },
+    {
+      "name": "毎日厳選 row",
+      "type": "button",
+      "location": "center",
+      "is_enabled": true,
+      "label_text": "$3.69"
+    },
+    {
+      "name": "一括購入 button",
+      "type": "button",
+      "location": "bottom_center",
+      "is_enabled": true,
+      "label_text": "一括購入！ $7.09"
+    },
+    {
+      "name": "毎日厳選 tab",
+      "type": "nav",
+      "location": "bottom_center",
+      "is_enabled": true,
+      "label_text": "毎日厳選"
+    },
+    {
+      "name": "月パス tab",
+      "type": "nav",
+      "location": "bottom_center",
+      "is_enabled": true,
+      "label_text": "月パス"
+    },
+    {
+      "name": "連続購入 tab",
+      "type": "nav",
+      "location": "bottom_center",
+      "is_enabled": true,
+      "label_text": "連続購入"
+    },
+    {
+      "name": "Back button",
+      "type": "button",
+      "location": "bottom_left",
+      "is_enabled": true,
+      "label_text": null
+    }
+  ],
+  "text_content": {
+    "EN": null,
+    "JP": [
+      "商店",
+      "名声 0",
+      "1258",
+      "おトク商品 毎日登場！",
+      "次回更新：19:18:28",
+      "全員特典",
+      "本日在庫：1/1",
+      "毎日特価",
+      "本日在庫：1/1",
+      "6000%お得",
+      "毎日支援",
+      "本日在庫：1/1",
+      "2000%お得",
+      "毎日厳選",
+      "本日在庫：1/1",
+      "2000%お得",
+      "一括購入！",
+      "価格 $9.00 →",
+      "$7.09",
+      "獲得 x980",
+      "毎日厳選",
+      "月パス",
+      "連続購入"
+    ],
+    "small": [
+      "1258"
+    ]
+  },
+  "available_actions": [
+    "Tap 全員特典 free item",
+    "Tap 毎日特価 purchase ($0.79)",
+    "Tap 毎日支援 purchase ($3.69)",
+    "Tap 毎日厳選 purchase ($3.69)",
+    "Tap 一括購入 bundle ($7.09)",
+    "Navigate to 月パス tab",
+    "Navigate to 連続購入 tab",
+    "Tap Back button"
+  ],
+  "game_extension": {
+    "bottom_nav": [
+      {
+        "label": "毎日厳選",
+        "is_active": true
+      },
+      {
+        "label": "月パス",
+        "is_active": false
+      },
+      {
+        "label": "連続購入",
+        "is_active": false
+      }
+    ]
+  },
+  "screen_notes": "Shop - 毎日厳選 (Daily Select) tab active. Currency: ダイヤ 1258. All 4 rows have stock 1/1. 全員特典 free item available. 一括購入 bundle pricing shown as $9.00→$7.09.",
+  "annotation_metadata": {
+    "annotator": "migration_v1_to_v3",
+    "annotation_date": "2026-03-01",
+    "confidence": "medium",
+    "expected_difficulty": "medium",
+    "source": "v1_migration",
+    "v1_original_id": "highschooldxd_shop_072_JP",
+    "v1_screen_type": "shop"
+  }
+}

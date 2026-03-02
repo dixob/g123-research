@@ -1,0 +1,223 @@
+{
+  "screenshot_id": "highschooldxd_shop_105_en",
+  "game_name": "High School DxD: Operation Paradise Infinity",
+  "game_slug": "highschooldxd",
+  "language": "EN",
+  "screen_type": "idle",
+  "sub_type": null,
+  "game_state": {
+    "player_hp_current": null,
+    "player_hp_max": null,
+    "enemy_hp": null,
+    "turn_current": null,
+    "turn_max": null,
+    "stage_id": null,
+    "team_power_player": null,
+    "team_power_enemy": null,
+    "currency_premium": null,
+    "currency_tickets": null,
+    "auto_battle_active": null,
+    "auto_battle_timer": null,
+    "speed_multiplier": null
+  },
+  "gacha": null,
+  "post_battle_rewards": null,
+  "mvp": null,
+  "ui_elements": [
+    {
+      "name": "Exchange header",
+      "type": "text",
+      "location": "top_left",
+      "is_enabled": null,
+      "label_text": "Exchange"
+    },
+    {
+      "name": "Summon currency indicator",
+      "type": "indicator",
+      "location": "top_right",
+      "is_enabled": null,
+      "label_text": "1058"
+    },
+    {
+      "name": "Item slot 1 - Free item",
+      "type": "card",
+      "location": "middle_left",
+      "is_enabled": true,
+      "label_text": "Free / Qty today: 1/1"
+    },
+    {
+      "name": "Item slot 2 - -60% item",
+      "type": "card",
+      "location": "middle_right",
+      "is_enabled": true,
+      "label_text": "-60% / 200 / Qty today: 1/1"
+    },
+    {
+      "name": "Item slot 3 - -90% item",
+      "type": "card",
+      "location": "middle_left",
+      "is_enabled": true,
+      "label_text": "-90% / 20 / For Fame 2"
+    },
+    {
+      "name": "Item slot 4 - Attr. Crystal",
+      "type": "card",
+      "location": "middle_right",
+      "is_enabled": false,
+      "label_text": "-50% / Attr. Crystal / 1000 / Qty today: 2/2"
+    },
+    {
+      "name": "Item slot 5 - -50% card left",
+      "type": "card",
+      "location": "middle_left",
+      "is_enabled": false,
+      "label_text": "-50% / 50 / Qty today: 5/5"
+    },
+    {
+      "name": "Item slot 6 - -50% card right",
+      "type": "card",
+      "location": "middle_right",
+      "is_enabled": false,
+      "label_text": "-50% / 100 / Qty today: 5/5"
+    },
+    {
+      "name": "Item slot 7 - -20% ticket",
+      "type": "card",
+      "location": "middle_left",
+      "is_enabled": true,
+      "label_text": "-20% / 400"
+    },
+    {
+      "name": "Item slot 8 - Purple Scroll",
+      "type": "card",
+      "location": "middle_right",
+      "is_enabled": true,
+      "label_text": "-25% / Purple Scroll / 1300"
+    },
+    {
+      "name": "Buy All button",
+      "type": "button",
+      "location": "bottom_center",
+      "is_enabled": true,
+      "label_text": "Buy All"
+    },
+    {
+      "name": "Select Exc. tab",
+      "type": "nav",
+      "location": "bottom_center",
+      "is_enabled": true,
+      "label_text": "Select Exc."
+    },
+    {
+      "name": "Barg. tab",
+      "type": "nav",
+      "location": "bottom_center",
+      "is_enabled": true,
+      "label_text": "Barg."
+    },
+    {
+      "name": "Story Exc. tab",
+      "type": "nav",
+      "location": "bottom_left",
+      "is_enabled": false,
+      "label_text": "Story Exc."
+    },
+    {
+      "name": "Duel Ex. tab",
+      "type": "nav",
+      "location": "bottom_center",
+      "is_enabled": false,
+      "label_text": "Duel Ex."
+    },
+    {
+      "name": "Ally Exc. tab",
+      "type": "nav",
+      "location": "bottom_center",
+      "is_enabled": false,
+      "label_text": "Ally Exc."
+    },
+    {
+      "name": "Back button",
+      "type": "button",
+      "location": "bottom_left",
+      "is_enabled": true,
+      "label_text": null
+    },
+    {
+      "name": "Character banner",
+      "type": "card",
+      "location": "top_center",
+      "is_enabled": null,
+      "label_text": null
+    }
+  ],
+  "text_content": {
+    "EN": [
+      "Exchange",
+      "1058",
+      "-60%",
+      "-90%",
+      "-50%",
+      "-50%",
+      "-50%",
+      "-25%",
+      "-20%",
+      "Attr. Crystal",
+      "1000",
+      "Qty today: 2/2",
+      "Purple Scroll",
+      "1300",
+      "Free",
+      "Qty today: 1/1",
+      "200",
+      "Qty today: 1/1",
+      "20",
+      "For Fame 2",
+      "50",
+      "Qty today: 5/5",
+      "100",
+      "Qty today: 5/5",
+      "400",
+      "Buy All",
+      "Select Exc.",
+      "Barg.",
+      "Story Exc.",
+      "Duel Ex.",
+      "Ally Exc.",
+      "Select Exc."
+    ],
+    "JP": null,
+    "small": [
+      "1058",
+      "1000",
+      "1300",
+      "200",
+      "20",
+      "50",
+      "100",
+      "400"
+    ]
+  },
+  "available_actions": [
+    "Tap Buy All",
+    "Tap Free item slot 1",
+    "Tap -60% item slot 2",
+    "Tap -90% item slot 3 (For Fame)",
+    "Tap -20% ticket slot 7",
+    "Tap Purple Scroll slot 8",
+    "Switch to Barg. tab",
+    "Switch to Select Exc. tab",
+    "Tap Back"
+  ],
+  "game_extension": null,
+  "screen_notes": "Exchange sub-screen within the Event > Opening Fest flow. Accessed from event lobby. Header shows 'Exchange'. Items shown with discount badges (-60%, -90%, -50%, -25%, -20%). Some slots show Qty today: X/X with 0 remaining (effectively sold out for today — is_enabled false). Item names partially cropped on left-side cards (only right portion visible). Character artwork (red-haired female) shown in top banner. Bottom tab bar shows Story Exc./Duel Ex./Ally Exc. as locked/greyed tabs.",
+  "annotation_metadata": {
+    "annotator": "migration_v1_to_v3",
+    "annotation_date": "2026-03-01",
+    "confidence": "medium",
+    "expected_difficulty": "medium",
+    "source": "v1_migration",
+    "v1_original_id": "highschooldxd_shop_022_EN",
+    "v1_screen_type": "shop"
+  }
+}

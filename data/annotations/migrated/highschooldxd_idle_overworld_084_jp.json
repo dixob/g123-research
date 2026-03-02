@@ -1,0 +1,312 @@
+{
+  "screenshot_id": "highschooldxd_idle_overworld_084_jp",
+  "game_name": "High School DxD: Operation Paradise Infinity",
+  "game_slug": "highschooldxd",
+  "language": "JP",
+  "screen_type": "idle",
+  "sub_type": null,
+  "game_state": {
+    "player_hp_current": null,
+    "player_hp_max": null,
+    "enemy_hp": null,
+    "turn_current": null,
+    "turn_max": null,
+    "stage_id": null,
+    "team_power_player": null,
+    "team_power_enemy": null,
+    "currency_premium": null,
+    "currency_tickets": null,
+    "auto_battle_active": true,
+    "auto_battle_timer": "00:11:09",
+    "speed_multiplier": null
+  },
+  "gacha": null,
+  "post_battle_rewards": null,
+  "mvp": null,
+  "ui_elements": [
+    {
+      "name": "User avatar",
+      "type": "indicator",
+      "location": "top_left",
+      "is_enabled": true,
+      "label_text": "Userfr2yu"
+    },
+    {
+      "name": "Player power",
+      "type": "indicator",
+      "location": "top_left",
+      "is_enabled": null,
+      "label_text": "7240"
+    },
+    {
+      "name": "Fame currency",
+      "type": "indicator",
+      "location": "top_center",
+      "is_enabled": null,
+      "label_text": "名声 0"
+    },
+    {
+      "name": "Summon gem currency",
+      "type": "indicator",
+      "location": "top_center",
+      "is_enabled": null,
+      "label_text": "1058"
+    },
+    {
+      "name": "Gold currency",
+      "type": "indicator",
+      "location": "top_center",
+      "is_enabled": null,
+      "label_text": "64.6K"
+    },
+    {
+      "name": "Map button",
+      "type": "button",
+      "location": "middle_left",
+      "is_enabled": true,
+      "label_text": "マップ"
+    },
+    {
+      "name": "Receive/inbox button",
+      "type": "button",
+      "location": "middle_left",
+      "is_enabled": true,
+      "label_text": "受取"
+    },
+    {
+      "name": "Charge reward button",
+      "type": "button",
+      "location": "middle_left",
+      "is_enabled": true,
+      "label_text": "チャージで報酬 5d21h"
+    },
+    {
+      "name": "8 day login button",
+      "type": "button",
+      "location": "middle_left",
+      "is_enabled": true,
+      "label_text": "8日ログイン 6d21h"
+    },
+    {
+      "name": "First purchase gift button",
+      "type": "button",
+      "location": "middle_left",
+      "is_enabled": true,
+      "label_text": "初購入ギフト"
+    },
+    {
+      "name": "Message button",
+      "type": "button",
+      "location": "middle_left",
+      "is_enabled": true,
+      "label_text": "メッセージ"
+    },
+    {
+      "name": "Auto battle button",
+      "type": "button",
+      "location": "middle_left",
+      "is_enabled": true,
+      "label_text": "自動戦闘"
+    },
+    {
+      "name": "Stage label",
+      "type": "indicator",
+      "location": "top_center",
+      "is_enabled": null,
+      "label_text": "校門1-8 (8/40)"
+    },
+    {
+      "name": "Battle timer",
+      "type": "indicator",
+      "location": "bottom_left",
+      "is_enabled": null,
+      "label_text": "00:11:09"
+    },
+    {
+      "name": "Quest banner",
+      "type": "indicator",
+      "location": "bottom_center",
+      "is_enabled": true,
+      "label_text": "仲間1人がLv.20に到達(0/1)"
+    },
+    {
+      "name": "Challenge button",
+      "type": "button",
+      "location": "bottom_right",
+      "is_enabled": true,
+      "label_text": "挑戦"
+    },
+    {
+      "name": "Event button top-right 1-10",
+      "type": "button",
+      "location": "top_right",
+      "is_enabled": true,
+      "label_text": "1-10"
+    },
+    {
+      "name": "New server button",
+      "type": "button",
+      "location": "top_right",
+      "is_enabled": true,
+      "label_text": "新サーバ祭 5d21h"
+    },
+    {
+      "name": "1 Yen gift button",
+      "type": "button",
+      "location": "top_right",
+      "is_enabled": true,
+      "label_text": "1円ギフト"
+    },
+    {
+      "name": "Bottom nav - Home",
+      "type": "nav",
+      "location": "bottom_left",
+      "is_enabled": true,
+      "label_text": "ホーム"
+    },
+    {
+      "name": "Bottom nav - Sky City",
+      "type": "nav",
+      "location": "bottom_center",
+      "is_enabled": true,
+      "label_text": "空中都市"
+    },
+    {
+      "name": "Bottom nav - Adventure",
+      "type": "nav",
+      "location": "bottom_center",
+      "is_enabled": false,
+      "label_text": "冒険"
+    },
+    {
+      "name": "Bottom nav - Pieces",
+      "type": "nav",
+      "location": "bottom_center",
+      "is_enabled": true,
+      "label_text": "駒"
+    },
+    {
+      "name": "Bottom nav - Shop",
+      "type": "nav",
+      "location": "bottom_right",
+      "is_enabled": true,
+      "label_text": "商店"
+    }
+  ],
+  "text_content": {
+    "EN": null,
+    "JP": [
+      "Userfr2yu",
+      "7240",
+      "名声",
+      "0",
+      "1058",
+      "64.6K",
+      "マップ",
+      "受取",
+      "チャージで報酬",
+      "5d21h",
+      "8日ログイン",
+      "6d21h",
+      "初購入ギフト",
+      "メッセージ",
+      "自動戦闘",
+      "校門1-8 (8/40)",
+      "00:11:09",
+      "仲間1人がLv.20に到達(0/1)",
+      "挑戦",
+      "ホーム",
+      "空中都市",
+      "冒険",
+      "駒",
+      "商店",
+      "-156",
+      "-147"
+    ],
+    "small": [
+      "7240",
+      "0",
+      "1058",
+      "00:11:09"
+    ]
+  },
+  "available_actions": [
+    "Tap マップ",
+    "Tap 受取",
+    "Tap チャージで報酬",
+    "Tap 8日ログイン",
+    "Tap 初購入ギフト",
+    "Tap メッセージ",
+    "Tap 自動戦闘",
+    "Tap 挑戦",
+    "Navigate to 空中都市",
+    "Navigate to 冒険",
+    "Navigate to 駒",
+    "Navigate to 商店"
+  ],
+  "game_extension": {
+    "combat_indicators": {
+      "advantage_label": null,
+      "debuff_labels": null,
+      "crit_label": null,
+      "floating_damages": [
+        "-156",
+        "-147"
+      ]
+    },
+    "sidebar_notifications": [
+      {
+        "label": "チャージで報酬",
+        "timer": "5d21h"
+      },
+      {
+        "label": "8日ログイン",
+        "timer": "6d21h"
+      },
+      {
+        "label": "初購入ギフト",
+        "timer": null
+      },
+      {
+        "label": "メッセージ",
+        "timer": null
+      },
+      {
+        "label": "自動戦闘",
+        "timer": null
+      }
+    ],
+    "bottom_nav": [
+      {
+        "label": "ホーム",
+        "is_active": true
+      },
+      {
+        "label": "空中都市",
+        "is_active": false
+      },
+      {
+        "label": "冒険",
+        "is_active": false
+      },
+      {
+        "label": "駒",
+        "is_active": false
+      },
+      {
+        "label": "商店",
+        "is_active": false
+      }
+    ]
+  },
+  "screen_notes": "JP idle overworld at 校門1-8, stage progress 8/40. Auto-battle active with timer 00:11:09. Two floating damage numbers visible: -156 and -147. Characters mid-combat animation. Two sidebar notification groups visible (left: 5 items; right: event buttons). Near-duplicate series: #35, #36, #37, #38 are consecutive auto-battle frames from same stage.",
+  "annotation_metadata": {
+    "annotator": "migration_v1_to_v3",
+    "annotation_date": "2026-03-01",
+    "confidence": "medium",
+    "expected_difficulty": "medium",
+    "source": "v1_migration",
+    "v1_original_id": "highschooldxd_idle_overworld_035_JP",
+    "v1_screen_type": "idle_overworld"
+  }
+}

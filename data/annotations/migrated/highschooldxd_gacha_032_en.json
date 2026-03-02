@@ -1,0 +1,124 @@
+{
+  "screenshot_id": "highschooldxd_gacha_032_en",
+  "game_name": "High School DxD: Operation Paradise Infinity",
+  "game_slug": "highschooldxd",
+  "language": "EN",
+  "screen_type": "gacha",
+  "sub_type": null,
+  "game_state": {
+    "player_hp_current": null,
+    "player_hp_max": null,
+    "enemy_hp": null,
+    "turn_current": null,
+    "turn_max": null,
+    "stage_id": null,
+    "team_power_player": null,
+    "team_power_enemy": null,
+    "currency_premium": null,
+    "currency_tickets": null,
+    "auto_battle_active": null,
+    "auto_battle_timer": null,
+    "speed_multiplier": null
+  },
+  "gacha": {
+    "phase": "lobby",
+    "banner_type": "standard",
+    "banner_name": null,
+    "pull_cost_type": null,
+    "pity_current": 440,
+    "pity_max": 1000,
+    "free_pull_available": true,
+    "free_pull_timer": null,
+    "revealed_cards": null
+  },
+  "post_battle_rewards": null,
+  "mvp": null,
+  "ui_elements": [
+    {
+      "name": "Free pull button",
+      "type": "button",
+      "location": "bottom_left",
+      "is_enabled": true,
+      "label_text": "無料召喚"
+    },
+    {
+      "name": "10-pull button",
+      "type": "button",
+      "location": "bottom_right",
+      "is_enabled": true,
+      "label_text": "召喚10回"
+    },
+    {
+      "name": "Pity tracker",
+      "type": "indicator",
+      "location": "top_right",
+      "is_enabled": null,
+      "label_text": "440/1000"
+    },
+    {
+      "name": "Standard banner tab",
+      "type": "nav",
+      "location": "bottom_left",
+      "is_enabled": true,
+      "label_text": "通常召喚"
+    },
+    {
+      "name": "Special banner tab",
+      "type": "nav",
+      "location": "bottom_right",
+      "is_enabled": false,
+      "label_text": "特別召喚"
+    },
+    {
+      "name": "Summon button",
+      "type": "button",
+      "location": "bottom_center",
+      "is_enabled": true,
+      "label_text": "召喚"
+    },
+    {
+      "name": "Attribute summon button",
+      "type": "button",
+      "location": "bottom_right",
+      "is_enabled": true,
+      "label_text": "属性召喚"
+    }
+  ],
+  "text_content": {
+    "EN": null,
+    "JP": [
+      "召喚",
+      "通常召喚",
+      "無料召喚",
+      "召喚10回",
+      "特別召喚",
+      "21:40:32",
+      "召喚",
+      "属性召喚",
+      "440/1000",
+      "Pt召喚"
+    ],
+    "small": [
+      "21:40:32",
+      "440/1000"
+    ]
+  },
+  "available_actions": [
+    "Tap 無料召喚 (free pull)",
+    "Tap 召喚10回 (10-pull)",
+    "Tap 特別召喚 tab (switch banner)",
+    "Tap 召喚",
+    "Tap 属性召喚"
+  ],
+  "game_extension": null,
+  "screen_notes": "EN gacha lobby, standard banner (通常召喚) active. Free pull available. Pity 440/1000. Special banner timer 21:40:32. Reconstructed from session log screenshot 116.",
+  "annotation_metadata": {
+    "annotator": "migration_v1_to_v3",
+    "annotation_date": "2026-03-01",
+    "confidence": "medium",
+    "expected_difficulty": "medium",
+    "source": "v1_migration",
+    "v1_original_id": "highschooldxd_gacha_009_EN",
+    "v1_screen_type": "gacha"
+  }
+}

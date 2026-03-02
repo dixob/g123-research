@@ -1,0 +1,119 @@
+{
+  "screenshot_id": "highschooldxd_gacha_050_en",
+  "game_name": "High School DxD: Operation Paradise Infinity",
+  "game_slug": "highschooldxd",
+  "language": "EN",
+  "screen_type": "gacha",
+  "sub_type": null,
+  "game_state": {
+    "player_hp_current": null,
+    "player_hp_max": null,
+    "enemy_hp": null,
+    "turn_current": null,
+    "turn_max": null,
+    "stage_id": null,
+    "team_power_player": null,
+    "team_power_enemy": null,
+    "currency_premium": null,
+    "currency_tickets": null,
+    "auto_battle_active": null,
+    "auto_battle_timer": null,
+    "speed_multiplier": null
+  },
+  "gacha": {
+    "phase": "reveal_single",
+    "banner_type": "standard",
+    "banner_name": null,
+    "pull_cost_type": null,
+    "pity_current": null,
+    "pity_max": null,
+    "free_pull_available": null,
+    "free_pull_timer": null,
+    "revealed_cards": [
+      {
+        "card_name": "Master Scouter",
+        "rarity": "SR",
+        "stars": 3,
+        "is_new": false
+      }
+    ]
+  },
+  "post_battle_rewards": null,
+  "mvp": null,
+  "ui_elements": [
+    {
+      "name": "Rarity badge",
+      "type": "indicator",
+      "location": "top_left",
+      "is_enabled": null,
+      "label_text": "SR"
+    },
+    {
+      "name": "Star rating",
+      "type": "indicator",
+      "location": "top_center",
+      "is_enabled": null,
+      "label_text": "3 stars"
+    },
+    {
+      "name": "Card name",
+      "type": "text",
+      "location": "bottom_center",
+      "is_enabled": null,
+      "label_text": "Master Scouter"
+    },
+    {
+      "name": "Character name",
+      "type": "text",
+      "location": "bottom_center",
+      "is_enabled": null,
+      "label_text": "Kiryu Aika"
+    },
+    {
+      "name": "Skill type",
+      "type": "text",
+      "location": "bottom_center",
+      "is_enabled": null,
+      "label_text": "Doze · Full Heal"
+    },
+    {
+      "name": "Skill icons",
+      "type": "indicator",
+      "location": "bottom_center",
+      "is_enabled": null,
+      "label_text": null
+    },
+    {
+      "name": "Back button",
+      "type": "button",
+      "location": "bottom_left",
+      "is_enabled": true,
+      "label_text": null
+    }
+  ],
+  "text_content": {
+    "EN": [
+      "SR",
+      "Master Scouter",
+      "Kiryu Aika",
+      "Doze",
+      "Full Heal"
+    ],
+    "JP": null,
+    "small": null
+  },
+  "available_actions": [
+    "Tap Back"
+  ],
+  "game_extension": null,
+  "screen_notes": "Gacha card detail reveal screen (full-art view). Brown-haired female character (Kiryu Aika) shown in school uniform with glasses. SR rarity badge, 3 stars. Card: Master Scouter. Skill: Doze · Full Heal. 3 skill icons at bottom. Attribute icon (purple) visible top-left of character statuette. No NEW badge — not a first-time pull reveal screen. Statuette chibi visible bottom-left.",
+  "annotation_metadata": {
+    "annotator": "migration_v1_to_v3",
+    "annotation_date": "2026-03-01",
+    "confidence": "medium",
+    "expected_difficulty": "medium",
+    "source": "v1_migration",
+    "v1_original_id": "highschooldxd_gacha_032_EN",
+    "v1_screen_type": "gacha"
+  }
+}

@@ -1,0 +1,149 @@
+{
+  "screenshot_id": "highschooldxd_character_028_jp",
+  "game_name": "High School DxD: Operation Paradise Infinity",
+  "game_slug": "highschooldxd",
+  "language": "JP",
+  "screen_type": "idle",
+  "sub_type": null,
+  "game_state": {
+    "player_hp_current": null,
+    "player_hp_max": null,
+    "enemy_hp": null,
+    "turn_current": null,
+    "turn_max": null,
+    "stage_id": null,
+    "team_power_player": null,
+    "team_power_enemy": null,
+    "currency_premium": null,
+    "currency_tickets": null,
+    "auto_battle_active": null,
+    "auto_battle_timer": null,
+    "speed_multiplier": null
+  },
+  "gacha": null,
+  "post_battle_rewards": null,
+  "mvp": null,
+  "ui_elements": [
+    {
+      "name": "Character name header",
+      "type": "text",
+      "location": "top_left",
+      "is_enabled": null,
+      "label_text": "堕天使の刺客 カラワーナ"
+    },
+    {
+      "name": "Level indicator",
+      "type": "indicator",
+      "location": "top_left",
+      "is_enabled": null,
+      "label_text": "Lv.6/100"
+    },
+    {
+      "name": "Skill tooltip overlay",
+      "type": "overlay",
+      "location": "center",
+      "is_enabled": null,
+      "label_text": "光槍"
+    },
+    {
+      "name": "5 UP button",
+      "type": "button",
+      "location": "bottom_center",
+      "is_enabled": true,
+      "label_text": "5 UP"
+    },
+    {
+      "name": "星UP tab",
+      "type": "button",
+      "location": "bottom_left",
+      "is_enabled": true,
+      "label_text": "星UP"
+    },
+    {
+      "name": "装備 tab",
+      "type": "button",
+      "location": "bottom_center",
+      "is_enabled": true,
+      "label_text": "装備"
+    },
+    {
+      "name": "能力値 tab",
+      "type": "button",
+      "location": "bottom_right",
+      "is_enabled": true,
+      "label_text": "能力値"
+    },
+    {
+      "name": "Back button",
+      "type": "button",
+      "location": "bottom_left",
+      "is_enabled": true,
+      "label_text": null
+    },
+    {
+      "name": "キャラ紹介 button",
+      "type": "button",
+      "location": "top_right",
+      "is_enabled": true,
+      "label_text": "キャラ紹介"
+    },
+    {
+      "name": "スキン button",
+      "type": "button",
+      "location": "top_right",
+      "is_enabled": true,
+      "label_text": "スキン"
+    }
+  ],
+  "text_content": {
+    "EN": null,
+    "JP": [
+      "堕天使の刺客",
+      "カラワーナ",
+      "Lv.6/100",
+      "光槍",
+      "種類：アクティブ",
+      "前列の敵1体に連続攻撃を行い、合計364%の物理ダメージを与える、使用後は1ターン行動を停止する。",
+      "冷却4ターン、2ターン目に発動",
+      "Lv.6でレベルアップ",
+      "797",
+      "28K/432",
+      "89.7K/1477",
+      "5 UP",
+      "キャラ紹介",
+      "スキン",
+      "星UP",
+      "装備",
+      "能力値"
+    ],
+    "small": [
+      "797"
+    ]
+  },
+  "available_actions": [
+    "Tap 5 UP button",
+    "Tap 星UP tab",
+    "Tap 装備 tab",
+    "Tap 能力値 tab",
+    "Tap キャラ紹介 button",
+    "Tap スキン button",
+    "Tap Back button",
+    "Dismiss skill tooltip"
+  ],
+  "game_extension": {
+    "overlay": {
+      "overlay_type": "other",
+      "overlay_text": "光槍 — 種類：アクティブ。前列の敵1体に連続攻撃を行い、合計364%の物理ダメージを与える、使用後は1ターン行動を停止する。冷却4ターン、2ターン目に発動。Lv.6でレベルアップ。"
+    }
+  },
+  "screen_notes": "Character detail screen for カラワーナ (堕天使の刺客). Skill tooltip overlay for 光槍 is visible — active skill dealing 364% physical damage to front-row enemy. Primary screen_type is character; overlay is secondary.",
+  "annotation_metadata": {
+    "annotator": "migration_v1_to_v3",
+    "annotation_date": "2026-03-01",
+    "confidence": "medium",
+    "expected_difficulty": "medium",
+    "source": "v1_migration",
+    "v1_original_id": "highschooldxd_character_067_JP",
+    "v1_screen_type": "character"
+  }
+}

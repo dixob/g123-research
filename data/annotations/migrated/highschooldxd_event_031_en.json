@@ -1,0 +1,151 @@
+{
+  "screenshot_id": "highschooldxd_event_031_en",
+  "game_name": "High School DxD: Operation Paradise Infinity",
+  "game_slug": "highschooldxd",
+  "language": "EN",
+  "screen_type": "idle",
+  "sub_type": null,
+  "game_state": {
+    "player_hp_current": null,
+    "player_hp_max": null,
+    "enemy_hp": null,
+    "turn_current": null,
+    "turn_max": null,
+    "stage_id": null,
+    "team_power_player": null,
+    "team_power_enemy": null,
+    "currency_premium": null,
+    "currency_tickets": null,
+    "auto_battle_active": null,
+    "auto_battle_timer": null,
+    "speed_multiplier": null
+  },
+  "gacha": null,
+  "post_battle_rewards": null,
+  "mvp": null,
+  "ui_elements": [
+    {
+      "name": "Event title banner",
+      "type": "text",
+      "location": "top_center",
+      "is_enabled": null,
+      "label_text": "Opening Fest / Deluxe gifts abound!"
+    },
+    {
+      "name": "Timer",
+      "type": "indicator",
+      "location": "top_center",
+      "is_enabled": null,
+      "label_text": "Time left: 5d21h"
+    },
+    {
+      "name": "Exchange button",
+      "type": "button",
+      "location": "top_right",
+      "is_enabled": true,
+      "label_text": "Exchange"
+    },
+    {
+      "name": "Boost Week button",
+      "type": "button",
+      "location": "middle_left",
+      "is_enabled": true,
+      "label_text": "Boost Week"
+    },
+    {
+      "name": "Nether Excavation button",
+      "type": "button",
+      "location": "middle_right",
+      "is_enabled": true,
+      "label_text": "Nether Excavation"
+    },
+    {
+      "name": "Grand Lottery button",
+      "type": "button",
+      "location": "middle_left",
+      "is_enabled": true,
+      "label_text": "Grand Lottery"
+    },
+    {
+      "name": "King's Treasure button",
+      "type": "button",
+      "location": "middle_right",
+      "is_enabled": true,
+      "label_text": "King's Treasure"
+    },
+    {
+      "name": "Novice Trial button",
+      "type": "button",
+      "location": "middle_left",
+      "is_enabled": true,
+      "label_text": "Novice Trial"
+    },
+    {
+      "name": "Event Pass button",
+      "type": "button",
+      "location": "middle_right",
+      "is_enabled": true,
+      "label_text": "Event Pass"
+    },
+    {
+      "name": "Ranking button",
+      "type": "button",
+      "location": "bottom_left",
+      "is_enabled": true,
+      "label_text": "Ranking"
+    },
+    {
+      "name": "Back button",
+      "type": "button",
+      "location": "bottom_left",
+      "is_enabled": true,
+      "label_text": null
+    },
+    {
+      "name": "Bottom nav partial",
+      "type": "nav",
+      "location": "bottom_center",
+      "is_enabled": true,
+      "label_text": null
+    }
+  ],
+  "text_content": {
+    "EN": [
+      "Opening Fest",
+      "Deluxe gifts abound!",
+      "Time left: 5d21h",
+      "Exchange",
+      "Boost Week",
+      "Nether Excavation",
+      "Grand Lottery",
+      "King's Treasure",
+      "Novice Trial",
+      "Event Pass",
+      "Ranking"
+    ],
+    "JP": null,
+    "small": null
+  },
+  "available_actions": [
+    "Tap Exchange",
+    "Tap Boost Week",
+    "Tap Nether Excavation",
+    "Tap Grand Lottery",
+    "Tap King's Treasure",
+    "Tap Novice Trial",
+    "Tap Event Pass",
+    "Tap Ranking",
+    "Tap Back"
+  ],
+  "game_extension": null,
+  "screen_notes": "Opening Fest event lobby. Festive street scene backdrop with balloons and bunting. 7 sub-event entry buttons arranged spatially across the scene. Timer shows 5d21h remaining. Several buttons have red notification badges. Bottom nav partially visible and cropped. No header currency bar visible.",
+  "annotation_metadata": {
+    "annotator": "migration_v1_to_v3",
+    "annotation_date": "2026-03-01",
+    "confidence": "medium",
+    "expected_difficulty": "medium",
+    "source": "v1_migration",
+    "v1_original_id": "highschooldxd_event_023_EN",
+    "v1_screen_type": "event"
+  }
+}

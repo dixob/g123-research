@@ -1,0 +1,77 @@
+{
+  "screenshot_id": "highschooldxd_idle_overworld_074_en",
+  "game_name": "High School DxD: Operation Paradise Infinity",
+  "game_slug": "highschooldxd",
+  "language": "EN",
+  "screen_type": "idle",
+  "sub_type": null,
+  "game_state": {
+    "player_hp_current": null,
+    "player_hp_max": null,
+    "enemy_hp": null,
+    "turn_current": null,
+    "turn_max": null,
+    "stage_id": null,
+    "team_power_player": null,
+    "team_power_enemy": null,
+    "currency_premium": null,
+    "currency_tickets": null,
+    "auto_battle_active": true,
+    "auto_battle_timer": null,
+    "speed_multiplier": null
+  },
+  "gacha": null,
+  "post_battle_rewards": null,
+  "mvp": null,
+  "ui_elements": [
+    {
+      "name": "Stage label",
+      "type": "indicator",
+      "location": "top_center",
+      "is_enabled": null,
+      "label_text": "校門 1-8"
+    },
+    {
+      "name": "Bottom nav",
+      "type": "nav",
+      "location": "bottom_center",
+      "is_enabled": true,
+      "label_text": null
+    }
+  ],
+  "text_content": {
+    "EN": [
+      "Gate 1-8"
+    ],
+    "JP": [
+      "校門 1-8",
+      "-155",
+      "-149"
+    ],
+    "small": null
+  },
+  "available_actions": [
+    "Tap bottom nav tabs"
+  ],
+  "game_extension": {
+    "combat_indicators": {
+      "advantage_label": null,
+      "debuff_labels": null,
+      "crit_label": null,
+      "floating_damages": [
+        "-155",
+        "-149"
+      ]
+    }
+  },
+  "screen_notes": "EN idle overworld with auto-battle in progress. Floating damage numbers -155 and -149 visible. Orb skill effect visible. Reconstructed from session log screenshot 89.",
+  "annotation_metadata": {
+    "annotator": "migration_v1_to_v3",
+    "annotation_date": "2026-03-01",
+    "confidence": "medium",
+    "expected_difficulty": "medium",
+    "source": "v1_migration",
+    "v1_original_id": "highschooldxd_idle_overworld_007_EN",
+    "v1_screen_type": "idle_overworld"
+  }
+}

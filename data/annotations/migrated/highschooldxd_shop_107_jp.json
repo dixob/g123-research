@@ -1,0 +1,156 @@
+{
+  "screenshot_id": "highschooldxd_shop_107_jp",
+  "game_name": "High School DxD: Operation Paradise Infinity",
+  "game_slug": "highschooldxd",
+  "language": "JP",
+  "screen_type": "idle",
+  "sub_type": null,
+  "game_state": {
+    "player_hp_current": null,
+    "player_hp_max": null,
+    "enemy_hp": null,
+    "turn_current": null,
+    "turn_max": null,
+    "stage_id": null,
+    "team_power_player": null,
+    "team_power_enemy": null,
+    "currency_premium": null,
+    "currency_tickets": null,
+    "auto_battle_active": null,
+    "auto_battle_timer": null,
+    "speed_multiplier": null
+  },
+  "gacha": null,
+  "post_battle_rewards": null,
+  "mvp": null,
+  "ui_elements": [
+    {
+      "name": "Shop header",
+      "type": "text",
+      "location": "top_left",
+      "is_enabled": null,
+      "label_text": "商店"
+    },
+    {
+      "name": "Multiple purchase notice",
+      "type": "text",
+      "location": "top_center",
+      "is_enabled": null,
+      "label_text": "月パスは複数回購入可能"
+    },
+    {
+      "name": "栄光月パス purchase button",
+      "type": "button",
+      "location": "center",
+      "is_enabled": true,
+      "label_text": "$3.69"
+    },
+    {
+      "name": "究極月パス purchase button",
+      "type": "button",
+      "location": "center",
+      "is_enabled": true,
+      "label_text": "$7.09"
+    },
+    {
+      "name": "至高月パス (locked)",
+      "type": "button",
+      "location": "center",
+      "is_enabled": false,
+      "label_text": "$14.49"
+    },
+    {
+      "name": "毎日厳選 tab",
+      "type": "nav",
+      "location": "bottom_center",
+      "is_enabled": true,
+      "label_text": "毎日厳選"
+    },
+    {
+      "name": "月パス tab (active)",
+      "type": "nav",
+      "location": "bottom_center",
+      "is_enabled": true,
+      "label_text": "月パス"
+    },
+    {
+      "name": "連続購入 tab",
+      "type": "nav",
+      "location": "bottom_center",
+      "is_enabled": true,
+      "label_text": "連続購入"
+    },
+    {
+      "name": "Back button",
+      "type": "button",
+      "location": "bottom_left",
+      "is_enabled": true,
+      "label_text": null
+    }
+  ],
+  "text_content": {
+    "EN": null,
+    "JP": [
+      "商店",
+      "名声 0",
+      "1278",
+      "月パスは複数回購入可能",
+      "栄光月パス",
+      "30日間 毎日メールで配布",
+      "獲得 x500",
+      "$3.69",
+      "6600%お得",
+      "究極月パス",
+      "30日間 毎日メールで配布",
+      "獲得 x980",
+      "$7.09",
+      "6700%お得",
+      "至高月パス",
+      "30日間 毎日メールで配布",
+      "栄光月パスと究極月パスを解禁後に購入可能",
+      "獲得 x1980",
+      "$14.49",
+      "5700%お得",
+      "未解禁",
+      "毎日厳選",
+      "月パス",
+      "連続購入"
+    ],
+    "small": [
+      "1278"
+    ]
+  },
+  "available_actions": [
+    "Purchase 栄光月パス ($3.69)",
+    "Purchase 究極月パス ($7.09)",
+    "Navigate to 毎日厳選 tab",
+    "Navigate to 連続購入 tab",
+    "Tap Back button"
+  ],
+  "game_extension": {
+    "bottom_nav": [
+      {
+        "label": "毎日厳選",
+        "is_active": false
+      },
+      {
+        "label": "月パス",
+        "is_active": true
+      },
+      {
+        "label": "連続購入",
+        "is_active": false
+      }
+    ]
+  },
+  "screen_notes": "Shop - 月パス (Monthly Pass) tab. 3 tiers: 栄光月パス $3.69 (6600% value), 究極月パス $7.09 (6700% value), 至高月パス $14.49 (locked — requires purchasing first two). All deliver daily rewards for 30 days via mail.",
+  "annotation_metadata": {
+    "annotator": "migration_v1_to_v3",
+    "annotation_date": "2026-03-01",
+    "confidence": "medium",
+    "expected_difficulty": "medium",
+    "source": "v1_migration",
+    "v1_original_id": "highschooldxd_shop_073_JP",
+    "v1_screen_type": "shop"
+  }
+}

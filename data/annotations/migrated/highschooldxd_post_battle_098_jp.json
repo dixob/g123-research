@@ -1,0 +1,89 @@
+{
+  "screenshot_id": "highschooldxd_post_battle_098_jp",
+  "game_name": "High School DxD: Operation Paradise Infinity",
+  "game_slug": "highschooldxd",
+  "language": "JP",
+  "screen_type": "post_battle",
+  "sub_type": null,
+  "game_state": {
+    "player_hp_current": null,
+    "player_hp_max": null,
+    "enemy_hp": null,
+    "turn_current": null,
+    "turn_max": null,
+    "stage_id": null,
+    "team_power_player": null,
+    "team_power_enemy": null,
+    "currency_premium": null,
+    "currency_tickets": null,
+    "auto_battle_active": null,
+    "auto_battle_timer": null,
+    "speed_multiplier": null
+  },
+  "gacha": null,
+  "post_battle_rewards": null,
+  "mvp": null,
+  "ui_elements": [
+    {
+      "name": "Level up overlay",
+      "type": "overlay",
+      "location": "center",
+      "is_enabled": null,
+      "label_text": "レベルアップ"
+    },
+    {
+      "name": "Level transition display",
+      "type": "text",
+      "location": "center",
+      "is_enabled": null,
+      "label_text": "Lv.6 → Lv.7"
+    },
+    {
+      "name": "Reward item",
+      "type": "card",
+      "location": "center",
+      "is_enabled": null,
+      "label_text": "×200"
+    },
+    {
+      "name": "Close button",
+      "type": "button",
+      "location": "bottom_center",
+      "is_enabled": true,
+      "label_text": "閉じる"
+    }
+  ],
+  "text_content": {
+    "EN": null,
+    "JP": [
+      "レベルアップ",
+      "Lv.6",
+      "Lv.7",
+      "報酬",
+      "×200",
+      "閉じる"
+    ],
+    "small": [
+      "×200"
+    ]
+  },
+  "available_actions": [
+    "Tap 閉じる (Close level-up overlay)"
+  ],
+  "game_extension": {
+    "overlay": {
+      "overlay_type": "level_up",
+      "overlay_text": "レベルアップ Lv.6 → Lv.7 報酬×200"
+    }
+  },
+  "screen_notes": "Level-up overlay displayed over post_battle screen. Player advanced from Lv.6 to Lv.7. Reward is 200 diamonds (ダイヤ). Underlying Victory screen (#69) obscured by overlay.",
+  "annotation_metadata": {
+    "annotator": "migration_v1_to_v3",
+    "annotation_date": "2026-03-01",
+    "confidence": "medium",
+    "expected_difficulty": "medium",
+    "source": "v1_migration",
+    "v1_original_id": "highschooldxd_post_battle_070_JP",
+    "v1_screen_type": "post_battle"
+  }
+}

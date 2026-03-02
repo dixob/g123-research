@@ -1,0 +1,124 @@
+{
+  "screenshot_id": "highschooldxd_gacha_033_en",
+  "game_name": "High School DxD: Operation Paradise Infinity",
+  "game_slug": "highschooldxd",
+  "language": "EN",
+  "screen_type": "gacha",
+  "sub_type": null,
+  "game_state": {
+    "player_hp_current": null,
+    "player_hp_max": null,
+    "enemy_hp": null,
+    "turn_current": null,
+    "turn_max": null,
+    "stage_id": null,
+    "team_power_player": null,
+    "team_power_enemy": null,
+    "currency_premium": null,
+    "currency_tickets": null,
+    "auto_battle_active": null,
+    "auto_battle_timer": null,
+    "speed_multiplier": null
+  },
+  "gacha": {
+    "phase": "lobby",
+    "banner_type": "special",
+    "banner_name": null,
+    "pull_cost_type": null,
+    "pity_current": 440,
+    "pity_max": 1000,
+    "free_pull_available": false,
+    "free_pull_timer": null,
+    "revealed_cards": null
+  },
+  "post_battle_rewards": null,
+  "mvp": null,
+  "ui_elements": [
+    {
+      "name": "1-pull button",
+      "type": "button",
+      "location": "bottom_left",
+      "is_enabled": true,
+      "label_text": "召喚1回"
+    },
+    {
+      "name": "10-pull button",
+      "type": "button",
+      "location": "bottom_right",
+      "is_enabled": true,
+      "label_text": "召喚10回"
+    },
+    {
+      "name": "Pity tracker",
+      "type": "indicator",
+      "location": "top_right",
+      "is_enabled": null,
+      "label_text": "440/1000"
+    },
+    {
+      "name": "Harem King milestone",
+      "type": "indicator",
+      "location": "top_right",
+      "is_enabled": null,
+      "label_text": "ハーレム王 20/20"
+    },
+    {
+      "name": "Wish Book tooltip",
+      "type": "overlay",
+      "location": "top_right",
+      "is_enabled": null,
+      "label_text": "あと6回で願いの書解放"
+    },
+    {
+      "name": "Standard banner tab",
+      "type": "nav",
+      "location": "bottom_left",
+      "is_enabled": false,
+      "label_text": "通常召喚"
+    },
+    {
+      "name": "Special banner tab",
+      "type": "nav",
+      "location": "bottom_right",
+      "is_enabled": true,
+      "label_text": "特別召喚"
+    }
+  ],
+  "text_content": {
+    "EN": null,
+    "JP": [
+      "召喚",
+      "特別召喚",
+      "召喚1回",
+      "召喚10回",
+      "ハーレム王",
+      "20/20",
+      "440/1000",
+      "Pt召喚",
+      "あと6回で願いの書解放",
+      "21:40:32",
+      "千連特権"
+    ],
+    "small": [
+      "20/20",
+      "440/1000",
+      "21:40:32"
+    ]
+  },
+  "available_actions": [
+    "Tap 召喚1回 (single pull)",
+    "Tap 召喚10回 (10-pull)",
+    "Tap 通常召喚 tab (switch banner)"
+  ],
+  "game_extension": null,
+  "screen_notes": "EN gacha lobby, special banner (特別召喚) active. Harem King milestone 20/20 maxed. Pity 440/1000. Wish Book unlock tooltip visible: あと6回で願いの書解放. Timer 21:40:32. Reconstructed from session log screenshot 117.",
+  "annotation_metadata": {
+    "annotator": "migration_v1_to_v3",
+    "annotation_date": "2026-03-01",
+    "confidence": "medium",
+    "expected_difficulty": "medium",
+    "source": "v1_migration",
+    "v1_original_id": "highschooldxd_gacha_010_EN",
+    "v1_screen_type": "gacha"
+  }
+}
