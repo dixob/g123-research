@@ -173,6 +173,10 @@ def run_benchmark(
         total_input_tokens = 0
         total_output_tokens = 0
 
+        # Track extraction recall (excludes null-null agreements)
+        extraction_recalls: list[float] = []
+        null_rates: list[float] = []
+
         for i, annotation in enumerate(annotations):
             sid = annotation["screenshot_id"]
             image_path = find_image(sid, images_dir)
@@ -231,11 +235,17 @@ def run_benchmark(
 
             cost_str = f"${cost:.4f}" if cost is not None else "n/a"
             tok_str = f"{in_tok or '?'}+{out_tok or '?'} tok"
-            print(f"{pct:.0f}% ({response['latency_s']:.1f}s, {cost_str}, {tok_str})")
+            er_str = f" ER:{scores['extraction_recall']:.0f}%" if scores["extraction_recall"] is not None else ""
+            print(f"{pct:.0f}%{er_str} ({response['latency_s']:.1f}s, {cost_str}, {tok_str})")
 
             total_weighted += scores["weighted_score"]
             total_max += scores["max_possible"]
             latencies.append(response["latency_s"])
+
+            # Track extraction recall
+            if scores["extraction_recall"] is not None:
+                extraction_recalls.append(scores["extraction_recall"])
+            null_rates.append(scores["null_agreement_rate"])
 
             if in_tok is not None:
                 total_input_tokens += in_tok
@@ -262,6 +272,14 @@ def run_benchmark(
 
         model_results["summary"] = {
             "overall_score": (total_weighted / total_max * 100) if total_max > 0 else 0,
+            "extraction_recall": (
+                sum(extraction_recalls) / len(extraction_recalls)
+                if extraction_recalls else None
+            ),
+            "null_agreement_rate": (
+                sum(null_rates) / len(null_rates)
+                if null_rates else 0.0
+            ),
             "samples_scored": scored_count,
             "samples_skipped": skipped,
             "parse_failures": parse_failures,

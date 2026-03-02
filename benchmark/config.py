@@ -120,11 +120,16 @@ FIELD_SPEC = {
         "weight": 0.5,
     },
 
-    # ── Text ──────────────────────────────────────────────────
-    "text_content": {
-        "gt_path": "text_content",
+    # ── Text (scored per-language for bilingual benchmark) ─────
+    "text_en": {
+        "gt_path": "text_content.EN",
         "scoring": "fuzzy",
-        "weight": 1.5,
+        "weight": 1.0,
+    },
+    "text_jp": {
+        "gt_path": "text_content.JP",
+        "scoring": "fuzzy",
+        "weight": 1.0,
     },
     "text_small": {
         "gt_path": "text_content.small",
@@ -135,7 +140,7 @@ FIELD_SPEC = {
     # ── UI & actions ──────────────────────────────────────────
     "ui_elements": {
         "gt_path": "ui_elements",
-        "scoring": "set",
+        "scoring": "ui_set",
         "weight": 1.0,
     },
     "available_actions": {
@@ -181,9 +186,10 @@ Extract every field you can identify. Use null for fields you cannot determine.
   "stage_id": null,
   "speed_multiplier": null,
   "auto_battle_active": null,
-  "text_content": ["visible text strings on screen"],
+  "text_en": ["visible English text strings on screen"],
+  "text_jp": ["visible Japanese text strings on screen"],
   "text_small": ["small or hard-to-read peripheral text"],
-  "ui_elements": ["button and indicator names visible on screen"],
+  "ui_elements": [{"name": "element name", "zone": "tl|tc|tr|ml|c|mr|bl|bc|br"}],
   "available_actions": ["names of interactive buttons the player can tap"],
   "gacha_phase": "lobby|animation|reveal_single|reveal_multi",
   "gacha_banner_name": null,

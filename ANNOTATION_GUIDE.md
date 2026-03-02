@@ -409,13 +409,25 @@ Set to `null` if no English text is visible.
 
 Same as above, but for Japanese text. Set to `null` if no Japanese text is visible.
 
-#### `text_small` — Small / hard-to-read text
+#### `text_small` — Small / Hard-to-Read Text (Objective Definition)
 
-This is the key challenge field. List text that is:
-- **Small font size** (timers, sub-labels, fine print)
-- **Low contrast** (light text on light background)
-- **Partially obscured** (behind effects, at screen edges)
-- **Peripheral** (currency counts in corners, version numbers)
+`text_small` captures peripheral, secondary, or hard-to-read text. **Include text that meets ANY of these criteria:**
+
+1. **Corner zone text (tl/tr/bl/br)** that is NOT a primary UI element label
+2. **Timer/countdown values** — any time-based display (e.g., `"00:11:17"`, `"Event ends in 3d"`)
+3. **Version numbers** — app/game version strings (e.g., `"v1.2.3"`)
+4. **Sub-labels under icons** — small text beneath resource icons or action buttons
+5. **Numeric counters** — small counters on icons (badge numbers, notification counts)
+6. **System messages** — loading text, connection status, copyright notices
+7. **Low contrast text** — light text on light background, dark text on dark background
+8. **Partially obscured text** — behind effects, at screen edges, or overlapped by UI
+
+**When in doubt, include it** — better to have more small text for scoring than less. The worst outcome is that a model gets credit for reading text we didn't annotate.
+
+**Do NOT include in text_small:**
+- Primary button labels (those go in `ui` elements)
+- Large header/title text (goes in `text_en` or `text_jp`)
+- HP/turn values (those go in `game_state` numeric fields)
 
 **Important:** Prefix every entry with `[s]` — this marker is stripped during hydration but helps you identify small text while annotating.
 

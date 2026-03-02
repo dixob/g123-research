@@ -137,18 +137,17 @@ def classify_field_error(
             return "numeric_ocr"
         return "total_miss"
 
-    # Japanese text errors
+    # Japanese text errors — detect via field name (text_jp) or content analysis
     if scoring_type in ("fuzzy", "exact"):
+        is_jp_field = field_name in ("text_jp",)
         gt_has_jp = _contains_japanese(str(ground_truth))
         pred_has_jp = _contains_japanese(str(predicted))
-        if gt_has_jp or pred_has_jp:
-            if score == 0.0:
-                return "jp_text_error"
-            elif score < 1.0:
+        if is_jp_field or gt_has_jp or pred_has_jp:
+            if score < 1.0:
                 return "jp_text_error"
 
-    # Set scoring — check for spatial/location-based errors
-    if scoring_type == "set" and field_name == "ui_elements":
+    # UI set scoring — check for spatial/location-based errors
+    if scoring_type in ("set", "ui_set") and field_name == "ui_elements":
         if 0 < score < 1.0:
             return "spatial_error"
         return "spatial_error" if score == 0.0 else "partial_match"
