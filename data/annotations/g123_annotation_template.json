@@ -1,0 +1,169 @@
+{
+  "_TEMPLATE_VERSION": "3.0",
+  "_INSTRUCTIONS": [
+    "This is the HUMAN annotation template. Fill one per screenshot.",
+    "The hydrate.py script expands this into the full evaluation schema.",
+    "Fields derived from filename (game_name, game_slug) are auto-populated.",
+    "",
+    "SHORTHAND FORMATS:",
+    "  ui:  'Label|type|zone|state'  where type=btn/ind/card/txt/nav/tog",
+    "       zone=tl/tc/tr/ml/c/mr/bl/bc/br/fs   state=on/off (default=on)",
+    "  hp:  'current/max' or just integer for single value",
+    "  cards: 'Name|Rarity|Stars|new'  (new = y/n, omit if not applicable)",
+    "  text_small: prefix with [s] for small/hard-to-read text",
+    "",
+    "CORE RULE: null means NOT VISIBLE. Never guess."
+  ],
+
+  "_EXAMPLE_BATTLE": {
+    "id": "highschooldxd_battle_001_en",
+    "lang": "EN",
+    "screen": "battle",
+    "sub": null,
+    "state": {
+      "hp_player": "8450/12000",
+      "hp_enemy": 22000,
+      "turn": "3/10",
+      "stage": "校門 1-8",
+      "speed": "x3",
+      "auto": true,
+      "auto_timer": null,
+      "power_player": null,
+      "power_enemy": null,
+      "currency_premium": null,
+      "currency_tickets": null
+    },
+    "gacha": null,
+    "rewards": null,
+    "mvp": null,
+    "ui": [
+      "Attack|btn|br|on",
+      "Skill|btn|bc|on",
+      "HP Bar|ind|tl",
+      "Enemy HP|ind|tc",
+      "Turn Counter|ind|tr",
+      "Speed x3|tog|tr|on",
+      "Auto|tog|tr|off"
+    ],
+    "actions": ["Attack", "Skill"],
+    "text_en": ["Attack", "Skill", "Stage 1-8", "Turn 3/10"],
+    "text_jp": null,
+    "text_small": ["[s]00:11:17", "[s]x3"],
+    "ext": null,
+    "notes": "HP bar red gradient below 25%. Mid-combat frame, floating damage numbers visible.",
+    "confidence": "high",
+    "difficulty": "easy"
+  },
+
+  "_EXAMPLE_GACHA_REVEAL": {
+    "id": "highschooldxd_gacha_012_jp",
+    "lang": "JP",
+    "screen": "gacha",
+    "sub": null,
+    "state": {
+      "hp_player": null, "hp_enemy": null, "turn": null,
+      "stage": null, "speed": null, "auto": null, "auto_timer": null,
+      "power_player": null, "power_enemy": null,
+      "currency_premium": 1250, "currency_tickets": 3
+    },
+    "gacha": {
+      "phase": "reveal_multi",
+      "banner_type": "standard",
+      "banner_name": "レギュラー召喚",
+      "pull_cost": "魔石",
+      "pity": "45/100",
+      "free_pull": false,
+      "free_timer": null,
+      "cards": [
+        "不死鳥の王子 / ライザー|SSR+|5|y",
+        "魔王の長子|SR|3|y",
+        "堕天紳士|SR|3|y",
+        "夢幻舞姫|R|2|n",
+        "猫娘少女・青|R|2|n",
+        "神出鬼没|R|2|n",
+        "愛の戦士|R|2|n",
+        "アソシスト|N|1|n",
+        "アソシスト|N|1|n",
+        "アソシスト|N|1|n"
+      ]
+    },
+    "rewards": null,
+    "mvp": null,
+    "ui": [
+      "召喚1回|btn|bl|on",
+      "召喚10回|btn|bc|on",
+      "戻る|btn|br|on",
+      "Pity Counter|ind|tl"
+    ],
+    "actions": ["召喚1回", "召喚10回", "戻る"],
+    "text_en": null,
+    "text_jp": ["召喚", "レギュラー召喚", "不死鳥の王子", "NEW", "召喚1回", "召喚10回"],
+    "text_small": ["[s]45/100", "[s]魔石 x300"],
+    "ext": null,
+    "notes": "10-pull result grid. SSR+ card has gold flame border and full-art. 3 NEW badges visible. Confetti animation partially obscures bottom-row cards.",
+    "confidence": "high",
+    "difficulty": "medium"
+  },
+
+  "_EXAMPLE_POST_BATTLE": {
+    "id": "highschooldxd_post_battle_003_en",
+    "lang": "EN",
+    "screen": "post_battle",
+    "sub": null,
+    "state": {
+      "hp_player": null, "hp_enemy": null, "turn": null,
+      "stage": "Gate 1-8", "speed": null, "auto": null, "auto_timer": null,
+      "power_player": null, "power_enemy": null,
+      "currency_premium": null, "currency_tickets": null
+    },
+    "gacha": null,
+    "rewards": [
+      "Gold|1500",
+      "EXP Potion|3",
+      "Promotion Stone|1"
+    ],
+    "mvp": {
+      "name": "Rias Gremory",
+      "damage": 45200,
+      "pct": 38.5
+    },
+    "ui": [
+      "Continue|btn|bc|on",
+      "Retry|btn|bl|on",
+      "MVP Panel|card|tc"
+    ],
+    "actions": ["Continue", "Retry"],
+    "text_en": ["Victory!", "Stage Clear", "MVP", "Rias Gremory", "Continue", "Retry"],
+    "text_jp": null,
+    "text_small": ["[s]38.5%", "[s]45,200"],
+    "ext": null,
+    "notes": "Victory screen with reward summary. MVP panel shows character portrait with damage breakdown.",
+    "confidence": "high",
+    "difficulty": "easy"
+  },
+
+  "_BLANK_TEMPLATE": {
+    "id": "",
+    "lang": "",
+    "screen": "",
+    "sub": null,
+    "state": {
+      "hp_player": null, "hp_enemy": null, "turn": null,
+      "stage": null, "speed": null, "auto": null, "auto_timer": null,
+      "power_player": null, "power_enemy": null,
+      "currency_premium": null, "currency_tickets": null
+    },
+    "gacha": null,
+    "rewards": null,
+    "mvp": null,
+    "ui": [],
+    "actions": [],
+    "text_en": null,
+    "text_jp": null,
+    "text_small": null,
+    "ext": null,
+    "notes": "",
+    "confidence": "",
+    "difficulty": ""
+  }
+}

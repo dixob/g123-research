@@ -1,9 +1,9 @@
 #!/usr/bin/env python3
 """
-Run the VLM benchmark.
+Run the VLM benchmark against v3 annotations.
 
 Usage:
-    # Full benchmark — all models, all samples
+    # Full benchmark — all models, all samples from v3 annotations
     python run_benchmark.py
 
     # Quick smoke test — 3 samples, one model
@@ -15,8 +15,11 @@ Usage:
     # Specific models only
     python run_benchmark.py --models gpt-4o gemini-2.5-flash
 
-    # Custom output directory
-    python run_benchmark.py --output-dir ./my_results
+    # Custom annotations directory
+    python run_benchmark.py --annotations-dir ./data/annotations/full
+
+    # Legacy monolithic JSON (backward compat)
+    python run_benchmark.py --annotations-dir data/annotations/legacy/hsdxd_annotations_v1.json
 """
 import argparse
 import sys
@@ -27,12 +30,13 @@ from benchmark.report import print_summary, save_results
 
 
 def main():
-    parser = argparse.ArgumentParser(description="G123 Game State Extraction Benchmark")
+    parser = argparse.ArgumentParser(description="G123 Game State Extraction Benchmark (v3)")
 
     parser.add_argument(
-        "--annotations",
-        default="images/hsdxd_annotations_final.json",
-        help="Path to annotations JSON (default: images/hsdxd_annotations_final.json)",
+        "--annotations-dir",
+        default="data/annotations/full",
+        help="Path to annotations directory (v3 per-file) or single JSON (legacy). "
+             "Default: data/annotations/full",
     )
     parser.add_argument(
         "--images-dir",
@@ -56,13 +60,13 @@ def main():
         "--screen-types",
         nargs="+",
         default=None,
-        help="Filter by screen types (e.g. battle menu gacha)",
+        help="Filter by screen types (e.g. battle gacha post_battle)",
     )
     parser.add_argument(
         "--languages",
         nargs="+",
         default=None,
-        help="Filter by language (EN, JP)",
+        help="Filter by language (EN, JP, MIXED)",
     )
     parser.add_argument(
         "--output-dir",
@@ -85,7 +89,7 @@ def main():
                 sys.exit(1)
 
     results = run_benchmark(
-        annotations_path=args.annotations,
+        annotations_source=args.annotations_dir,
         images_dir=args.images_dir,
         models=args.models,
         max_samples=args.max_samples,

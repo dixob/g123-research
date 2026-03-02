@@ -24,6 +24,9 @@ langchain-anthropic
 # Evaluation metrics
 sacrebleu
 
+# Schema & validation
+pydantic
+
 # Utilities
 python-dotenv
 requests
